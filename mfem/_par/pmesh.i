@@ -13,6 +13,12 @@
 #include "mfem.hpp"
 #include "pyoperator.hpp"
 #include "../common/io_stream.hpp"     
+#include "io_stream.hpp"     
+#include "config/config.hpp"
+#include "mesh/pmesh.hpp"
+#include "mesh/pumi.hpp"
+#include "fem/linearform.hpp"
+#include "general/communication.hpp"  
 #include "numpy/arrayobject.h"
 #include "../common/pycoefficient.hpp"    
 %}
@@ -88,6 +94,17 @@ namespace mfem{
      //mesh = new mfem::ParMesh(comm, imesh);
      //return mesh;
      //}
+ParMesh(MPI_Comm comm, apf::Mesh2* pumi_mesh){
+    mfem::ParMesh *mesh;
+    if (!pumi_mesh)
+    {
+    std::cerr << "\nPointer to pumi_mesh is not set\n" << std::endl;
+    return NULL;
+    }
+    mesh = new mfem::ParPumiMesh(comm, pumi_mesh);
+    return mesh;
+    }
+
 void ParPrintToFile(const char *mesh_file, const int precision) const
     {
     std::ofstream mesh_ofs(mesh_file);	
