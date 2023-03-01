@@ -18,6 +18,8 @@ import_array();
 %}
 
 %include "exception.i"
+%import "globals.i"
+
  //%include "fem/coefficient.hpp"
 %import "fe.i"
 %import "vector.i"
@@ -25,6 +27,7 @@ import_array();
 %import "intrules.i"
 %import "coefficient.i"
 %import "../common/exception_director.i"
+%import "fespace.i"
 
 %include "../common/lininteg_ext.i"
 
