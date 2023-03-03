@@ -1,7 +1,10 @@
 %module(package="mfem._par") point
+
+%feature("autodoc", "1");
+
 %{
 #include  "mfem.hpp"
-#include "mesh/point.hpp"
+#include "pyoperator.hpp"      
 #include "numpy/arrayobject.h"    
 %}
 

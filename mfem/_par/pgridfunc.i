@@ -1,4 +1,7 @@
 %module(package="mfem._par") pgridfunc
+
+%feature("autodoc", "1");
+
 %{
 #include <iostream>
 #include <sstream>
@@ -7,13 +10,10 @@
 #include <cmath>
 #include <cstring>  
 #include <mpi.h>
-#include "iostream_typemap.hpp"      
-#include  "config/config.hpp"
-#include "mesh/pmesh.hpp"  
-#include "fem/pgridfunc.hpp"
-#include "fem/pfespace.hpp"  
-#include "fem/linearform.hpp"  
-#include "pycoefficient.hpp"  
+#include "mfem.hpp"
+#include "pyoperator.hpp"  
+#include "../common/io_stream.hpp"      
+#include "../common/pycoefficient.hpp"  
 #include "numpy/arrayobject.h"
 %}
 
@@ -36,11 +36,13 @@ import_array();
 %import "hypre.i"
 %import "pmesh.i"
 %import "linearform.i"
-%import "ostream_typemap.i"
 %import "../common/exception.i"
 
-%pointer_class(int, intp);
+%import "../common/io_stream_typemap.i"
+OSTREAM_TYPEMAP(std::ostream&)
+ISTREAM_TYPEMAP(std::istream&)
 
+/*
 %typemap(in) const mfem::IntegrationRule *irs[]{
   if (PyList_Check($input)) {
     int size = PyList_Size($input);
@@ -63,8 +65,8 @@ import_array();
 %typemap(typecheck) const mfem::IntegrationRule *irs[]{
    $1 = PyList_Check($input) ? 1 : 0;
 }
-
-%rename(Assign) mfem::ParGridFunction::operator=;
+*/
+//%rename(Assign) mfem::ParGridFunction::operator=;
 
 %newobject mfem::ParGridFunction::ParallelAssemble;
 %newobject mfem::ParGridFunction::ParallelAverage;
@@ -91,6 +93,8 @@ if (len(args) == 2 and isinstance(args[1], str) and
     return 
 %}
    
+%include "../common/typemap_macros.i"
+LIST_TO_MFEMOBJ_POINTERARRAY_IN(mfem::IntegrationRule const *irs[],  mfem::IntegrationRule *, 0)
 
 %include "fem/pgridfunc.hpp"
 
@@ -101,6 +105,49 @@ ParGridFunction(mfem::ParFiniteElementSpace *fes, const mfem::Vector &v, int off
    gf = new mfem::ParGridFunction(fes, v.GetData() + offset);
    return gf;
  }
+  void Assign(const mfem::HypreParVector &v) {
+    (* self) = v;
+  }
+  void Assign(const mfem::ParGridFunction &v) {
+    (* self) = v;
+  }
+  void Assign(const double v) {
+    (* self) = v;
+  }
+  void Assign(const mfem::Vector &v) {
+    (* self) = v;
+  }
+  //void Assign(const mfem::GridFunction &v) {
+  //  (* self) = v;
+  //}  
+  void Assign(PyObject* param) {
+    /* note that these error does not raise error in python
+       type check is actually done in wrapper layer */
+    PyArrayObject *param0 = reinterpret_cast<PyArrayObject *>(param);
+      
+    if (!PyArray_Check(param0)){
+       PyErr_SetString(PyExc_ValueError, "Input data must be ndarray");
+       return;
+    }
+    int typ = PyArray_TYPE(param0);
+    if (typ != NPY_DOUBLE){
+        PyErr_SetString(PyExc_ValueError, "Input data must be float64");
+	return;
+    }
+    int ndim = PyArray_NDIM(param0);
+    if (ndim != 1){
+      PyErr_SetString(PyExc_ValueError, "Input data NDIM must be one");
+      return ;
+    }
+    npy_intp *shape = PyArray_DIMS(param0);    
+    int len = self->Size();
+    if (shape[0] != len){    
+      PyErr_SetString(PyExc_ValueError, "input data length does not match");
+      return ;
+    }    
+    (mfem::Vector &)(* self) = (double *) PyArray_DATA(param0);
+  }
+ 
 /*  this will be turn on in mfem-3.3.3
 ParGridFunction(ParMesh *pmesh, const char *gf_file){
     mfem::ParGridFunction *pgf;
@@ -117,3 +164,10 @@ ParGridFunction(ParMesh *pmesh, const char *gf_file){
 */ 
 };  //end of extend
 }  // end of namespace  
+
+/*
+   virtual void Save(std::ostream &out) const;
+   void SaveAsOne(std::ostream &out = mfem::out);
+*/
+OSTREAM_ADD_DEFAULT_FILE(ParGridFunction, Save)
+OSTREAM_ADD_DEFAULT_FILE(ParGridFunction, SaveAsOne)

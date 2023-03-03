@@ -1,10 +1,10 @@
 %module(package="mfem._ser", directors="1")  bilininteg
 %{
-#include "fem/gridfunc.hpp"  
-#include "fem/linearform.hpp"
-#include "fem/bilininteg.hpp"
-#include "pycoefficient.hpp"
-#include "numpy/arrayobject.h"      
+#include "mfem.hpp"
+#include "pyoperator.hpp"    
+#include "../common/pycoefficient.hpp"
+#include "numpy/arrayobject.h"
+  //using namespace mfem;
 %}
 
 %init %{
@@ -23,6 +23,8 @@ import_array();
 }
 */
 %include "exception.i"
+
+%import "globals.i"
 %import "array.i"
 %import "coefficient.i"
 %import "matrix.i"
@@ -37,6 +39,7 @@ import_array();
 %import "eltrans.i"
 %import "linearform.i"
 %import "fe.i"
+%import "nonlininteg.i"
 %include "../common/exception_director.i"
  //%template(IntegrationPointArray) mfem::Array<mfem::IntegrationPoint>;
 
@@ -48,4 +51,7 @@ import_array();
 %feature("director") mfem::BilinearFormIntegrator;
 
 %include "../common/bilininteg_ext.i"
+
+%ignore  mfem::MassIntegrator::SetupPA;
+
 %include "fem/bilininteg.hpp"

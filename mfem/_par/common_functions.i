@@ -1,15 +1,13 @@
 %module(package="mfem._par") common_functions
 
 %{
-#include "iostream_typemap.hpp"
-#include "linalg/blockmatrix.hpp"
-#include "linalg/sparsemat.hpp"
-#include "linalg/densemat.hpp"
-#include "linalg/hypre.hpp"
+#include <fstream>
+#include "mfem.hpp"
+#include "../common/io_stream.hpp"            
 #include "numpy/arrayobject.h"
 #include "pyoperator.hpp"     
   %}
-%include  "config/config.hpp" // include mfem MACRO (MFEM_USE_MPI)
+%include "../common/mfem_config.i"
 
 %include mpi4py/mpi4py.i
 %mpi4py_typemap(Comm, MPI_Comm);
@@ -17,6 +15,11 @@
 %init %{
 import_array();
 %}
+
+%include "exception.i"
+%include "../common/exception.i"
+
+%import "globals.i"
 %import "array.i"
 
 %ignore "";
@@ -26,6 +29,9 @@ import_array();
 %rename("%s") mfem::Mult;
 %rename("%s") mfem::RAP;
 %rename("%s") mfem::InnerProduct;
+%rename("%s") mfem::OuterProduct;
+%rename("%s") mfem::TransposeMult;
+%rename("%s") mfem::Mult_AtDA;
 %newobject mfem::Add;
 %newobject mfem::RAP;
 %include "general/table.hpp"

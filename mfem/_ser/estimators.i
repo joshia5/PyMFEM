@@ -1,8 +1,10 @@
 %module(package="mfem._ser") estimators
 
 %{
+#include "mfem.hpp"
 #include "numpy/arrayobject.h"
-#include "fem/estimators.hpp"  
+#include "pyoperator.hpp"
+#include "../common/pycoefficient.hpp"
   %}
 // initialization required to return numpy array from SWIG
 %init %{
@@ -26,6 +28,8 @@ namespace mfem{
   %}
 }
 
+/* this is to ignroe final keyword */
+# define final
 %include "fem/estimators.hpp"
 
 

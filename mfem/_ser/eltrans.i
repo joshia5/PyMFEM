@@ -1,10 +1,10 @@
 %module (package="mfem._ser") eltrans
 
 %{
-#include "general/array.hpp"
-#include "fem/intrules.hpp"
-#include "fem/eltrans.hpp"
-#include "numpy/arrayobject.h"      
+#include "mfem.hpp"
+#include "pyoperator.hpp"  
+#include "numpy/arrayobject.h"
+#include "../common/io_stream.hpp"
 %}
 
 %init %{
@@ -12,11 +12,14 @@ import_array();
 %}
 
 %include "exception.i"
+
+%import "globals.i"
 %import "array.i"
 %import "vector.i"
 %import "densemat.i"
 %import "fe.i"
 %import "intrules.i"
+%import "geom.i"
 %import "../common/exception.i"
 
 %feature("shadow") mfem::ElementTransformation::Transform %{
@@ -31,6 +34,9 @@ def Transform(self, *args):
     else:
         return _eltrans.ElementTransformation_Transform(self, *args)
 %}
+
+%include "../common/deprecation.i"
+DEPRECATED_METHOD(mfem::IsoparametricTransformation::FinalizeTransformation())
 
 %include "fem/eltrans.hpp"
 

@@ -1,21 +1,25 @@
 %module (package="mfem._par") eltrans
 
 %{
-#include "general/array.hpp"
-#include "fem/intrules.hpp"
-#include "fem/eltrans.hpp"
-#include "numpy/arrayobject.h"      
+#include "mfem.hpp"
+#include "pyoperator.hpp"  
+#include "numpy/arrayobject.h"
+#include "../common/io_stream.hpp"  
 %}
 
 %init %{
 import_array();
 %}
 
-%import array.i
-%import vector.i
-%import densemat.i
-%import fe.i
-%import intrules.i
+%include "exception.i"
+
+%import "globals.i"
+%import "array.i"
+%import "vector.i"
+%import "densemat.i"
+%import "fe.i"
+%import "intrules.i"
+%import "geom.i"
 
 %feature("shadow") mfem::ElementTransformation::Transform %{
 def Transform(self, *args):

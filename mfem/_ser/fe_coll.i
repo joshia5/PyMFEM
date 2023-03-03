@@ -1,11 +1,5 @@
 %module(package="mfem._ser") fe_coll
 %{
-#include "fem/fem.hpp"
-#include "fem/fe_coll.hpp"
-#include "fem/fespace.hpp"
-#include "fem/eltrans.hpp"
-#include "fem/coefficient.hpp"
-#include "fem/intrules.hpp"  
 #include <iostream>
 #include <sstream>
 #include <fstream>
@@ -13,14 +7,15 @@
 #include <cmath>
 #include <cstring>
 #include <ctime>
-#include "numpy/arrayobject.h"      
+#include "mfem.hpp"  
+#include "pyoperator.hpp"  
+#include "numpy/arrayobject.h"
+#include "../common/pycoefficient.hpp"  
 %}
 
 %init %{
 import_array();
 %}
-
-%include "../common/cpointers.i"
 
 %include "exception.i"
 %import "mesh.i"

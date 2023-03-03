@@ -5,7 +5,8 @@
 #include "fem/pnonlinearform.hpp"
 #include "fem/linearform.hpp"
 #include "numpy/arrayobject.h"  
-#include "pyoperator.hpp"           
+#include "pyoperator.hpp"
+#include "../common/pycoefficient.hpp"  
 %}
 
 %include "../common/mfem_config.i"
@@ -15,11 +16,10 @@
 %mpi4py_typemap(Comm, MPI_Comm);
 #endif
 
-/*
 %init %{
-import_array();
+   import_array();
 %}
-*/
+
 %include "exception.i"
 %import "vector.i"
 %import "nonlinearform.i"
@@ -28,8 +28,6 @@ import_array();
 %import "pgridfunc.i"
 %import "../common/exception.i"
 %include "../common/typemap_macros.i"
-
-%pointer_class(int, intp);
 
 LIST_TO_MFEMOBJ_ARRAY_IN(mfem::Array<mfem::ParFiniteElementSpace *> &pf,
     		        mfem::ParFiniteElementSpace *)

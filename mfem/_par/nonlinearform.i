@@ -1,21 +1,21 @@
 %module(package="mfem._par") nonlinearform
 %{
 #include <mpi.h>
-#include "fem/linearform.hpp"      
-#include "fem/nonlininteg.hpp"
-#include "fem/nonlinearform.hpp"
-#include "fem/pfespace.hpp"
+#include "mfem.hpp"      
 #include "numpy/arrayobject.h"
-#include "pyoperator.hpp"               
+#include "pyoperator.hpp"
+#include "../common/pycoefficient.hpp"  
 %}
-/*
+
+
 %init %{
 import_array();
 %}
-*/
+
 %include "exception.i"
 %import "operators.i"
 %import "fespace.i"
+%import "bilinearform.i"
 %import "nonlininteg.i"
 %import "../common/exception.i"
 %include "../common/typemap_macros.i"

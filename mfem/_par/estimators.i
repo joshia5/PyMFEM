@@ -1,8 +1,9 @@
 %module(package="mfem._par") estimators
 %{
-#include "config/config.hpp"  
-#include "numpy/arrayobject.h"
-#include "fem/estimators.hpp"
+#include "mfem.hpp"
+#include "numpy/arrayobject.h"  
+#include "pyoperator.hpp"
+#include "../common/pycoefficient.hpp"  
 %}
 
 %include "../common/mfem_config.i"
@@ -52,6 +53,8 @@ namespace mfem{
   %}
 }
 
+/* this is to ignroe final keyword */
+#define final 
 %include "fem/estimators.hpp"
 
 

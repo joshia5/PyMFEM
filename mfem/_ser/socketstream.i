@@ -1,10 +1,13 @@
 %module(package="mfem._ser") socketstream
+%feature("autodoc", "1");
+
 %{
-#include "iostream_typemap.hpp"          
+#include <iostream>
+#include  "mfem.hpp"
+#include "pyoperator.hpp"  
+#include "../common/io_stream.hpp"
 #include "numpy/arrayobject.h"    
-#include "mesh/mesh_headers.hpp"
-#include "fem/gridfunc.hpp"  
-#include "general/socketstream.hpp"
+#include "../common/pycoefficient.hpp"      
 %}
 
 %init %{
@@ -16,7 +19,6 @@ import_array();
 %import "mesh.i"
 %import "gridfunc.i"
 %import "../common/exception.i"
- //%import "ostream_typemap.i"
 
 %include "general/socketstream.hpp"
 
@@ -42,7 +44,11 @@ import_array();
    {
      *self << std::flush;
    }
-  
+  bool good()
+  {
+    return self->std::iostream::good();
+  }
+    
   mfem::socketstream& __lshift__(const char ostr[])
    { 
       *self << ostr;
