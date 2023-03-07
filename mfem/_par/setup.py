@@ -122,10 +122,10 @@ def get_extensions():
                "submesh", "transfermap", "psubmesh", "ptransfermap"]
 
     if add_pumi == '1':
-        from setup_local import puminc, pumilib
+        import setup_local
         modules.append("pumi")
-        include_dirs.append(pumiinc)
-        library_dirs.append(pumilib)
+        include_dirs.append(setup_local.pumiinc)
+        library_dirs.append(setup_local.pumilib)
 
     if add_strumpack == '1':
         from setup_local import strumpackinc, strumpacklib
