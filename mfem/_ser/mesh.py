@@ -670,6 +670,11 @@ class Mesh(object):
 
 
 
+    def FindFaceNeighbors(self, elem):
+        r"""FindFaceNeighbors(Mesh self, int const elem) -> intArray"""
+        return _mesh.Mesh_FindFaceNeighbors(self, elem)
+    FindFaceNeighbors = _swig_new_instance_method(_mesh.Mesh_FindFaceNeighbors)
+
     def GetBdrElementEdgeIndex(self, i):
         r"""GetBdrElementEdgeIndex(Mesh self, int i) -> int"""
         return _mesh.Mesh_GetBdrElementEdgeIndex(self, i)
@@ -888,6 +893,26 @@ class Mesh(object):
         r"""SetBdrAttribute(Mesh self, int i, int attr)"""
         return _mesh.Mesh_SetBdrAttribute(self, i, attr)
     SetBdrAttribute = _swig_new_instance_method(_mesh.Mesh_SetBdrAttribute)
+
+    def GetPatchAttribute(self, i):
+        r"""GetPatchAttribute(Mesh self, int i) -> int"""
+        return _mesh.Mesh_GetPatchAttribute(self, i)
+    GetPatchAttribute = _swig_new_instance_method(_mesh.Mesh_GetPatchAttribute)
+
+    def SetPatchAttribute(self, i, attr):
+        r"""SetPatchAttribute(Mesh self, int i, int attr)"""
+        return _mesh.Mesh_SetPatchAttribute(self, i, attr)
+    SetPatchAttribute = _swig_new_instance_method(_mesh.Mesh_SetPatchAttribute)
+
+    def GetPatchBdrAttribute(self, i):
+        r"""GetPatchBdrAttribute(Mesh self, int i) -> int"""
+        return _mesh.Mesh_GetPatchBdrAttribute(self, i)
+    GetPatchBdrAttribute = _swig_new_instance_method(_mesh.Mesh_GetPatchBdrAttribute)
+
+    def SetPatchBdrAttribute(self, i, attr):
+        r"""SetPatchBdrAttribute(Mesh self, int i, int attr)"""
+        return _mesh.Mesh_SetPatchBdrAttribute(self, i, attr)
+    SetPatchBdrAttribute = _swig_new_instance_method(_mesh.Mesh_SetPatchBdrAttribute)
 
     def ElementToElementTable(self):
         r"""ElementToElementTable(Mesh self) -> Table"""

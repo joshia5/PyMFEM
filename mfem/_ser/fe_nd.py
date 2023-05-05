@@ -142,6 +142,11 @@ class ND_HexahedronElement(mfem._ser.fe_base.VectorTensorFiniteElement):
         r"""ProjectCurl(ND_HexahedronElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix curl)"""
         return _fe_nd.ND_HexahedronElement_ProjectCurl(self, fe, Trans, curl)
     ProjectCurl = _swig_new_instance_method(_fe_nd.ND_HexahedronElement_ProjectCurl)
+
+    def GetFaceMap(self, face_id, face_map):
+        r"""GetFaceMap(ND_HexahedronElement self, int const face_id, intArray face_map)"""
+        return _fe_nd.ND_HexahedronElement_GetFaceMap(self, face_id, face_map)
+    GetFaceMap = _swig_new_instance_method(_fe_nd.ND_HexahedronElement_GetFaceMap)
     __swig_destroy__ = _fe_nd.delete_ND_HexahedronElement
 
 # Register ND_HexahedronElement in _fe_nd:
@@ -207,6 +212,11 @@ class ND_QuadrilateralElement(mfem._ser.fe_base.VectorTensorFiniteElement):
         r"""ProjectGrad(ND_QuadrilateralElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix grad)"""
         return _fe_nd.ND_QuadrilateralElement_ProjectGrad(self, fe, Trans, grad)
     ProjectGrad = _swig_new_instance_method(_fe_nd.ND_QuadrilateralElement_ProjectGrad)
+
+    def GetFaceMap(self, face_id, face_map):
+        r"""GetFaceMap(ND_QuadrilateralElement self, int const face_id, intArray face_map)"""
+        return _fe_nd.ND_QuadrilateralElement_GetFaceMap(self, face_id, face_map)
+    GetFaceMap = _swig_new_instance_method(_fe_nd.ND_QuadrilateralElement_GetFaceMap)
     __swig_destroy__ = _fe_nd.delete_ND_QuadrilateralElement
 
 # Register ND_QuadrilateralElement in _fe_nd:

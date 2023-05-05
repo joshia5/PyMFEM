@@ -3410,69 +3410,70 @@ namespace Swig {
 #define SWIGTYPE_p_mfem__AbstractSparseMatrix swig_types[5]
 #define SWIGTYPE_p_mfem__ArrayT_double_t swig_types[6]
 #define SWIGTYPE_p_mfem__ArrayT_int_t swig_types[7]
-#define SWIGTYPE_p_mfem__BasisType swig_types[8]
-#define SWIGTYPE_p_mfem__Coefficient swig_types[9]
-#define SWIGTYPE_p_mfem__ConstrainedOperator swig_types[10]
-#define SWIGTYPE_p_mfem__DenseMatrix swig_types[11]
-#define SWIGTYPE_p_mfem__DenseMatrixInverse swig_types[12]
-#define SWIGTYPE_p_mfem__DofToQuad swig_types[13]
-#define SWIGTYPE_p_mfem__ElementTransformation swig_types[14]
-#define SWIGTYPE_p_mfem__FiniteElement swig_types[15]
-#define SWIGTYPE_p_mfem__FunctionSpace swig_types[16]
-#define SWIGTYPE_p_mfem__IdentityOperator swig_types[17]
-#define SWIGTYPE_p_mfem__IntegrationPoint swig_types[18]
-#define SWIGTYPE_p_mfem__IntegrationRule swig_types[19]
-#define SWIGTYPE_p_mfem__Matrix swig_types[20]
-#define SWIGTYPE_p_mfem__MatrixCoefficient swig_types[21]
-#define SWIGTYPE_p_mfem__MatrixInverse swig_types[22]
-#define SWIGTYPE_p_mfem__NodalFiniteElement swig_types[23]
-#define SWIGTYPE_p_mfem__NodalTensorFiniteElement swig_types[24]
-#define SWIGTYPE_p_mfem__Operator swig_types[25]
-#define SWIGTYPE_p_mfem__Poly_1D swig_types[26]
-#define SWIGTYPE_p_mfem__Poly_1D__Basis swig_types[27]
-#define SWIGTYPE_p_mfem__ProductOperator swig_types[28]
-#define SWIGTYPE_p_mfem__PyOperatorBase swig_types[29]
-#define SWIGTYPE_p_mfem__PyTimeDependentOperatorBase swig_types[30]
-#define SWIGTYPE_p_mfem__RAPOperator swig_types[31]
-#define SWIGTYPE_p_mfem__RectangularConstrainedOperator swig_types[32]
-#define SWIGTYPE_p_mfem__ScalarFiniteElement swig_types[33]
-#define SWIGTYPE_p_mfem__ScaledOperator swig_types[34]
-#define SWIGTYPE_p_mfem__SecondOrderTimeDependentOperator swig_types[35]
-#define SWIGTYPE_p_mfem__Solver swig_types[36]
-#define SWIGTYPE_p_mfem__TensorBasisElement swig_types[37]
-#define SWIGTYPE_p_mfem__TimeDependentAdjointOperator swig_types[38]
-#define SWIGTYPE_p_mfem__TimeDependentOperator swig_types[39]
-#define SWIGTYPE_p_mfem__TransposeOperator swig_types[40]
-#define SWIGTYPE_p_mfem__TripleProductOperator swig_types[41]
-#define SWIGTYPE_p_mfem__Vector swig_types[42]
-#define SWIGTYPE_p_mfem__VectorCoefficient swig_types[43]
-#define SWIGTYPE_p_mfem__VectorFiniteElement swig_types[44]
-#define SWIGTYPE_p_mfem__VectorTensorFiniteElement swig_types[45]
-#define SWIGTYPE_p_p_int swig_types[46]
-#define SWIGTYPE_p_p_mfem__AbstractSparseMatrix swig_types[47]
-#define SWIGTYPE_p_p_mfem__ConstrainedOperator swig_types[48]
-#define SWIGTYPE_p_p_mfem__DenseMatrix swig_types[49]
-#define SWIGTYPE_p_p_mfem__DenseMatrixInverse swig_types[50]
-#define SWIGTYPE_p_p_mfem__IdentityOperator swig_types[51]
-#define SWIGTYPE_p_p_mfem__IntegrationRule swig_types[52]
-#define SWIGTYPE_p_p_mfem__Matrix swig_types[53]
-#define SWIGTYPE_p_p_mfem__MatrixInverse swig_types[54]
-#define SWIGTYPE_p_p_mfem__Operator swig_types[55]
-#define SWIGTYPE_p_p_mfem__ProductOperator swig_types[56]
-#define SWIGTYPE_p_p_mfem__PyOperatorBase swig_types[57]
-#define SWIGTYPE_p_p_mfem__PyTimeDependentOperatorBase swig_types[58]
-#define SWIGTYPE_p_p_mfem__RAPOperator swig_types[59]
-#define SWIGTYPE_p_p_mfem__RectangularConstrainedOperator swig_types[60]
-#define SWIGTYPE_p_p_mfem__ScaledOperator swig_types[61]
-#define SWIGTYPE_p_p_mfem__SecondOrderTimeDependentOperator swig_types[62]
-#define SWIGTYPE_p_p_mfem__Solver swig_types[63]
-#define SWIGTYPE_p_p_mfem__TimeDependentAdjointOperator swig_types[64]
-#define SWIGTYPE_p_p_mfem__TimeDependentOperator swig_types[65]
-#define SWIGTYPE_p_p_mfem__TransposeOperator swig_types[66]
-#define SWIGTYPE_p_p_mfem__TripleProductOperator swig_types[67]
-#define SWIGTYPE_p_p_mfem__Vector swig_types[68]
-static swig_type_info *swig_types[70];
-static swig_module_info swig_module = {swig_types, 69, 0, 0, 0, 0};
+#define SWIGTYPE_p_mfem__ArrayT_mfem__DofToQuad_p_t swig_types[8]
+#define SWIGTYPE_p_mfem__BasisType swig_types[9]
+#define SWIGTYPE_p_mfem__Coefficient swig_types[10]
+#define SWIGTYPE_p_mfem__ConstrainedOperator swig_types[11]
+#define SWIGTYPE_p_mfem__DenseMatrix swig_types[12]
+#define SWIGTYPE_p_mfem__DenseMatrixInverse swig_types[13]
+#define SWIGTYPE_p_mfem__DofToQuad swig_types[14]
+#define SWIGTYPE_p_mfem__ElementTransformation swig_types[15]
+#define SWIGTYPE_p_mfem__FiniteElement swig_types[16]
+#define SWIGTYPE_p_mfem__FunctionSpace swig_types[17]
+#define SWIGTYPE_p_mfem__IdentityOperator swig_types[18]
+#define SWIGTYPE_p_mfem__IntegrationPoint swig_types[19]
+#define SWIGTYPE_p_mfem__IntegrationRule swig_types[20]
+#define SWIGTYPE_p_mfem__Matrix swig_types[21]
+#define SWIGTYPE_p_mfem__MatrixCoefficient swig_types[22]
+#define SWIGTYPE_p_mfem__MatrixInverse swig_types[23]
+#define SWIGTYPE_p_mfem__NodalFiniteElement swig_types[24]
+#define SWIGTYPE_p_mfem__NodalTensorFiniteElement swig_types[25]
+#define SWIGTYPE_p_mfem__Operator swig_types[26]
+#define SWIGTYPE_p_mfem__Poly_1D swig_types[27]
+#define SWIGTYPE_p_mfem__Poly_1D__Basis swig_types[28]
+#define SWIGTYPE_p_mfem__ProductOperator swig_types[29]
+#define SWIGTYPE_p_mfem__PyOperatorBase swig_types[30]
+#define SWIGTYPE_p_mfem__PyTimeDependentOperatorBase swig_types[31]
+#define SWIGTYPE_p_mfem__RAPOperator swig_types[32]
+#define SWIGTYPE_p_mfem__RectangularConstrainedOperator swig_types[33]
+#define SWIGTYPE_p_mfem__ScalarFiniteElement swig_types[34]
+#define SWIGTYPE_p_mfem__ScaledOperator swig_types[35]
+#define SWIGTYPE_p_mfem__SecondOrderTimeDependentOperator swig_types[36]
+#define SWIGTYPE_p_mfem__Solver swig_types[37]
+#define SWIGTYPE_p_mfem__TensorBasisElement swig_types[38]
+#define SWIGTYPE_p_mfem__TimeDependentAdjointOperator swig_types[39]
+#define SWIGTYPE_p_mfem__TimeDependentOperator swig_types[40]
+#define SWIGTYPE_p_mfem__TransposeOperator swig_types[41]
+#define SWIGTYPE_p_mfem__TripleProductOperator swig_types[42]
+#define SWIGTYPE_p_mfem__Vector swig_types[43]
+#define SWIGTYPE_p_mfem__VectorCoefficient swig_types[44]
+#define SWIGTYPE_p_mfem__VectorFiniteElement swig_types[45]
+#define SWIGTYPE_p_mfem__VectorTensorFiniteElement swig_types[46]
+#define SWIGTYPE_p_p_int swig_types[47]
+#define SWIGTYPE_p_p_mfem__AbstractSparseMatrix swig_types[48]
+#define SWIGTYPE_p_p_mfem__ConstrainedOperator swig_types[49]
+#define SWIGTYPE_p_p_mfem__DenseMatrix swig_types[50]
+#define SWIGTYPE_p_p_mfem__DenseMatrixInverse swig_types[51]
+#define SWIGTYPE_p_p_mfem__IdentityOperator swig_types[52]
+#define SWIGTYPE_p_p_mfem__IntegrationRule swig_types[53]
+#define SWIGTYPE_p_p_mfem__Matrix swig_types[54]
+#define SWIGTYPE_p_p_mfem__MatrixInverse swig_types[55]
+#define SWIGTYPE_p_p_mfem__Operator swig_types[56]
+#define SWIGTYPE_p_p_mfem__ProductOperator swig_types[57]
+#define SWIGTYPE_p_p_mfem__PyOperatorBase swig_types[58]
+#define SWIGTYPE_p_p_mfem__PyTimeDependentOperatorBase swig_types[59]
+#define SWIGTYPE_p_p_mfem__RAPOperator swig_types[60]
+#define SWIGTYPE_p_p_mfem__RectangularConstrainedOperator swig_types[61]
+#define SWIGTYPE_p_p_mfem__ScaledOperator swig_types[62]
+#define SWIGTYPE_p_p_mfem__SecondOrderTimeDependentOperator swig_types[63]
+#define SWIGTYPE_p_p_mfem__Solver swig_types[64]
+#define SWIGTYPE_p_p_mfem__TimeDependentAdjointOperator swig_types[65]
+#define SWIGTYPE_p_p_mfem__TimeDependentOperator swig_types[66]
+#define SWIGTYPE_p_p_mfem__TransposeOperator swig_types[67]
+#define SWIGTYPE_p_p_mfem__TripleProductOperator swig_types[68]
+#define SWIGTYPE_p_p_mfem__Vector swig_types[69]
+static swig_type_info *swig_types[71];
+static swig_module_info swig_module = {swig_types, 70, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -7432,6 +7433,62 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_FiniteElement_GetFaceMap(PyObject *self, PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  mfem::FiniteElement *arg1 = (mfem::FiniteElement *) 0 ;
+  int arg2 ;
+  mfem::Array< int > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"face_id",  (char *)"face_map",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:FiniteElement_GetFaceMap", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__FiniteElement, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "FiniteElement_GetFaceMap" "', argument " "1"" of type '" "mfem::FiniteElement const *""'"); 
+  }
+  arg1 = reinterpret_cast< mfem::FiniteElement * >(argp1);
+  {
+    if ((PyArray_PyIntAsInt(obj1) == -1) && PyErr_Occurred()) {
+      SWIG_exception_fail(SWIG_TypeError, "Input must be integer");
+    };  
+    arg2 = PyArray_PyIntAsInt(obj1);
+  }
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_mfem__ArrayT_int_t,  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "FiniteElement_GetFaceMap" "', argument " "3"" of type '" "mfem::Array< int > &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "FiniteElement_GetFaceMap" "', argument " "3"" of type '" "mfem::Array< int > &""'"); 
+  }
+  arg3 = reinterpret_cast< mfem::Array< int > * >(argp3);
+  {
+    try {
+      ((mfem::FiniteElement const *)arg1)->GetFaceMap(arg2,*arg3); 
+    }
+    catch (Swig::DirectorException &e) {
+      SWIG_fail; 
+    }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_delete_FiniteElement(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   mfem::FiniteElement *arg1 = (mfem::FiniteElement *) 0 ;
@@ -7907,64 +7964,6 @@ SWIGINTERN PyObject *_wrap_ScalarFiniteElement_ScalarLocalL2Restriction(PyObject
     //    catch (std::exception &e) { SWIG_fail; }    
   }
   resultobj = SWIG_Py_Void();
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
-SWIGINTERN PyObject *_wrap_ScalarFiniteElement_GetDofToQuad(PyObject *self, PyObject *args, PyObject *kwargs) {
-  PyObject *resultobj = 0;
-  mfem::ScalarFiniteElement *arg1 = (mfem::ScalarFiniteElement *) 0 ;
-  mfem::IntegrationRule *arg2 = 0 ;
-  mfem::DofToQuad::Mode arg3 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  int val3 ;
-  int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"ir",  (char *)"mode",  NULL 
-  };
-  mfem::DofToQuad *result = 0 ;
-  
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:ScalarFiniteElement_GetDofToQuad", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__ScalarFiniteElement, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ScalarFiniteElement_GetDofToQuad" "', argument " "1"" of type '" "mfem::ScalarFiniteElement const *""'"); 
-  }
-  arg1 = reinterpret_cast< mfem::ScalarFiniteElement * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__IntegrationRule,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ScalarFiniteElement_GetDofToQuad" "', argument " "2"" of type '" "mfem::IntegrationRule const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "ScalarFiniteElement_GetDofToQuad" "', argument " "2"" of type '" "mfem::IntegrationRule const &""'"); 
-  }
-  arg2 = reinterpret_cast< mfem::IntegrationRule * >(argp2);
-  ecode3 = SWIG_AsVal_int(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "ScalarFiniteElement_GetDofToQuad" "', argument " "3"" of type '" "mfem::DofToQuad::Mode""'");
-  } 
-  arg3 = static_cast< mfem::DofToQuad::Mode >(val3);
-  {
-    try {
-      result = (mfem::DofToQuad *) &((mfem::ScalarFiniteElement const *)arg1)->GetDofToQuad((mfem::IntegrationRule const &)*arg2,arg3); 
-    }
-    catch (Swig::DirectorException &e) {
-      SWIG_fail; 
-    }    
-    //catch (...){
-    //  SWIG_fail;
-    //}
-    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
-    //    catch (std::exception &e) { SWIG_fail; }    
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__DofToQuad, 0 |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -10925,6 +10924,100 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_TensorBasisElement_GetTensorDofToQuad(PyObject *self, PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  mfem::FiniteElement *arg1 = 0 ;
+  mfem::IntegrationRule *arg2 = 0 ;
+  mfem::DofToQuad::Mode arg3 ;
+  mfem::Poly_1D::Basis *arg4 = 0 ;
+  bool arg5 ;
+  mfem::Array< mfem::DofToQuad * > *arg6 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int val3 ;
+  int ecode3 = 0 ;
+  void *argp4 = 0 ;
+  int res4 = 0 ;
+  bool val5 ;
+  int ecode5 = 0 ;
+  void *argp6 = 0 ;
+  int res6 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  PyObject * obj3 = 0 ;
+  PyObject * obj4 = 0 ;
+  PyObject * obj5 = 0 ;
+  char * kwnames[] = {
+    (char *)"fe",  (char *)"ir",  (char *)"mode",  (char *)"basis",  (char *)"closed",  (char *)"dof2quad_array",  NULL 
+  };
+  mfem::DofToQuad *result = 0 ;
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOOOOO:TensorBasisElement_GetTensorDofToQuad", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4, &obj5)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_mfem__FiniteElement,  0  | 0);
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "TensorBasisElement_GetTensorDofToQuad" "', argument " "1"" of type '" "mfem::FiniteElement const &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TensorBasisElement_GetTensorDofToQuad" "', argument " "1"" of type '" "mfem::FiniteElement const &""'"); 
+  }
+  arg1 = reinterpret_cast< mfem::FiniteElement * >(argp1);
+  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__IntegrationRule,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "TensorBasisElement_GetTensorDofToQuad" "', argument " "2"" of type '" "mfem::IntegrationRule const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TensorBasisElement_GetTensorDofToQuad" "', argument " "2"" of type '" "mfem::IntegrationRule const &""'"); 
+  }
+  arg2 = reinterpret_cast< mfem::IntegrationRule * >(argp2);
+  ecode3 = SWIG_AsVal_int(obj2, &val3);
+  if (!SWIG_IsOK(ecode3)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "TensorBasisElement_GetTensorDofToQuad" "', argument " "3"" of type '" "mfem::DofToQuad::Mode""'");
+  } 
+  arg3 = static_cast< mfem::DofToQuad::Mode >(val3);
+  res4 = SWIG_ConvertPtr(obj3, &argp4, SWIGTYPE_p_mfem__Poly_1D__Basis,  0  | 0);
+  if (!SWIG_IsOK(res4)) {
+    SWIG_exception_fail(SWIG_ArgError(res4), "in method '" "TensorBasisElement_GetTensorDofToQuad" "', argument " "4"" of type '" "mfem::Poly_1D::Basis const &""'"); 
+  }
+  if (!argp4) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TensorBasisElement_GetTensorDofToQuad" "', argument " "4"" of type '" "mfem::Poly_1D::Basis const &""'"); 
+  }
+  arg4 = reinterpret_cast< mfem::Poly_1D::Basis * >(argp4);
+  ecode5 = SWIG_AsVal_bool(obj4, &val5);
+  if (!SWIG_IsOK(ecode5)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "TensorBasisElement_GetTensorDofToQuad" "', argument " "5"" of type '" "bool""'");
+  } 
+  arg5 = static_cast< bool >(val5);
+  res6 = SWIG_ConvertPtr(obj5, &argp6, SWIGTYPE_p_mfem__ArrayT_mfem__DofToQuad_p_t,  0 );
+  if (!SWIG_IsOK(res6)) {
+    SWIG_exception_fail(SWIG_ArgError(res6), "in method '" "TensorBasisElement_GetTensorDofToQuad" "', argument " "6"" of type '" "mfem::Array< mfem::DofToQuad * > &""'"); 
+  }
+  if (!argp6) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "TensorBasisElement_GetTensorDofToQuad" "', argument " "6"" of type '" "mfem::Array< mfem::DofToQuad * > &""'"); 
+  }
+  arg6 = reinterpret_cast< mfem::Array< mfem::DofToQuad * > * >(argp6);
+  {
+    try {
+      result = (mfem::DofToQuad *) &mfem::TensorBasisElement::GetTensorDofToQuad((mfem::FiniteElement const &)*arg1,(mfem::IntegrationRule const &)*arg2,arg3,(mfem::Poly_1D::Basis const &)*arg4,arg5,*arg6); 
+    }
+    catch (Swig::DirectorException &e) {
+      SWIG_fail; 
+    }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__DofToQuad, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_delete_TensorBasisElement(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   mfem::TensorBasisElement *arg1 = (mfem::TensorBasisElement *) 0 ;
@@ -11127,6 +11220,62 @@ SWIGINTERN PyObject *_wrap_NodalTensorFiniteElement_GetTransferMatrix(PyObject *
   {
     try {
       ((mfem::NodalTensorFiniteElement const *)arg1)->GetTransferMatrix((mfem::FiniteElement const &)*arg2,*arg3,*arg4); 
+    }
+    catch (Swig::DirectorException &e) {
+      SWIG_fail; 
+    }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_NodalTensorFiniteElement_GetFaceMap(PyObject *self, PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  mfem::NodalTensorFiniteElement *arg1 = (mfem::NodalTensorFiniteElement *) 0 ;
+  int arg2 ;
+  mfem::Array< int > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"face_id",  (char *)"face_map",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:NodalTensorFiniteElement_GetFaceMap", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__NodalTensorFiniteElement, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NodalTensorFiniteElement_GetFaceMap" "', argument " "1"" of type '" "mfem::NodalTensorFiniteElement const *""'"); 
+  }
+  arg1 = reinterpret_cast< mfem::NodalTensorFiniteElement * >(argp1);
+  {
+    if ((PyArray_PyIntAsInt(obj1) == -1) && PyErr_Occurred()) {
+      SWIG_exception_fail(SWIG_TypeError, "Input must be integer");
+    };  
+    arg2 = PyArray_PyIntAsInt(obj1);
+  }
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_mfem__ArrayT_int_t,  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "NodalTensorFiniteElement_GetFaceMap" "', argument " "3"" of type '" "mfem::Array< int > &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "NodalTensorFiniteElement_GetFaceMap" "', argument " "3"" of type '" "mfem::Array< int > &""'"); 
+  }
+  arg3 = reinterpret_cast< mfem::Array< int > * >(argp3);
+  {
+    try {
+      ((mfem::NodalTensorFiniteElement const *)arg1)->GetFaceMap(arg2,*arg3); 
     }
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
@@ -11592,73 +11741,6 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_VectorTensorFiniteElement_GetTensorDofToQuad(PyObject *self, PyObject *args, PyObject *kwargs) {
-  PyObject *resultobj = 0;
-  mfem::VectorTensorFiniteElement *arg1 = (mfem::VectorTensorFiniteElement *) 0 ;
-  mfem::IntegrationRule *arg2 = 0 ;
-  mfem::DofToQuad::Mode arg3 ;
-  bool arg4 ;
-  void *argp1 = 0 ;
-  int res1 = 0 ;
-  void *argp2 = 0 ;
-  int res2 = 0 ;
-  int val3 ;
-  int ecode3 = 0 ;
-  bool val4 ;
-  int ecode4 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  PyObject * obj3 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"ir",  (char *)"mode",  (char *)"closed",  NULL 
-  };
-  mfem::DofToQuad *result = 0 ;
-  
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOOO:VectorTensorFiniteElement_GetTensorDofToQuad", kwnames, &obj0, &obj1, &obj2, &obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__VectorTensorFiniteElement, 0 |  0 );
-  if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "VectorTensorFiniteElement_GetTensorDofToQuad" "', argument " "1"" of type '" "mfem::VectorTensorFiniteElement const *""'"); 
-  }
-  arg1 = reinterpret_cast< mfem::VectorTensorFiniteElement * >(argp1);
-  res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__IntegrationRule,  0  | 0);
-  if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "VectorTensorFiniteElement_GetTensorDofToQuad" "', argument " "2"" of type '" "mfem::IntegrationRule const &""'"); 
-  }
-  if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "VectorTensorFiniteElement_GetTensorDofToQuad" "', argument " "2"" of type '" "mfem::IntegrationRule const &""'"); 
-  }
-  arg2 = reinterpret_cast< mfem::IntegrationRule * >(argp2);
-  ecode3 = SWIG_AsVal_int(obj2, &val3);
-  if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "VectorTensorFiniteElement_GetTensorDofToQuad" "', argument " "3"" of type '" "mfem::DofToQuad::Mode""'");
-  } 
-  arg3 = static_cast< mfem::DofToQuad::Mode >(val3);
-  ecode4 = SWIG_AsVal_bool(obj3, &val4);
-  if (!SWIG_IsOK(ecode4)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "VectorTensorFiniteElement_GetTensorDofToQuad" "', argument " "4"" of type '" "bool""'");
-  } 
-  arg4 = static_cast< bool >(val4);
-  {
-    try {
-      result = (mfem::DofToQuad *) &((mfem::VectorTensorFiniteElement const *)arg1)->GetTensorDofToQuad((mfem::IntegrationRule const &)*arg2,arg3,arg4); 
-    }
-    catch (Swig::DirectorException &e) {
-      SWIG_fail; 
-    }    
-    //catch (...){
-    //  SWIG_fail;
-    //}
-    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
-    //    catch (std::exception &e) { SWIG_fail; }    
-  }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__DofToQuad, 0 |  0 );
-  return resultobj;
-fail:
-  return NULL;
-}
-
-
 SWIGINTERN PyObject *_wrap_delete_VectorTensorFiniteElement(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   mfem::VectorTensorFiniteElement *arg1 = (mfem::VectorTensorFiniteElement *) 0 ;
@@ -11855,6 +11937,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "FiniteElement_ProjectCurl", (PyCFunction)(void(*)(void))_wrap_FiniteElement_ProjectCurl, METH_VARARGS|METH_KEYWORDS, "FiniteElement_ProjectCurl(FiniteElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix curl)"},
 	 { "FiniteElement_ProjectDiv", (PyCFunction)(void(*)(void))_wrap_FiniteElement_ProjectDiv, METH_VARARGS|METH_KEYWORDS, "FiniteElement_ProjectDiv(FiniteElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix div)"},
 	 { "FiniteElement_GetDofToQuad", (PyCFunction)(void(*)(void))_wrap_FiniteElement_GetDofToQuad, METH_VARARGS|METH_KEYWORDS, "FiniteElement_GetDofToQuad(FiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"},
+	 { "FiniteElement_GetFaceMap", (PyCFunction)(void(*)(void))_wrap_FiniteElement_GetFaceMap, METH_VARARGS|METH_KEYWORDS, "FiniteElement_GetFaceMap(FiniteElement self, int const face_id, intArray face_map)"},
 	 { "delete_FiniteElement", _wrap_delete_FiniteElement, METH_O, "delete_FiniteElement(FiniteElement self)"},
 	 { "FiniteElement_IsClosedType", (PyCFunction)(void(*)(void))_wrap_FiniteElement_IsClosedType, METH_VARARGS|METH_KEYWORDS, "FiniteElement_IsClosedType(int b_type) -> bool"},
 	 { "FiniteElement_IsOpenType", (PyCFunction)(void(*)(void))_wrap_FiniteElement_IsOpenType, METH_VARARGS|METH_KEYWORDS, "FiniteElement_IsOpenType(int b_type) -> bool"},
@@ -11866,7 +11949,6 @@ static PyMethodDef SwigMethods[] = {
 	 { "ScalarFiniteElement_NodalLocalInterpolation", (PyCFunction)(void(*)(void))_wrap_ScalarFiniteElement_NodalLocalInterpolation, METH_VARARGS|METH_KEYWORDS, "ScalarFiniteElement_NodalLocalInterpolation(ScalarFiniteElement self, mfem::ElementTransformation & Trans, DenseMatrix I, ScalarFiniteElement fine_fe)"},
 	 { "ScalarFiniteElement_ScalarLocalInterpolation", (PyCFunction)(void(*)(void))_wrap_ScalarFiniteElement_ScalarLocalInterpolation, METH_VARARGS|METH_KEYWORDS, "ScalarFiniteElement_ScalarLocalInterpolation(ScalarFiniteElement self, mfem::ElementTransformation & Trans, DenseMatrix I, ScalarFiniteElement fine_fe)"},
 	 { "ScalarFiniteElement_ScalarLocalL2Restriction", (PyCFunction)(void(*)(void))_wrap_ScalarFiniteElement_ScalarLocalL2Restriction, METH_VARARGS|METH_KEYWORDS, "ScalarFiniteElement_ScalarLocalL2Restriction(ScalarFiniteElement self, mfem::ElementTransformation & Trans, DenseMatrix R, ScalarFiniteElement coarse_fe)"},
-	 { "ScalarFiniteElement_GetDofToQuad", (PyCFunction)(void(*)(void))_wrap_ScalarFiniteElement_GetDofToQuad, METH_VARARGS|METH_KEYWORDS, "ScalarFiniteElement_GetDofToQuad(ScalarFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"},
 	 { "delete_ScalarFiniteElement", _wrap_delete_ScalarFiniteElement, METH_O, "delete_ScalarFiniteElement(ScalarFiniteElement self)"},
 	 { "ScalarFiniteElement_swigregister", ScalarFiniteElement_swigregister, METH_O, NULL},
 	 { "NodalFiniteElement_GetLocalInterpolation", (PyCFunction)(void(*)(void))_wrap_NodalFiniteElement_GetLocalInterpolation, METH_VARARGS|METH_KEYWORDS, "NodalFiniteElement_GetLocalInterpolation(NodalFiniteElement self, mfem::ElementTransformation & Trans, DenseMatrix I)"},
@@ -11927,12 +12009,14 @@ static PyMethodDef SwigMethods[] = {
 	 { "TensorBasisElement_GetDofMap", _wrap_TensorBasisElement_GetDofMap, METH_O, "TensorBasisElement_GetDofMap(TensorBasisElement self) -> intArray"},
 	 { "TensorBasisElement_GetTensorProductGeometry", (PyCFunction)(void(*)(void))_wrap_TensorBasisElement_GetTensorProductGeometry, METH_VARARGS|METH_KEYWORDS, "TensorBasisElement_GetTensorProductGeometry(int dim) -> mfem::Geometry::Type"},
 	 { "TensorBasisElement_Pow", (PyCFunction)(void(*)(void))_wrap_TensorBasisElement_Pow, METH_VARARGS|METH_KEYWORDS, "TensorBasisElement_Pow(int base, int dim) -> int"},
+	 { "TensorBasisElement_GetTensorDofToQuad", (PyCFunction)(void(*)(void))_wrap_TensorBasisElement_GetTensorDofToQuad, METH_VARARGS|METH_KEYWORDS, "TensorBasisElement_GetTensorDofToQuad(FiniteElement fe, IntegrationRule ir, mfem::DofToQuad::Mode mode, mfem::Poly_1D::Basis const & basis, bool closed, mfem::Array< mfem::DofToQuad * > & dof2quad_array) -> DofToQuad"},
 	 { "delete_TensorBasisElement", _wrap_delete_TensorBasisElement, METH_O, "delete_TensorBasisElement(TensorBasisElement self)"},
 	 { "TensorBasisElement_swigregister", TensorBasisElement_swigregister, METH_O, NULL},
 	 { "TensorBasisElement_swiginit", TensorBasisElement_swiginit, METH_VARARGS, NULL},
 	 { "NodalTensorFiniteElement_GetDofToQuad", (PyCFunction)(void(*)(void))_wrap_NodalTensorFiniteElement_GetDofToQuad, METH_VARARGS|METH_KEYWORDS, "NodalTensorFiniteElement_GetDofToQuad(NodalTensorFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"},
 	 { "NodalTensorFiniteElement_SetMapType", (PyCFunction)(void(*)(void))_wrap_NodalTensorFiniteElement_SetMapType, METH_VARARGS|METH_KEYWORDS, "NodalTensorFiniteElement_SetMapType(NodalTensorFiniteElement self, int const map_type_)"},
 	 { "NodalTensorFiniteElement_GetTransferMatrix", (PyCFunction)(void(*)(void))_wrap_NodalTensorFiniteElement_GetTransferMatrix, METH_VARARGS|METH_KEYWORDS, "NodalTensorFiniteElement_GetTransferMatrix(NodalTensorFiniteElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix I)"},
+	 { "NodalTensorFiniteElement_GetFaceMap", (PyCFunction)(void(*)(void))_wrap_NodalTensorFiniteElement_GetFaceMap, METH_VARARGS|METH_KEYWORDS, "NodalTensorFiniteElement_GetFaceMap(NodalTensorFiniteElement self, int const face_id, intArray face_map)"},
 	 { "delete_NodalTensorFiniteElement", _wrap_delete_NodalTensorFiniteElement, METH_O, "delete_NodalTensorFiniteElement(NodalTensorFiniteElement self)"},
 	 { "NodalTensorFiniteElement_swigregister", NodalTensorFiniteElement_swigregister, METH_O, NULL},
 	 { "new_VectorTensorFiniteElement", _wrap_new_VectorTensorFiniteElement, METH_VARARGS, "\n"
@@ -11941,7 +12025,6 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { "VectorTensorFiniteElement_GetDofToQuad", (PyCFunction)(void(*)(void))_wrap_VectorTensorFiniteElement_GetDofToQuad, METH_VARARGS|METH_KEYWORDS, "VectorTensorFiniteElement_GetDofToQuad(VectorTensorFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"},
 	 { "VectorTensorFiniteElement_GetDofToQuadOpen", (PyCFunction)(void(*)(void))_wrap_VectorTensorFiniteElement_GetDofToQuadOpen, METH_VARARGS|METH_KEYWORDS, "VectorTensorFiniteElement_GetDofToQuadOpen(VectorTensorFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"},
-	 { "VectorTensorFiniteElement_GetTensorDofToQuad", (PyCFunction)(void(*)(void))_wrap_VectorTensorFiniteElement_GetTensorDofToQuad, METH_VARARGS|METH_KEYWORDS, "VectorTensorFiniteElement_GetTensorDofToQuad(VectorTensorFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode, bool const closed) -> DofToQuad"},
 	 { "delete_VectorTensorFiniteElement", _wrap_delete_VectorTensorFiniteElement, METH_O, "delete_VectorTensorFiniteElement(VectorTensorFiniteElement self)"},
 	 { "VectorTensorFiniteElement_swigregister", VectorTensorFiniteElement_swigregister, METH_O, NULL},
 	 { "VectorTensorFiniteElement_swiginit", VectorTensorFiniteElement_swiginit, METH_VARARGS, NULL},
@@ -12037,6 +12120,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "FiniteElement_ProjectCurl", (PyCFunction)(void(*)(void))_wrap_FiniteElement_ProjectCurl, METH_VARARGS|METH_KEYWORDS, "ProjectCurl(FiniteElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix curl)"},
 	 { "FiniteElement_ProjectDiv", (PyCFunction)(void(*)(void))_wrap_FiniteElement_ProjectDiv, METH_VARARGS|METH_KEYWORDS, "ProjectDiv(FiniteElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix div)"},
 	 { "FiniteElement_GetDofToQuad", (PyCFunction)(void(*)(void))_wrap_FiniteElement_GetDofToQuad, METH_VARARGS|METH_KEYWORDS, "GetDofToQuad(FiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"},
+	 { "FiniteElement_GetFaceMap", (PyCFunction)(void(*)(void))_wrap_FiniteElement_GetFaceMap, METH_VARARGS|METH_KEYWORDS, "GetFaceMap(FiniteElement self, int const face_id, intArray face_map)"},
 	 { "delete_FiniteElement", _wrap_delete_FiniteElement, METH_O, "delete_FiniteElement(FiniteElement self)"},
 	 { "FiniteElement_IsClosedType", (PyCFunction)(void(*)(void))_wrap_FiniteElement_IsClosedType, METH_VARARGS|METH_KEYWORDS, "IsClosedType(int b_type) -> bool"},
 	 { "FiniteElement_IsOpenType", (PyCFunction)(void(*)(void))_wrap_FiniteElement_IsOpenType, METH_VARARGS|METH_KEYWORDS, "IsOpenType(int b_type) -> bool"},
@@ -12048,7 +12132,6 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "ScalarFiniteElement_NodalLocalInterpolation", (PyCFunction)(void(*)(void))_wrap_ScalarFiniteElement_NodalLocalInterpolation, METH_VARARGS|METH_KEYWORDS, "NodalLocalInterpolation(ScalarFiniteElement self, mfem::ElementTransformation & Trans, DenseMatrix I, ScalarFiniteElement fine_fe)"},
 	 { "ScalarFiniteElement_ScalarLocalInterpolation", (PyCFunction)(void(*)(void))_wrap_ScalarFiniteElement_ScalarLocalInterpolation, METH_VARARGS|METH_KEYWORDS, "ScalarLocalInterpolation(ScalarFiniteElement self, mfem::ElementTransformation & Trans, DenseMatrix I, ScalarFiniteElement fine_fe)"},
 	 { "ScalarFiniteElement_ScalarLocalL2Restriction", (PyCFunction)(void(*)(void))_wrap_ScalarFiniteElement_ScalarLocalL2Restriction, METH_VARARGS|METH_KEYWORDS, "ScalarLocalL2Restriction(ScalarFiniteElement self, mfem::ElementTransformation & Trans, DenseMatrix R, ScalarFiniteElement coarse_fe)"},
-	 { "ScalarFiniteElement_GetDofToQuad", (PyCFunction)(void(*)(void))_wrap_ScalarFiniteElement_GetDofToQuad, METH_VARARGS|METH_KEYWORDS, "GetDofToQuad(ScalarFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"},
 	 { "delete_ScalarFiniteElement", _wrap_delete_ScalarFiniteElement, METH_O, "delete_ScalarFiniteElement(ScalarFiniteElement self)"},
 	 { "ScalarFiniteElement_swigregister", ScalarFiniteElement_swigregister, METH_O, NULL},
 	 { "NodalFiniteElement_GetLocalInterpolation", (PyCFunction)(void(*)(void))_wrap_NodalFiniteElement_GetLocalInterpolation, METH_VARARGS|METH_KEYWORDS, "GetLocalInterpolation(NodalFiniteElement self, mfem::ElementTransformation & Trans, DenseMatrix I)"},
@@ -12109,12 +12192,14 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "TensorBasisElement_GetDofMap", _wrap_TensorBasisElement_GetDofMap, METH_O, "GetDofMap(TensorBasisElement self) -> intArray"},
 	 { "TensorBasisElement_GetTensorProductGeometry", (PyCFunction)(void(*)(void))_wrap_TensorBasisElement_GetTensorProductGeometry, METH_VARARGS|METH_KEYWORDS, "GetTensorProductGeometry(int dim) -> mfem::Geometry::Type"},
 	 { "TensorBasisElement_Pow", (PyCFunction)(void(*)(void))_wrap_TensorBasisElement_Pow, METH_VARARGS|METH_KEYWORDS, "Pow(int base, int dim) -> int"},
+	 { "TensorBasisElement_GetTensorDofToQuad", (PyCFunction)(void(*)(void))_wrap_TensorBasisElement_GetTensorDofToQuad, METH_VARARGS|METH_KEYWORDS, "GetTensorDofToQuad(FiniteElement fe, IntegrationRule ir, mfem::DofToQuad::Mode mode, mfem::Poly_1D::Basis const & basis, bool closed, mfem::Array< mfem::DofToQuad * > & dof2quad_array) -> DofToQuad"},
 	 { "delete_TensorBasisElement", _wrap_delete_TensorBasisElement, METH_O, "delete_TensorBasisElement(TensorBasisElement self)"},
 	 { "TensorBasisElement_swigregister", TensorBasisElement_swigregister, METH_O, NULL},
 	 { "TensorBasisElement_swiginit", TensorBasisElement_swiginit, METH_VARARGS, NULL},
 	 { "NodalTensorFiniteElement_GetDofToQuad", (PyCFunction)(void(*)(void))_wrap_NodalTensorFiniteElement_GetDofToQuad, METH_VARARGS|METH_KEYWORDS, "GetDofToQuad(NodalTensorFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"},
 	 { "NodalTensorFiniteElement_SetMapType", (PyCFunction)(void(*)(void))_wrap_NodalTensorFiniteElement_SetMapType, METH_VARARGS|METH_KEYWORDS, "SetMapType(NodalTensorFiniteElement self, int const map_type_)"},
 	 { "NodalTensorFiniteElement_GetTransferMatrix", (PyCFunction)(void(*)(void))_wrap_NodalTensorFiniteElement_GetTransferMatrix, METH_VARARGS|METH_KEYWORDS, "GetTransferMatrix(NodalTensorFiniteElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix I)"},
+	 { "NodalTensorFiniteElement_GetFaceMap", (PyCFunction)(void(*)(void))_wrap_NodalTensorFiniteElement_GetFaceMap, METH_VARARGS|METH_KEYWORDS, "GetFaceMap(NodalTensorFiniteElement self, int const face_id, intArray face_map)"},
 	 { "delete_NodalTensorFiniteElement", _wrap_delete_NodalTensorFiniteElement, METH_O, "delete_NodalTensorFiniteElement(NodalTensorFiniteElement self)"},
 	 { "NodalTensorFiniteElement_swigregister", NodalTensorFiniteElement_swigregister, METH_O, NULL},
 	 { "new_VectorTensorFiniteElement", _wrap_new_VectorTensorFiniteElement, METH_VARARGS, "\n"
@@ -12123,7 +12208,6 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 		""},
 	 { "VectorTensorFiniteElement_GetDofToQuad", (PyCFunction)(void(*)(void))_wrap_VectorTensorFiniteElement_GetDofToQuad, METH_VARARGS|METH_KEYWORDS, "GetDofToQuad(VectorTensorFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"},
 	 { "VectorTensorFiniteElement_GetDofToQuadOpen", (PyCFunction)(void(*)(void))_wrap_VectorTensorFiniteElement_GetDofToQuadOpen, METH_VARARGS|METH_KEYWORDS, "GetDofToQuadOpen(VectorTensorFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"},
-	 { "VectorTensorFiniteElement_GetTensorDofToQuad", (PyCFunction)(void(*)(void))_wrap_VectorTensorFiniteElement_GetTensorDofToQuad, METH_VARARGS|METH_KEYWORDS, "GetTensorDofToQuad(VectorTensorFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode, bool const closed) -> DofToQuad"},
 	 { "delete_VectorTensorFiniteElement", _wrap_delete_VectorTensorFiniteElement, METH_O, "delete_VectorTensorFiniteElement(VectorTensorFiniteElement self)"},
 	 { "VectorTensorFiniteElement_swigregister", VectorTensorFiniteElement_swigregister, METH_O, NULL},
 	 { "VectorTensorFiniteElement_swiginit", VectorTensorFiniteElement_swiginit, METH_VARARGS, NULL},
@@ -12300,6 +12384,7 @@ static swig_type_info _swigt__p_double = {"_p_double", "double *", 0, 0, (void*)
 static swig_type_info _swigt__p_int = {"_p_int", "int *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__ArrayT_double_t = {"_p_mfem__ArrayT_double_t", "mfem::Array< double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__ArrayT_int_t = {"_p_mfem__ArrayT_int_t", "mfem::Array< int > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_mfem__ArrayT_mfem__DofToQuad_p_t = {"_p_mfem__ArrayT_mfem__DofToQuad_p_t", "mfem::Array< mfem::DofToQuad * > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__BasisType = {"_p_mfem__BasisType", "mfem::BasisType *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__Coefficient = {"_p_mfem__Coefficient", "mfem::Coefficient *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__DenseMatrix = {"_p_mfem__DenseMatrix", "mfem::DenseMatrix *", 0, 0, (void*)0, 0};
@@ -12372,6 +12457,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_mfem__AbstractSparseMatrix,
   &_swigt__p_mfem__ArrayT_double_t,
   &_swigt__p_mfem__ArrayT_int_t,
+  &_swigt__p_mfem__ArrayT_mfem__DofToQuad_p_t,
   &_swigt__p_mfem__BasisType,
   &_swigt__p_mfem__Coefficient,
   &_swigt__p_mfem__ConstrainedOperator,
@@ -12442,6 +12528,7 @@ static swig_cast_info _swigc__p_double[] = {  {&_swigt__p_double, 0, 0, 0},{0, 0
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__ArrayT_double_t[] = {  {&_swigt__p_mfem__ArrayT_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__ArrayT_int_t[] = {  {&_swigt__p_mfem__ArrayT_int_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__ArrayT_mfem__DofToQuad_p_t[] = {  {&_swigt__p_mfem__ArrayT_mfem__DofToQuad_p_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__BasisType[] = {  {&_swigt__p_mfem__BasisType, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__Coefficient[] = {  {&_swigt__p_mfem__Coefficient, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__DenseMatrix[] = {  {&_swigt__p_mfem__DenseMatrix, 0, 0, 0},{0, 0, 0, 0}};
@@ -12514,6 +12601,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_mfem__AbstractSparseMatrix,
   _swigc__p_mfem__ArrayT_double_t,
   _swigc__p_mfem__ArrayT_int_t,
+  _swigc__p_mfem__ArrayT_mfem__DofToQuad_p_t,
   _swigc__p_mfem__BasisType,
   _swigc__p_mfem__Coefficient,
   _swigc__p_mfem__ConstrainedOperator,

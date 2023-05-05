@@ -146,6 +146,11 @@ class GridTransfer(object):
         return _transfer.GridTransfer_TrueBackwardOperator(self)
     TrueBackwardOperator = _swig_new_instance_method(_transfer.GridTransfer_TrueBackwardOperator)
 
+    def SupportsBackwardsOperator(self):
+        r"""SupportsBackwardsOperator(GridTransfer self) -> bool"""
+        return _transfer.GridTransfer_SupportsBackwardsOperator(self)
+    SupportsBackwardsOperator = _swig_new_instance_method(_transfer.GridTransfer_SupportsBackwardsOperator)
+
 # Register GridTransfer in _transfer:
 _transfer.GridTransfer_swigregister(GridTransfer)
 class InterpolationGridTransfer(GridTransfer):
@@ -196,6 +201,11 @@ class L2ProjectionGridTransfer(GridTransfer):
         r"""BackwardOperator(L2ProjectionGridTransfer self) -> Operator"""
         return _transfer.L2ProjectionGridTransfer_BackwardOperator(self)
     BackwardOperator = _swig_new_instance_method(_transfer.L2ProjectionGridTransfer_BackwardOperator)
+
+    def SupportsBackwardsOperator(self):
+        r"""SupportsBackwardsOperator(L2ProjectionGridTransfer self) -> bool"""
+        return _transfer.L2ProjectionGridTransfer_SupportsBackwardsOperator(self)
+    SupportsBackwardsOperator = _swig_new_instance_method(_transfer.L2ProjectionGridTransfer_SupportsBackwardsOperator)
 
 # Register L2ProjectionGridTransfer in _transfer:
 _transfer.L2ProjectionGridTransfer_swigregister(L2ProjectionGridTransfer)

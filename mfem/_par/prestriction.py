@@ -106,15 +106,15 @@ import mfem._par.bilininteg
 import mfem._par.linearform
 import mfem._par.nonlininteg
 import mfem._par.std_vectors
-class ParNCH1FaceRestriction(mfem._par.restriction.H1FaceRestriction):
+class ParNCH1FaceRestriction(mfem._par.restriction.ConformingFaceRestriction):
     r"""Proxy of C++ mfem::ParNCH1FaceRestriction class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self, fes, ordering, type):
-        r"""__init__(ParNCH1FaceRestriction self, mfem::ParFiniteElementSpace const & fes, mfem::ElementDofOrdering ordering, mfem::FaceType type) -> ParNCH1FaceRestriction"""
-        _prestriction.ParNCH1FaceRestriction_swiginit(self, _prestriction.new_ParNCH1FaceRestriction(fes, ordering, type))
+    def __init__(self, fes, f_ordering, type):
+        r"""__init__(ParNCH1FaceRestriction self, mfem::ParFiniteElementSpace const & fes, mfem::ElementDofOrdering f_ordering, mfem::FaceType type) -> ParNCH1FaceRestriction"""
+        _prestriction.ParNCH1FaceRestriction_swiginit(self, _prestriction.new_ParNCH1FaceRestriction(fes, f_ordering, type))
 
     def Mult(self, x, y):
         r"""Mult(ParNCH1FaceRestriction self, Vector x, Vector y)"""
@@ -156,7 +156,7 @@ class ParL2FaceRestriction(mfem._par.restriction.L2FaceRestriction):
     __repr__ = _swig_repr
 
     def __init__(self, *args):
-        r"""__init__(ParL2FaceRestriction self, mfem::ParFiniteElementSpace const & fes, mfem::ElementDofOrdering ordering, mfem::FaceType type, mfem::L2FaceValues m=DoubleValued) -> ParL2FaceRestriction"""
+        r"""__init__(ParL2FaceRestriction self, mfem::ParFiniteElementSpace const & fes, mfem::ElementDofOrdering f_ordering, mfem::FaceType type, mfem::L2FaceValues m=DoubleValued) -> ParL2FaceRestriction"""
         _prestriction.ParL2FaceRestriction_swiginit(self, _prestriction.new_ParL2FaceRestriction(*args))
 
     def Mult(self, x, y):
@@ -195,7 +195,7 @@ class ParNCL2FaceRestriction(mfem._par.restriction.NCL2FaceRestriction, ParL2Fac
     __repr__ = _swig_repr
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(ParNCL2FaceRestriction self, mfem::ParFiniteElementSpace const & fes, mfem::ElementDofOrdering ordering, mfem::FaceType type, mfem::L2FaceValues m=DoubleValued) -> ParNCL2FaceRestriction"""
+        r"""__init__(ParNCL2FaceRestriction self, mfem::ParFiniteElementSpace const & fes, mfem::ElementDofOrdering f_ordering, mfem::FaceType type, mfem::L2FaceValues m=DoubleValued) -> ParNCL2FaceRestriction"""
         _prestriction.ParNCL2FaceRestriction_swiginit(self, _prestriction.new_ParNCL2FaceRestriction(*args, **kwargs))
 
     def Mult(self, x, y):

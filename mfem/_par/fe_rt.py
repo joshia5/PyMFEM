@@ -142,6 +142,11 @@ class RT_QuadrilateralElement(mfem._par.fe_base.VectorTensorFiniteElement):
         r"""ProjectCurl(RT_QuadrilateralElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix curl)"""
         return _fe_rt.RT_QuadrilateralElement_ProjectCurl(self, fe, Trans, curl)
     ProjectCurl = _swig_new_instance_method(_fe_rt.RT_QuadrilateralElement_ProjectCurl)
+
+    def GetFaceMap(self, face_id, face_map):
+        r"""GetFaceMap(RT_QuadrilateralElement self, int const face_id, intArray face_map)"""
+        return _fe_rt.RT_QuadrilateralElement_GetFaceMap(self, face_id, face_map)
+    GetFaceMap = _swig_new_instance_method(_fe_rt.RT_QuadrilateralElement_GetFaceMap)
     __swig_destroy__ = _fe_rt.delete_RT_QuadrilateralElement
 
 # Register RT_QuadrilateralElement in _fe_rt:
@@ -207,6 +212,11 @@ class RT_HexahedronElement(mfem._par.fe_base.VectorTensorFiniteElement):
         r"""ProjectCurl(RT_HexahedronElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix curl)"""
         return _fe_rt.RT_HexahedronElement_ProjectCurl(self, fe, Trans, curl)
     ProjectCurl = _swig_new_instance_method(_fe_rt.RT_HexahedronElement_ProjectCurl)
+
+    def GetFaceMap(self, face_id, face_map):
+        r"""GetFaceMap(RT_HexahedronElement self, int const face_id, intArray face_map)"""
+        return _fe_rt.RT_HexahedronElement_GetFaceMap(self, face_id, face_map)
+    GetFaceMap = _swig_new_instance_method(_fe_rt.RT_HexahedronElement_GetFaceMap)
     __swig_destroy__ = _fe_rt.delete_RT_HexahedronElement
 
 # Register RT_HexahedronElement in _fe_rt:

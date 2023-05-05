@@ -119,7 +119,7 @@ def AvgElementSize(pmesh):
     return _dist_solver.AvgElementSize(pmesh)
 AvgElementSize = _dist_solver.AvgElementSize
 class DistanceSolver(object):
-    r"""Proxy of C++ mfem::DistanceSolver class."""
+    r"""Proxy of C++ mfem::common::DistanceSolver class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -142,7 +142,7 @@ class DistanceSolver(object):
 # Register DistanceSolver in _dist_solver:
 _dist_solver.DistanceSolver_swigregister(DistanceSolver)
 class HeatDistanceSolver(DistanceSolver):
-    r"""Proxy of C++ mfem::HeatDistanceSolver class."""
+    r"""Proxy of C++ mfem::common::HeatDistanceSolver class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -165,7 +165,7 @@ class HeatDistanceSolver(DistanceSolver):
 # Register HeatDistanceSolver in _dist_solver:
 _dist_solver.HeatDistanceSolver_swigregister(HeatDistanceSolver)
 class NormalizationDistanceSolver(DistanceSolver):
-    r"""Proxy of C++ mfem::NormalizationDistanceSolver class."""
+    r"""Proxy of C++ mfem::common::NormalizationDistanceSolver class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -183,7 +183,7 @@ class NormalizationDistanceSolver(DistanceSolver):
 # Register NormalizationDistanceSolver in _dist_solver:
 _dist_solver.NormalizationDistanceSolver_swigregister(NormalizationDistanceSolver)
 class PLapDistanceSolver(DistanceSolver):
-    r"""Proxy of C++ mfem::PLapDistanceSolver class."""
+    r"""Proxy of C++ mfem::common::PLapDistanceSolver class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -206,7 +206,7 @@ class PLapDistanceSolver(DistanceSolver):
 # Register PLapDistanceSolver in _dist_solver:
 _dist_solver.PLapDistanceSolver_swigregister(PLapDistanceSolver)
 class NormalizedGradCoefficient(mfem._par.coefficient.VectorCoefficient):
-    r"""Proxy of C++ mfem::NormalizedGradCoefficient class."""
+    r"""Proxy of C++ mfem::common::NormalizedGradCoefficient class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -226,7 +226,7 @@ class NormalizedGradCoefficient(mfem._par.coefficient.VectorCoefficient):
 # Register NormalizedGradCoefficient in _dist_solver:
 _dist_solver.NormalizedGradCoefficient_swigregister(NormalizedGradCoefficient)
 class PProductCoefficient(mfem._par.coefficient.Coefficient):
-    r"""Proxy of C++ mfem::PProductCoefficient class."""
+    r"""Proxy of C++ mfem::common::PProductCoefficient class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -244,7 +244,7 @@ class PProductCoefficient(mfem._par.coefficient.Coefficient):
 # Register PProductCoefficient in _dist_solver:
 _dist_solver.PProductCoefficient_swigregister(PProductCoefficient)
 class ScreenedPoisson(mfem._par.nonlininteg.NonlinearFormIntegrator):
-    r"""Proxy of C++ mfem::ScreenedPoisson class."""
+    r"""Proxy of C++ mfem::common::ScreenedPoisson class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -277,7 +277,7 @@ class ScreenedPoisson(mfem._par.nonlininteg.NonlinearFormIntegrator):
 # Register ScreenedPoisson in _dist_solver:
 _dist_solver.ScreenedPoisson_swigregister(ScreenedPoisson)
 class PUMPLaplacian(mfem._par.nonlininteg.NonlinearFormIntegrator):
-    r"""Proxy of C++ mfem::PUMPLaplacian class."""
+    r"""Proxy of C++ mfem::common::PUMPLaplacian class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -315,7 +315,7 @@ class PUMPLaplacian(mfem._par.nonlininteg.NonlinearFormIntegrator):
 # Register PUMPLaplacian in _dist_solver:
 _dist_solver.PUMPLaplacian_swigregister(PUMPLaplacian)
 class PDEFilter(object):
-    r"""Proxy of C++ mfem::PDEFilter class."""
+    r"""Proxy of C++ mfem::common::PDEFilter class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr

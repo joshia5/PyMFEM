@@ -3434,36 +3434,36 @@ namespace Swig {
 #define SWIGTYPE_p_mfem__CGSolver swig_types[29]
 #define SWIGTYPE_p_mfem__Coefficient swig_types[30]
 #define SWIGTYPE_p_mfem__CoefficientVector swig_types[31]
-#define SWIGTYPE_p_mfem__ConformingProlongationOperator swig_types[32]
-#define SWIGTYPE_p_mfem__ConservativeConvectionIntegrator swig_types[33]
-#define SWIGTYPE_p_mfem__ConstantCoefficient swig_types[34]
-#define SWIGTYPE_p_mfem__ConstrainedOperator swig_types[35]
-#define SWIGTYPE_p_mfem__ConvectionIntegrator swig_types[36]
-#define SWIGTYPE_p_mfem__ConvectiveVectorConvectionNLFIntegrator swig_types[37]
-#define SWIGTYPE_p_mfem__CrossCrossCoefficient swig_types[38]
-#define SWIGTYPE_p_mfem__CrouzeixRaviartFiniteElement swig_types[39]
-#define SWIGTYPE_p_mfem__CrouzeixRaviartQuadFiniteElement swig_types[40]
-#define SWIGTYPE_p_mfem__Cubic1DFiniteElement swig_types[41]
-#define SWIGTYPE_p_mfem__Cubic2DFiniteElement swig_types[42]
-#define SWIGTYPE_p_mfem__Cubic3DFiniteElement swig_types[43]
-#define SWIGTYPE_p_mfem__CurlCurlIntegrator swig_types[44]
-#define SWIGTYPE_p_mfem__CurlGridFunctionCoefficient swig_types[45]
-#define SWIGTYPE_p_mfem__CurlInterpolator swig_types[46]
-#define SWIGTYPE_p_mfem__DGDiffusionBR2Integrator swig_types[47]
-#define SWIGTYPE_p_mfem__DGDiffusionIntegrator swig_types[48]
-#define SWIGTYPE_p_mfem__DGElasticityIntegrator swig_types[49]
-#define SWIGTYPE_p_mfem__DGTraceIntegrator swig_types[50]
-#define SWIGTYPE_p_mfem__DeltaCoefficient swig_types[51]
-#define SWIGTYPE_p_mfem__DenseMatrix swig_types[52]
-#define SWIGTYPE_p_mfem__DenseMatrixInverse swig_types[53]
-#define SWIGTYPE_p_mfem__DenseSymmetricMatrix swig_types[54]
-#define SWIGTYPE_p_mfem__DerivativeIntegrator swig_types[55]
-#define SWIGTYPE_p_mfem__DeterminantCoefficient swig_types[56]
-#define SWIGTYPE_p_mfem__DeviceConformingProlongationOperator swig_types[57]
-#define SWIGTYPE_p_mfem__DiffusionIntegrator swig_types[58]
-#define SWIGTYPE_p_mfem__DirectSubBlockSolver swig_types[59]
-#define SWIGTYPE_p_mfem__DiscreteInterpolator swig_types[60]
-#define SWIGTYPE_p_mfem__DistanceSolver swig_types[61]
+#define SWIGTYPE_p_mfem__ConformingFaceRestriction swig_types[32]
+#define SWIGTYPE_p_mfem__ConformingProlongationOperator swig_types[33]
+#define SWIGTYPE_p_mfem__ConservativeConvectionIntegrator swig_types[34]
+#define SWIGTYPE_p_mfem__ConstantCoefficient swig_types[35]
+#define SWIGTYPE_p_mfem__ConstrainedOperator swig_types[36]
+#define SWIGTYPE_p_mfem__ConvectionIntegrator swig_types[37]
+#define SWIGTYPE_p_mfem__ConvectiveVectorConvectionNLFIntegrator swig_types[38]
+#define SWIGTYPE_p_mfem__CrossCrossCoefficient swig_types[39]
+#define SWIGTYPE_p_mfem__CrouzeixRaviartFiniteElement swig_types[40]
+#define SWIGTYPE_p_mfem__CrouzeixRaviartQuadFiniteElement swig_types[41]
+#define SWIGTYPE_p_mfem__Cubic1DFiniteElement swig_types[42]
+#define SWIGTYPE_p_mfem__Cubic2DFiniteElement swig_types[43]
+#define SWIGTYPE_p_mfem__Cubic3DFiniteElement swig_types[44]
+#define SWIGTYPE_p_mfem__CurlCurlIntegrator swig_types[45]
+#define SWIGTYPE_p_mfem__CurlGridFunctionCoefficient swig_types[46]
+#define SWIGTYPE_p_mfem__CurlInterpolator swig_types[47]
+#define SWIGTYPE_p_mfem__DGDiffusionBR2Integrator swig_types[48]
+#define SWIGTYPE_p_mfem__DGDiffusionIntegrator swig_types[49]
+#define SWIGTYPE_p_mfem__DGElasticityIntegrator swig_types[50]
+#define SWIGTYPE_p_mfem__DGTraceIntegrator swig_types[51]
+#define SWIGTYPE_p_mfem__DeltaCoefficient swig_types[52]
+#define SWIGTYPE_p_mfem__DenseMatrix swig_types[53]
+#define SWIGTYPE_p_mfem__DenseMatrixInverse swig_types[54]
+#define SWIGTYPE_p_mfem__DenseSymmetricMatrix swig_types[55]
+#define SWIGTYPE_p_mfem__DerivativeIntegrator swig_types[56]
+#define SWIGTYPE_p_mfem__DeterminantCoefficient swig_types[57]
+#define SWIGTYPE_p_mfem__DeviceConformingProlongationOperator swig_types[58]
+#define SWIGTYPE_p_mfem__DiffusionIntegrator swig_types[59]
+#define SWIGTYPE_p_mfem__DirectSubBlockSolver swig_types[60]
+#define SWIGTYPE_p_mfem__DiscreteInterpolator swig_types[61]
 #define SWIGTYPE_p_mfem__DivDivIntegrator swig_types[62]
 #define SWIGTYPE_p_mfem__DivergenceGridFunctionCoefficient swig_types[63]
 #define SWIGTYPE_p_mfem__DivergenceInterpolator swig_types[64]
@@ -3489,375 +3489,378 @@ namespace Swig {
 #define SWIGTYPE_p_mfem__GridFunction swig_types[84]
 #define SWIGTYPE_p_mfem__GridFunctionCoefficient swig_types[85]
 #define SWIGTYPE_p_mfem__GroupConvectionIntegrator swig_types[86]
-#define SWIGTYPE_p_mfem__H1FaceRestriction swig_types[87]
-#define SWIGTYPE_p_mfem__H1Pos_HexahedronElement swig_types[88]
-#define SWIGTYPE_p_mfem__H1Pos_QuadrilateralElement swig_types[89]
-#define SWIGTYPE_p_mfem__H1Pos_SegmentElement swig_types[90]
-#define SWIGTYPE_p_mfem__H1Pos_TetrahedronElement swig_types[91]
-#define SWIGTYPE_p_mfem__H1Pos_TriangleElement swig_types[92]
-#define SWIGTYPE_p_mfem__H1Pos_WedgeElement swig_types[93]
-#define SWIGTYPE_p_mfem__H1Ser_QuadrilateralElement swig_types[94]
-#define SWIGTYPE_p_mfem__H1_HexahedronElement swig_types[95]
-#define SWIGTYPE_p_mfem__H1_QuadrilateralElement swig_types[96]
-#define SWIGTYPE_p_mfem__H1_SegmentElement swig_types[97]
-#define SWIGTYPE_p_mfem__H1_TetrahedronElement swig_types[98]
-#define SWIGTYPE_p_mfem__H1_TriangleElement swig_types[99]
-#define SWIGTYPE_p_mfem__H1_WedgeElement swig_types[100]
-#define SWIGTYPE_p_mfem__HeatDistanceSolver swig_types[101]
-#define SWIGTYPE_p_mfem__HyperelasticNLFIntegrator swig_types[102]
-#define SWIGTYPE_p_mfem__HypreADS swig_types[103]
-#define SWIGTYPE_p_mfem__HypreAMS swig_types[104]
-#define SWIGTYPE_p_mfem__HypreBoomerAMG swig_types[105]
-#define SWIGTYPE_p_mfem__HypreDiagScale swig_types[106]
-#define SWIGTYPE_p_mfem__HypreEuclid swig_types[107]
-#define SWIGTYPE_p_mfem__HypreFGMRES swig_types[108]
-#define SWIGTYPE_p_mfem__HypreGMRES swig_types[109]
-#define SWIGTYPE_p_mfem__HypreILU swig_types[110]
-#define SWIGTYPE_p_mfem__HypreIdentity swig_types[111]
-#define SWIGTYPE_p_mfem__HyprePCG swig_types[112]
-#define SWIGTYPE_p_mfem__HypreParMatrix swig_types[113]
-#define SWIGTYPE_p_mfem__HypreParVector swig_types[114]
-#define SWIGTYPE_p_mfem__HypreParaSails swig_types[115]
-#define SWIGTYPE_p_mfem__HypreSmoother swig_types[116]
-#define SWIGTYPE_p_mfem__HypreSolver swig_types[117]
-#define SWIGTYPE_p_mfem__HypreTriSolve swig_types[118]
-#define SWIGTYPE_p_mfem__IdentityInterpolator swig_types[119]
-#define SWIGTYPE_p_mfem__IdentityMatrixCoefficient swig_types[120]
-#define SWIGTYPE_p_mfem__IdentityOperator swig_types[121]
-#define SWIGTYPE_p_mfem__InnerProductCoefficient swig_types[122]
-#define SWIGTYPE_p_mfem__IntegrationPoint swig_types[123]
-#define SWIGTYPE_p_mfem__IntegrationRule swig_types[124]
-#define SWIGTYPE_p_mfem__InverseIntegrator swig_types[125]
-#define SWIGTYPE_p_mfem__InverseMatrixCoefficient swig_types[126]
-#define SWIGTYPE_p_mfem__IsoparametricTransformation swig_types[127]
-#define SWIGTYPE_p_mfem__IterativeSolver swig_types[128]
-#define SWIGTYPE_p_mfem__IterativeSolver__PrintLevel swig_types[129]
-#define SWIGTYPE_p_mfem__L2ElementRestriction swig_types[130]
-#define SWIGTYPE_p_mfem__L2FaceRestriction swig_types[131]
-#define SWIGTYPE_p_mfem__L2Pos_HexahedronElement swig_types[132]
-#define SWIGTYPE_p_mfem__L2Pos_QuadrilateralElement swig_types[133]
-#define SWIGTYPE_p_mfem__L2Pos_SegmentElement swig_types[134]
-#define SWIGTYPE_p_mfem__L2Pos_TetrahedronElement swig_types[135]
-#define SWIGTYPE_p_mfem__L2Pos_TriangleElement swig_types[136]
-#define SWIGTYPE_p_mfem__L2Pos_WedgeElement swig_types[137]
-#define SWIGTYPE_p_mfem__L2_FECollection swig_types[138]
-#define SWIGTYPE_p_mfem__L2_HexahedronElement swig_types[139]
-#define SWIGTYPE_p_mfem__L2_QuadrilateralElement swig_types[140]
-#define SWIGTYPE_p_mfem__L2_SegmentElement swig_types[141]
-#define SWIGTYPE_p_mfem__L2_TetrahedronElement swig_types[142]
-#define SWIGTYPE_p_mfem__L2_TriangleElement swig_types[143]
-#define SWIGTYPE_p_mfem__L2_WedgeElement swig_types[144]
-#define SWIGTYPE_p_mfem__LBFGSSolver swig_types[145]
-#define SWIGTYPE_p_mfem__Lagrange1DFiniteElement swig_types[146]
-#define SWIGTYPE_p_mfem__LagrangeHexFiniteElement swig_types[147]
-#define SWIGTYPE_p_mfem__Linear1DFiniteElement swig_types[148]
-#define SWIGTYPE_p_mfem__Linear2DFiniteElement swig_types[149]
-#define SWIGTYPE_p_mfem__Linear3DFiniteElement swig_types[150]
-#define SWIGTYPE_p_mfem__LinearForm swig_types[151]
-#define SWIGTYPE_p_mfem__LinearPyramidFiniteElement swig_types[152]
-#define SWIGTYPE_p_mfem__LinearWedgeFiniteElement swig_types[153]
-#define SWIGTYPE_p_mfem__LumpedIntegrator swig_types[154]
-#define SWIGTYPE_p_mfem__MINRESSolver swig_types[155]
-#define SWIGTYPE_p_mfem__MassIntegrator swig_types[156]
-#define SWIGTYPE_p_mfem__Matrix swig_types[157]
-#define SWIGTYPE_p_mfem__MatrixArrayCoefficient swig_types[158]
-#define SWIGTYPE_p_mfem__MatrixCoefficient swig_types[159]
-#define SWIGTYPE_p_mfem__MatrixConstantCoefficient swig_types[160]
-#define SWIGTYPE_p_mfem__MatrixFunctionCoefficient swig_types[161]
-#define SWIGTYPE_p_mfem__MatrixInverse swig_types[162]
-#define SWIGTYPE_p_mfem__MatrixProductCoefficient swig_types[163]
-#define SWIGTYPE_p_mfem__MatrixPyCoefficientBase swig_types[164]
-#define SWIGTYPE_p_mfem__MatrixRestrictedCoefficient swig_types[165]
-#define SWIGTYPE_p_mfem__MatrixSumCoefficient swig_types[166]
-#define SWIGTYPE_p_mfem__MatrixVectorProductCoefficient swig_types[167]
-#define SWIGTYPE_p_mfem__MixedCrossCurlCurlIntegrator swig_types[168]
-#define SWIGTYPE_p_mfem__MixedCrossCurlGradIntegrator swig_types[169]
-#define SWIGTYPE_p_mfem__MixedCrossCurlIntegrator swig_types[170]
-#define SWIGTYPE_p_mfem__MixedCrossGradCurlIntegrator swig_types[171]
-#define SWIGTYPE_p_mfem__MixedCrossGradGradIntegrator swig_types[172]
-#define SWIGTYPE_p_mfem__MixedCrossGradIntegrator swig_types[173]
-#define SWIGTYPE_p_mfem__MixedCrossProductIntegrator swig_types[174]
-#define SWIGTYPE_p_mfem__MixedCurlCurlIntegrator swig_types[175]
-#define SWIGTYPE_p_mfem__MixedCurlIntegrator swig_types[176]
-#define SWIGTYPE_p_mfem__MixedDirectionalDerivativeIntegrator swig_types[177]
-#define SWIGTYPE_p_mfem__MixedDivGradIntegrator swig_types[178]
-#define SWIGTYPE_p_mfem__MixedDotProductIntegrator swig_types[179]
-#define SWIGTYPE_p_mfem__MixedGradDivIntegrator swig_types[180]
-#define SWIGTYPE_p_mfem__MixedGradGradIntegrator swig_types[181]
-#define SWIGTYPE_p_mfem__MixedScalarCrossCurlIntegrator swig_types[182]
-#define SWIGTYPE_p_mfem__MixedScalarCrossGradIntegrator swig_types[183]
-#define SWIGTYPE_p_mfem__MixedScalarCrossProductIntegrator swig_types[184]
-#define SWIGTYPE_p_mfem__MixedScalarCurlIntegrator swig_types[185]
-#define SWIGTYPE_p_mfem__MixedScalarDerivativeIntegrator swig_types[186]
-#define SWIGTYPE_p_mfem__MixedScalarDivergenceIntegrator swig_types[187]
-#define SWIGTYPE_p_mfem__MixedScalarIntegrator swig_types[188]
-#define SWIGTYPE_p_mfem__MixedScalarMassIntegrator swig_types[189]
-#define SWIGTYPE_p_mfem__MixedScalarVectorIntegrator swig_types[190]
-#define SWIGTYPE_p_mfem__MixedScalarWeakCrossProductIntegrator swig_types[191]
-#define SWIGTYPE_p_mfem__MixedScalarWeakCurlCrossIntegrator swig_types[192]
-#define SWIGTYPE_p_mfem__MixedScalarWeakCurlIntegrator swig_types[193]
-#define SWIGTYPE_p_mfem__MixedScalarWeakDerivativeIntegrator swig_types[194]
-#define SWIGTYPE_p_mfem__MixedScalarWeakDivergenceIntegrator swig_types[195]
-#define SWIGTYPE_p_mfem__MixedScalarWeakGradientIntegrator swig_types[196]
-#define SWIGTYPE_p_mfem__MixedVectorCurlIntegrator swig_types[197]
-#define SWIGTYPE_p_mfem__MixedVectorDivergenceIntegrator swig_types[198]
-#define SWIGTYPE_p_mfem__MixedVectorGradientIntegrator swig_types[199]
-#define SWIGTYPE_p_mfem__MixedVectorIntegrator swig_types[200]
-#define SWIGTYPE_p_mfem__MixedVectorMassIntegrator swig_types[201]
-#define SWIGTYPE_p_mfem__MixedVectorProductIntegrator swig_types[202]
-#define SWIGTYPE_p_mfem__MixedVectorWeakCurlIntegrator swig_types[203]
-#define SWIGTYPE_p_mfem__MixedVectorWeakDivergenceIntegrator swig_types[204]
-#define SWIGTYPE_p_mfem__MixedWeakCurlCrossIntegrator swig_types[205]
-#define SWIGTYPE_p_mfem__MixedWeakDivCrossIntegrator swig_types[206]
-#define SWIGTYPE_p_mfem__MixedWeakGradDotIntegrator swig_types[207]
-#define SWIGTYPE_p_mfem__NCL2FaceRestriction swig_types[208]
-#define SWIGTYPE_p_mfem__ND_HexahedronElement swig_types[209]
-#define SWIGTYPE_p_mfem__ND_QuadrilateralElement swig_types[210]
-#define SWIGTYPE_p_mfem__ND_R1D_PointElement swig_types[211]
-#define SWIGTYPE_p_mfem__ND_R1D_SegmentElement swig_types[212]
-#define SWIGTYPE_p_mfem__ND_R2D_FiniteElement swig_types[213]
-#define SWIGTYPE_p_mfem__ND_R2D_QuadrilateralElement swig_types[214]
-#define SWIGTYPE_p_mfem__ND_R2D_SegmentElement swig_types[215]
-#define SWIGTYPE_p_mfem__ND_R2D_TriangleElement swig_types[216]
-#define SWIGTYPE_p_mfem__ND_SegmentElement swig_types[217]
-#define SWIGTYPE_p_mfem__ND_TetrahedronElement swig_types[218]
-#define SWIGTYPE_p_mfem__ND_TriangleElement swig_types[219]
-#define SWIGTYPE_p_mfem__ND_WedgeElement swig_types[220]
-#define SWIGTYPE_p_mfem__NURBS1DFiniteElement swig_types[221]
-#define SWIGTYPE_p_mfem__NURBS2DFiniteElement swig_types[222]
-#define SWIGTYPE_p_mfem__NURBS3DFiniteElement swig_types[223]
-#define SWIGTYPE_p_mfem__NURBSFiniteElement swig_types[224]
-#define SWIGTYPE_p_mfem__Nedelec1HexFiniteElement swig_types[225]
-#define SWIGTYPE_p_mfem__Nedelec1PyrFiniteElement swig_types[226]
-#define SWIGTYPE_p_mfem__Nedelec1TetFiniteElement swig_types[227]
-#define SWIGTYPE_p_mfem__Nedelec1WdgFiniteElement swig_types[228]
-#define SWIGTYPE_p_mfem__NewtonSolver swig_types[229]
-#define SWIGTYPE_p_mfem__NodalFiniteElement swig_types[230]
-#define SWIGTYPE_p_mfem__NodalTensorFiniteElement swig_types[231]
-#define SWIGTYPE_p_mfem__NodeExtrudeCoefficient swig_types[232]
-#define SWIGTYPE_p_mfem__NonconservativeDGTraceIntegrator swig_types[233]
-#define SWIGTYPE_p_mfem__NonlinearFormIntegrator swig_types[234]
-#define SWIGTYPE_p_mfem__NormalInterpolator swig_types[235]
-#define SWIGTYPE_p_mfem__NormalTraceJumpIntegrator swig_types[236]
-#define SWIGTYPE_p_mfem__NormalizationDistanceSolver swig_types[237]
-#define SWIGTYPE_p_mfem__NormalizedGradCoefficient swig_types[238]
-#define SWIGTYPE_p_mfem__NormalizedVectorCoefficient swig_types[239]
-#define SWIGTYPE_p_mfem__Operator swig_types[240]
-#define SWIGTYPE_p_mfem__OperatorChebyshevSmoother swig_types[241]
-#define SWIGTYPE_p_mfem__OperatorHandle swig_types[242]
-#define SWIGTYPE_p_mfem__OperatorJacobiSmoother swig_types[243]
-#define SWIGTYPE_p_mfem__OptimizationSolver swig_types[244]
-#define SWIGTYPE_p_mfem__OrthoSolver swig_types[245]
-#define SWIGTYPE_p_mfem__OuterProductCoefficient swig_types[246]
-#define SWIGTYPE_p_mfem__P0HexFiniteElement swig_types[247]
-#define SWIGTYPE_p_mfem__P0PyrFiniteElement swig_types[248]
-#define SWIGTYPE_p_mfem__P0QuadFiniteElement swig_types[249]
-#define SWIGTYPE_p_mfem__P0SegmentFiniteElement swig_types[250]
-#define SWIGTYPE_p_mfem__P0TetFiniteElement swig_types[251]
-#define SWIGTYPE_p_mfem__P0TriangleFiniteElement swig_types[252]
-#define SWIGTYPE_p_mfem__P0WdgFiniteElement swig_types[253]
-#define SWIGTYPE_p_mfem__P1OnQuadFiniteElement swig_types[254]
-#define SWIGTYPE_p_mfem__P1SegmentFiniteElement swig_types[255]
-#define SWIGTYPE_p_mfem__P1TetNonConfFiniteElement swig_types[256]
-#define SWIGTYPE_p_mfem__P2SegmentFiniteElement swig_types[257]
-#define SWIGTYPE_p_mfem__PDEFilter swig_types[258]
-#define SWIGTYPE_p_mfem__PLapDistanceSolver swig_types[259]
-#define SWIGTYPE_p_mfem__PProductCoefficient swig_types[260]
-#define SWIGTYPE_p_mfem__PUMPLaplacian swig_types[261]
-#define SWIGTYPE_p_mfem__PWCoefficient swig_types[262]
-#define SWIGTYPE_p_mfem__PWConstCoefficient swig_types[263]
-#define SWIGTYPE_p_mfem__PWMatrixCoefficient swig_types[264]
-#define SWIGTYPE_p_mfem__PWVectorCoefficient swig_types[265]
-#define SWIGTYPE_p_mfem__ParFiniteElementSpace swig_types[266]
-#define SWIGTYPE_p_mfem__ParGridFunction swig_types[267]
-#define SWIGTYPE_p_mfem__ParMesh swig_types[268]
-#define SWIGTYPE_p_mfem__PointFiniteElement swig_types[269]
-#define SWIGTYPE_p_mfem__PositiveFiniteElement swig_types[270]
-#define SWIGTYPE_p_mfem__PositiveTensorFiniteElement swig_types[271]
-#define SWIGTYPE_p_mfem__PowerCoefficient swig_types[272]
-#define SWIGTYPE_p_mfem__ProductCoefficient swig_types[273]
-#define SWIGTYPE_p_mfem__ProductOperator swig_types[274]
-#define SWIGTYPE_p_mfem__ProductSolver swig_types[275]
-#define SWIGTYPE_p_mfem__PyCoefficientBase swig_types[276]
-#define SWIGTYPE_p_mfem__PyIterativeSolver swig_types[277]
-#define SWIGTYPE_p_mfem__PyOperatorBase swig_types[278]
-#define SWIGTYPE_p_mfem__PyTimeDependentOperatorBase swig_types[279]
-#define SWIGTYPE_p_mfem__Quad1DFiniteElement swig_types[280]
-#define SWIGTYPE_p_mfem__Quad2DFiniteElement swig_types[281]
-#define SWIGTYPE_p_mfem__QuadPos1DFiniteElement swig_types[282]
-#define SWIGTYPE_p_mfem__Quadratic3DFiniteElement swig_types[283]
-#define SWIGTYPE_p_mfem__QuadratureFunctionCoefficient swig_types[284]
-#define SWIGTYPE_p_mfem__RAPOperator swig_types[285]
-#define SWIGTYPE_p_mfem__RT0HexFiniteElement swig_types[286]
-#define SWIGTYPE_p_mfem__RT0PyrFiniteElement swig_types[287]
-#define SWIGTYPE_p_mfem__RT0QuadFiniteElement swig_types[288]
-#define SWIGTYPE_p_mfem__RT0TetFiniteElement swig_types[289]
-#define SWIGTYPE_p_mfem__RT0TriangleFiniteElement swig_types[290]
-#define SWIGTYPE_p_mfem__RT0WdgFiniteElement swig_types[291]
-#define SWIGTYPE_p_mfem__RT1HexFiniteElement swig_types[292]
-#define SWIGTYPE_p_mfem__RT1QuadFiniteElement swig_types[293]
-#define SWIGTYPE_p_mfem__RT1TriangleFiniteElement swig_types[294]
-#define SWIGTYPE_p_mfem__RT2QuadFiniteElement swig_types[295]
-#define SWIGTYPE_p_mfem__RT2TriangleFiniteElement swig_types[296]
-#define SWIGTYPE_p_mfem__RT_HexahedronElement swig_types[297]
-#define SWIGTYPE_p_mfem__RT_QuadrilateralElement swig_types[298]
-#define SWIGTYPE_p_mfem__RT_R1D_SegmentElement swig_types[299]
-#define SWIGTYPE_p_mfem__RT_R2D_FiniteElement swig_types[300]
-#define SWIGTYPE_p_mfem__RT_R2D_QuadrilateralElement swig_types[301]
-#define SWIGTYPE_p_mfem__RT_R2D_SegmentElement swig_types[302]
-#define SWIGTYPE_p_mfem__RT_R2D_TriangleElement swig_types[303]
-#define SWIGTYPE_p_mfem__RT_TetrahedronElement swig_types[304]
-#define SWIGTYPE_p_mfem__RT_TriangleElement swig_types[305]
-#define SWIGTYPE_p_mfem__RT_WedgeElement swig_types[306]
-#define SWIGTYPE_p_mfem__RatioCoefficient swig_types[307]
-#define SWIGTYPE_p_mfem__RectangularConstrainedOperator swig_types[308]
-#define SWIGTYPE_p_mfem__RefinedBiLinear2DFiniteElement swig_types[309]
-#define SWIGTYPE_p_mfem__RefinedLinear1DFiniteElement swig_types[310]
-#define SWIGTYPE_p_mfem__RefinedLinear2DFiniteElement swig_types[311]
-#define SWIGTYPE_p_mfem__RefinedLinear3DFiniteElement swig_types[312]
-#define SWIGTYPE_p_mfem__RefinedTriLinear3DFiniteElement swig_types[313]
-#define SWIGTYPE_p_mfem__Refinement swig_types[314]
-#define SWIGTYPE_p_mfem__RestrictedCoefficient swig_types[315]
-#define SWIGTYPE_p_mfem__RotTriLinearHexFiniteElement swig_types[316]
-#define SWIGTYPE_p_mfem__SLBQPOptimizer swig_types[317]
-#define SWIGTYPE_p_mfem__SLISolver swig_types[318]
-#define SWIGTYPE_p_mfem__ScalarCrossProductInterpolator swig_types[319]
-#define SWIGTYPE_p_mfem__ScalarFiniteElement swig_types[320]
-#define SWIGTYPE_p_mfem__ScalarMatrixProductCoefficient swig_types[321]
-#define SWIGTYPE_p_mfem__ScalarProductInterpolator swig_types[322]
-#define SWIGTYPE_p_mfem__ScalarVectorProductCoefficient swig_types[323]
-#define SWIGTYPE_p_mfem__ScalarVectorProductInterpolator swig_types[324]
-#define SWIGTYPE_p_mfem__ScaledOperator swig_types[325]
-#define SWIGTYPE_p_mfem__ScreenedPoisson swig_types[326]
-#define SWIGTYPE_p_mfem__SecondOrderTimeDependentOperator swig_types[327]
-#define SWIGTYPE_p_mfem__SkewSymmetricVectorConvectionNLFIntegrator swig_types[328]
-#define SWIGTYPE_p_mfem__Solver swig_types[329]
-#define SWIGTYPE_p_mfem__SparseMatrix swig_types[330]
-#define SWIGTYPE_p_mfem__SumCoefficient swig_types[331]
-#define SWIGTYPE_p_mfem__SumIntegrator swig_types[332]
-#define SWIGTYPE_p_mfem__SymmetricMatrixCoefficient swig_types[333]
-#define SWIGTYPE_p_mfem__SymmetricMatrixConstantCoefficient swig_types[334]
-#define SWIGTYPE_p_mfem__SymmetricMatrixFunctionCoefficient swig_types[335]
-#define SWIGTYPE_p_mfem__TimeDependentAdjointOperator swig_types[336]
-#define SWIGTYPE_p_mfem__TimeDependentOperator swig_types[337]
-#define SWIGTYPE_p_mfem__TraceJumpIntegrator swig_types[338]
-#define SWIGTYPE_p_mfem__TransformedCoefficient swig_types[339]
-#define SWIGTYPE_p_mfem__TransposeIntegrator swig_types[340]
-#define SWIGTYPE_p_mfem__TransposeMatrixCoefficient swig_types[341]
-#define SWIGTYPE_p_mfem__TransposeOperator swig_types[342]
-#define SWIGTYPE_p_mfem__TriLinear3DFiniteElement swig_types[343]
-#define SWIGTYPE_p_mfem__TripleProductOperator swig_types[344]
-#define SWIGTYPE_p_mfem__Vector swig_types[345]
-#define SWIGTYPE_p_mfem__VectorArrayCoefficient swig_types[346]
-#define SWIGTYPE_p_mfem__VectorCoefficient swig_types[347]
-#define SWIGTYPE_p_mfem__VectorConstantCoefficient swig_types[348]
-#define SWIGTYPE_p_mfem__VectorConvectionNLFIntegrator swig_types[349]
-#define SWIGTYPE_p_mfem__VectorCrossProductCoefficient swig_types[350]
-#define SWIGTYPE_p_mfem__VectorCrossProductInterpolator swig_types[351]
-#define SWIGTYPE_p_mfem__VectorCurlCurlIntegrator swig_types[352]
-#define SWIGTYPE_p_mfem__VectorDeltaCoefficient swig_types[353]
-#define SWIGTYPE_p_mfem__VectorDiffusionIntegrator swig_types[354]
-#define SWIGTYPE_p_mfem__VectorDivergenceIntegrator swig_types[355]
-#define SWIGTYPE_p_mfem__VectorFECurlIntegrator swig_types[356]
-#define SWIGTYPE_p_mfem__VectorFEDivergenceIntegrator swig_types[357]
-#define SWIGTYPE_p_mfem__VectorFEMassIntegrator swig_types[358]
-#define SWIGTYPE_p_mfem__VectorFEWeakDivergenceIntegrator swig_types[359]
-#define SWIGTYPE_p_mfem__VectorFiniteElement swig_types[360]
-#define SWIGTYPE_p_mfem__VectorFunctionCoefficient swig_types[361]
-#define SWIGTYPE_p_mfem__VectorGridFunctionCoefficient swig_types[362]
-#define SWIGTYPE_p_mfem__VectorInnerProductInterpolator swig_types[363]
-#define SWIGTYPE_p_mfem__VectorMassIntegrator swig_types[364]
-#define SWIGTYPE_p_mfem__VectorPyCoefficientBase swig_types[365]
-#define SWIGTYPE_p_mfem__VectorQuadratureFunctionCoefficient swig_types[366]
-#define SWIGTYPE_p_mfem__VectorRestrictedCoefficient swig_types[367]
-#define SWIGTYPE_p_mfem__VectorRotProductCoefficient swig_types[368]
-#define SWIGTYPE_p_mfem__VectorScalarProductInterpolator swig_types[369]
-#define SWIGTYPE_p_mfem__VectorSumCoefficient swig_types[370]
-#define SWIGTYPE_p_mfem__VectorTensorFiniteElement swig_types[371]
-#define SWIGTYPE_p_p_mfem__AbstractSparseMatrix swig_types[372]
-#define SWIGTYPE_p_p_mfem__AuxSpaceSmoother swig_types[373]
-#define SWIGTYPE_p_p_mfem__BiCGSTABSolver swig_types[374]
-#define SWIGTYPE_p_p_mfem__BlockILU swig_types[375]
-#define SWIGTYPE_p_p_mfem__CGSolver swig_types[376]
-#define SWIGTYPE_p_p_mfem__CoefficientVector swig_types[377]
-#define SWIGTYPE_p_p_mfem__ConformingProlongationOperator swig_types[378]
-#define SWIGTYPE_p_p_mfem__ConstrainedOperator swig_types[379]
-#define SWIGTYPE_p_p_mfem__DenseMatrix swig_types[380]
-#define SWIGTYPE_p_p_mfem__DenseMatrixInverse swig_types[381]
-#define SWIGTYPE_p_p_mfem__DenseSymmetricMatrix swig_types[382]
-#define SWIGTYPE_p_p_mfem__DeviceConformingProlongationOperator swig_types[383]
-#define SWIGTYPE_p_p_mfem__DirectSubBlockSolver swig_types[384]
-#define SWIGTYPE_p_p_mfem__ElementRestriction swig_types[385]
-#define SWIGTYPE_p_p_mfem__ElementRestrictionOperator swig_types[386]
-#define SWIGTYPE_p_p_mfem__FGMRESSolver swig_types[387]
-#define SWIGTYPE_p_p_mfem__FaceRestriction swig_types[388]
-#define SWIGTYPE_p_p_mfem__FiniteElementSpace swig_types[389]
-#define SWIGTYPE_p_p_mfem__GMRESSolver swig_types[390]
-#define SWIGTYPE_p_p_mfem__GridFunction swig_types[391]
-#define SWIGTYPE_p_p_mfem__H1FaceRestriction swig_types[392]
-#define SWIGTYPE_p_p_mfem__HypreADS swig_types[393]
-#define SWIGTYPE_p_p_mfem__HypreAMS swig_types[394]
-#define SWIGTYPE_p_p_mfem__HypreBoomerAMG swig_types[395]
-#define SWIGTYPE_p_p_mfem__HypreDiagScale swig_types[396]
-#define SWIGTYPE_p_p_mfem__HypreEuclid swig_types[397]
-#define SWIGTYPE_p_p_mfem__HypreFGMRES swig_types[398]
-#define SWIGTYPE_p_p_mfem__HypreGMRES swig_types[399]
-#define SWIGTYPE_p_p_mfem__HypreILU swig_types[400]
-#define SWIGTYPE_p_p_mfem__HypreIdentity swig_types[401]
-#define SWIGTYPE_p_p_mfem__HyprePCG swig_types[402]
-#define SWIGTYPE_p_p_mfem__HypreParMatrix swig_types[403]
-#define SWIGTYPE_p_p_mfem__HypreParVector swig_types[404]
-#define SWIGTYPE_p_p_mfem__HypreParaSails swig_types[405]
-#define SWIGTYPE_p_p_mfem__HypreSmoother swig_types[406]
-#define SWIGTYPE_p_p_mfem__HypreSolver swig_types[407]
-#define SWIGTYPE_p_p_mfem__HypreTriSolve swig_types[408]
-#define SWIGTYPE_p_p_mfem__IdentityOperator swig_types[409]
-#define SWIGTYPE_p_p_mfem__IntegrationRule swig_types[410]
-#define SWIGTYPE_p_p_mfem__IterativeSolver swig_types[411]
-#define SWIGTYPE_p_p_mfem__L2ElementRestriction swig_types[412]
-#define SWIGTYPE_p_p_mfem__L2FaceRestriction swig_types[413]
-#define SWIGTYPE_p_p_mfem__LBFGSSolver swig_types[414]
-#define SWIGTYPE_p_p_mfem__LinearForm swig_types[415]
-#define SWIGTYPE_p_p_mfem__MINRESSolver swig_types[416]
-#define SWIGTYPE_p_p_mfem__Matrix swig_types[417]
-#define SWIGTYPE_p_p_mfem__MatrixInverse swig_types[418]
-#define SWIGTYPE_p_p_mfem__NCL2FaceRestriction swig_types[419]
-#define SWIGTYPE_p_p_mfem__NewtonSolver swig_types[420]
-#define SWIGTYPE_p_p_mfem__Operator swig_types[421]
-#define SWIGTYPE_p_p_mfem__OperatorChebyshevSmoother swig_types[422]
-#define SWIGTYPE_p_p_mfem__OperatorJacobiSmoother swig_types[423]
-#define SWIGTYPE_p_p_mfem__OptimizationSolver swig_types[424]
-#define SWIGTYPE_p_p_mfem__OrthoSolver swig_types[425]
-#define SWIGTYPE_p_p_mfem__ParFiniteElementSpace swig_types[426]
-#define SWIGTYPE_p_p_mfem__ParGridFunction swig_types[427]
-#define SWIGTYPE_p_p_mfem__ProductOperator swig_types[428]
-#define SWIGTYPE_p_p_mfem__ProductSolver swig_types[429]
-#define SWIGTYPE_p_p_mfem__PyIterativeSolver swig_types[430]
-#define SWIGTYPE_p_p_mfem__PyOperatorBase swig_types[431]
-#define SWIGTYPE_p_p_mfem__PyTimeDependentOperatorBase swig_types[432]
-#define SWIGTYPE_p_p_mfem__RAPOperator swig_types[433]
-#define SWIGTYPE_p_p_mfem__RectangularConstrainedOperator swig_types[434]
-#define SWIGTYPE_p_p_mfem__SLBQPOptimizer swig_types[435]
-#define SWIGTYPE_p_p_mfem__SLISolver swig_types[436]
-#define SWIGTYPE_p_p_mfem__ScaledOperator swig_types[437]
-#define SWIGTYPE_p_p_mfem__SecondOrderTimeDependentOperator swig_types[438]
-#define SWIGTYPE_p_p_mfem__Solver swig_types[439]
-#define SWIGTYPE_p_p_mfem__SparseMatrix swig_types[440]
-#define SWIGTYPE_p_p_mfem__TimeDependentAdjointOperator swig_types[441]
-#define SWIGTYPE_p_p_mfem__TimeDependentOperator swig_types[442]
-#define SWIGTYPE_p_p_mfem__TransposeOperator swig_types[443]
-#define SWIGTYPE_p_p_mfem__TripleProductOperator swig_types[444]
-#define SWIGTYPE_p_p_mfem__Vector swig_types[445]
-#define SWIGTYPE_p_pri_t swig_types[446]
-#define SWIGTYPE_p_pyr_t swig_types[447]
-#define SWIGTYPE_p_quad_t swig_types[448]
-#define SWIGTYPE_p_seg_t swig_types[449]
-#define SWIGTYPE_p_size_type swig_types[450]
-#define SWIGTYPE_p_tet_t swig_types[451]
-#define SWIGTYPE_p_tri_t swig_types[452]
-#define SWIGTYPE_p_value_type swig_types[453]
-static swig_type_info *swig_types[455];
-static swig_module_info swig_module = {swig_types, 454, 0, 0, 0, 0};
+#define SWIGTYPE_p_mfem__H1Pos_HexahedronElement swig_types[87]
+#define SWIGTYPE_p_mfem__H1Pos_QuadrilateralElement swig_types[88]
+#define SWIGTYPE_p_mfem__H1Pos_SegmentElement swig_types[89]
+#define SWIGTYPE_p_mfem__H1Pos_TetrahedronElement swig_types[90]
+#define SWIGTYPE_p_mfem__H1Pos_TriangleElement swig_types[91]
+#define SWIGTYPE_p_mfem__H1Pos_WedgeElement swig_types[92]
+#define SWIGTYPE_p_mfem__H1Ser_QuadrilateralElement swig_types[93]
+#define SWIGTYPE_p_mfem__H1_HexahedronElement swig_types[94]
+#define SWIGTYPE_p_mfem__H1_QuadrilateralElement swig_types[95]
+#define SWIGTYPE_p_mfem__H1_SegmentElement swig_types[96]
+#define SWIGTYPE_p_mfem__H1_TetrahedronElement swig_types[97]
+#define SWIGTYPE_p_mfem__H1_TriangleElement swig_types[98]
+#define SWIGTYPE_p_mfem__H1_WedgeElement swig_types[99]
+#define SWIGTYPE_p_mfem__HyperelasticNLFIntegrator swig_types[100]
+#define SWIGTYPE_p_mfem__HypreADS swig_types[101]
+#define SWIGTYPE_p_mfem__HypreAMS swig_types[102]
+#define SWIGTYPE_p_mfem__HypreBoomerAMG swig_types[103]
+#define SWIGTYPE_p_mfem__HypreDiagScale swig_types[104]
+#define SWIGTYPE_p_mfem__HypreEuclid swig_types[105]
+#define SWIGTYPE_p_mfem__HypreFGMRES swig_types[106]
+#define SWIGTYPE_p_mfem__HypreGMRES swig_types[107]
+#define SWIGTYPE_p_mfem__HypreILU swig_types[108]
+#define SWIGTYPE_p_mfem__HypreIdentity swig_types[109]
+#define SWIGTYPE_p_mfem__HyprePCG swig_types[110]
+#define SWIGTYPE_p_mfem__HypreParMatrix swig_types[111]
+#define SWIGTYPE_p_mfem__HypreParVector swig_types[112]
+#define SWIGTYPE_p_mfem__HypreParaSails swig_types[113]
+#define SWIGTYPE_p_mfem__HypreSmoother swig_types[114]
+#define SWIGTYPE_p_mfem__HypreSolver swig_types[115]
+#define SWIGTYPE_p_mfem__HypreTriSolve swig_types[116]
+#define SWIGTYPE_p_mfem__IdentityInterpolator swig_types[117]
+#define SWIGTYPE_p_mfem__IdentityMatrixCoefficient swig_types[118]
+#define SWIGTYPE_p_mfem__IdentityOperator swig_types[119]
+#define SWIGTYPE_p_mfem__InnerProductCoefficient swig_types[120]
+#define SWIGTYPE_p_mfem__IntegrationPoint swig_types[121]
+#define SWIGTYPE_p_mfem__IntegrationRule swig_types[122]
+#define SWIGTYPE_p_mfem__InverseIntegrator swig_types[123]
+#define SWIGTYPE_p_mfem__InverseMatrixCoefficient swig_types[124]
+#define SWIGTYPE_p_mfem__IsoparametricTransformation swig_types[125]
+#define SWIGTYPE_p_mfem__IterativeSolver swig_types[126]
+#define SWIGTYPE_p_mfem__IterativeSolver__PrintLevel swig_types[127]
+#define SWIGTYPE_p_mfem__L2ElementRestriction swig_types[128]
+#define SWIGTYPE_p_mfem__L2FaceRestriction swig_types[129]
+#define SWIGTYPE_p_mfem__L2Pos_HexahedronElement swig_types[130]
+#define SWIGTYPE_p_mfem__L2Pos_QuadrilateralElement swig_types[131]
+#define SWIGTYPE_p_mfem__L2Pos_SegmentElement swig_types[132]
+#define SWIGTYPE_p_mfem__L2Pos_TetrahedronElement swig_types[133]
+#define SWIGTYPE_p_mfem__L2Pos_TriangleElement swig_types[134]
+#define SWIGTYPE_p_mfem__L2Pos_WedgeElement swig_types[135]
+#define SWIGTYPE_p_mfem__L2_FECollection swig_types[136]
+#define SWIGTYPE_p_mfem__L2_HexahedronElement swig_types[137]
+#define SWIGTYPE_p_mfem__L2_QuadrilateralElement swig_types[138]
+#define SWIGTYPE_p_mfem__L2_SegmentElement swig_types[139]
+#define SWIGTYPE_p_mfem__L2_TetrahedronElement swig_types[140]
+#define SWIGTYPE_p_mfem__L2_TriangleElement swig_types[141]
+#define SWIGTYPE_p_mfem__L2_WedgeElement swig_types[142]
+#define SWIGTYPE_p_mfem__LBFGSSolver swig_types[143]
+#define SWIGTYPE_p_mfem__Lagrange1DFiniteElement swig_types[144]
+#define SWIGTYPE_p_mfem__LagrangeHexFiniteElement swig_types[145]
+#define SWIGTYPE_p_mfem__Linear1DFiniteElement swig_types[146]
+#define SWIGTYPE_p_mfem__Linear2DFiniteElement swig_types[147]
+#define SWIGTYPE_p_mfem__Linear3DFiniteElement swig_types[148]
+#define SWIGTYPE_p_mfem__LinearForm swig_types[149]
+#define SWIGTYPE_p_mfem__LinearPyramidFiniteElement swig_types[150]
+#define SWIGTYPE_p_mfem__LinearWedgeFiniteElement swig_types[151]
+#define SWIGTYPE_p_mfem__LumpedIntegrator swig_types[152]
+#define SWIGTYPE_p_mfem__MINRESSolver swig_types[153]
+#define SWIGTYPE_p_mfem__MassIntegrator swig_types[154]
+#define SWIGTYPE_p_mfem__Matrix swig_types[155]
+#define SWIGTYPE_p_mfem__MatrixArrayCoefficient swig_types[156]
+#define SWIGTYPE_p_mfem__MatrixCoefficient swig_types[157]
+#define SWIGTYPE_p_mfem__MatrixConstantCoefficient swig_types[158]
+#define SWIGTYPE_p_mfem__MatrixFunctionCoefficient swig_types[159]
+#define SWIGTYPE_p_mfem__MatrixInverse swig_types[160]
+#define SWIGTYPE_p_mfem__MatrixProductCoefficient swig_types[161]
+#define SWIGTYPE_p_mfem__MatrixPyCoefficientBase swig_types[162]
+#define SWIGTYPE_p_mfem__MatrixRestrictedCoefficient swig_types[163]
+#define SWIGTYPE_p_mfem__MatrixSumCoefficient swig_types[164]
+#define SWIGTYPE_p_mfem__MatrixVectorProductCoefficient swig_types[165]
+#define SWIGTYPE_p_mfem__MixedCrossCurlCurlIntegrator swig_types[166]
+#define SWIGTYPE_p_mfem__MixedCrossCurlGradIntegrator swig_types[167]
+#define SWIGTYPE_p_mfem__MixedCrossCurlIntegrator swig_types[168]
+#define SWIGTYPE_p_mfem__MixedCrossGradCurlIntegrator swig_types[169]
+#define SWIGTYPE_p_mfem__MixedCrossGradGradIntegrator swig_types[170]
+#define SWIGTYPE_p_mfem__MixedCrossGradIntegrator swig_types[171]
+#define SWIGTYPE_p_mfem__MixedCrossProductIntegrator swig_types[172]
+#define SWIGTYPE_p_mfem__MixedCurlCurlIntegrator swig_types[173]
+#define SWIGTYPE_p_mfem__MixedCurlIntegrator swig_types[174]
+#define SWIGTYPE_p_mfem__MixedDirectionalDerivativeIntegrator swig_types[175]
+#define SWIGTYPE_p_mfem__MixedDivGradIntegrator swig_types[176]
+#define SWIGTYPE_p_mfem__MixedDotProductIntegrator swig_types[177]
+#define SWIGTYPE_p_mfem__MixedGradDivIntegrator swig_types[178]
+#define SWIGTYPE_p_mfem__MixedGradGradIntegrator swig_types[179]
+#define SWIGTYPE_p_mfem__MixedScalarCrossCurlIntegrator swig_types[180]
+#define SWIGTYPE_p_mfem__MixedScalarCrossGradIntegrator swig_types[181]
+#define SWIGTYPE_p_mfem__MixedScalarCrossProductIntegrator swig_types[182]
+#define SWIGTYPE_p_mfem__MixedScalarCurlIntegrator swig_types[183]
+#define SWIGTYPE_p_mfem__MixedScalarDerivativeIntegrator swig_types[184]
+#define SWIGTYPE_p_mfem__MixedScalarDivergenceIntegrator swig_types[185]
+#define SWIGTYPE_p_mfem__MixedScalarIntegrator swig_types[186]
+#define SWIGTYPE_p_mfem__MixedScalarMassIntegrator swig_types[187]
+#define SWIGTYPE_p_mfem__MixedScalarVectorIntegrator swig_types[188]
+#define SWIGTYPE_p_mfem__MixedScalarWeakCrossProductIntegrator swig_types[189]
+#define SWIGTYPE_p_mfem__MixedScalarWeakCurlCrossIntegrator swig_types[190]
+#define SWIGTYPE_p_mfem__MixedScalarWeakCurlIntegrator swig_types[191]
+#define SWIGTYPE_p_mfem__MixedScalarWeakDerivativeIntegrator swig_types[192]
+#define SWIGTYPE_p_mfem__MixedScalarWeakDivergenceIntegrator swig_types[193]
+#define SWIGTYPE_p_mfem__MixedScalarWeakGradientIntegrator swig_types[194]
+#define SWIGTYPE_p_mfem__MixedVectorCurlIntegrator swig_types[195]
+#define SWIGTYPE_p_mfem__MixedVectorDivergenceIntegrator swig_types[196]
+#define SWIGTYPE_p_mfem__MixedVectorGradientIntegrator swig_types[197]
+#define SWIGTYPE_p_mfem__MixedVectorIntegrator swig_types[198]
+#define SWIGTYPE_p_mfem__MixedVectorMassIntegrator swig_types[199]
+#define SWIGTYPE_p_mfem__MixedVectorProductIntegrator swig_types[200]
+#define SWIGTYPE_p_mfem__MixedVectorWeakCurlIntegrator swig_types[201]
+#define SWIGTYPE_p_mfem__MixedVectorWeakDivergenceIntegrator swig_types[202]
+#define SWIGTYPE_p_mfem__MixedWeakCurlCrossIntegrator swig_types[203]
+#define SWIGTYPE_p_mfem__MixedWeakDivCrossIntegrator swig_types[204]
+#define SWIGTYPE_p_mfem__MixedWeakGradDotIntegrator swig_types[205]
+#define SWIGTYPE_p_mfem__NCL2FaceRestriction swig_types[206]
+#define SWIGTYPE_p_mfem__ND_HexahedronElement swig_types[207]
+#define SWIGTYPE_p_mfem__ND_QuadrilateralElement swig_types[208]
+#define SWIGTYPE_p_mfem__ND_R1D_PointElement swig_types[209]
+#define SWIGTYPE_p_mfem__ND_R1D_SegmentElement swig_types[210]
+#define SWIGTYPE_p_mfem__ND_R2D_FiniteElement swig_types[211]
+#define SWIGTYPE_p_mfem__ND_R2D_QuadrilateralElement swig_types[212]
+#define SWIGTYPE_p_mfem__ND_R2D_SegmentElement swig_types[213]
+#define SWIGTYPE_p_mfem__ND_R2D_TriangleElement swig_types[214]
+#define SWIGTYPE_p_mfem__ND_SegmentElement swig_types[215]
+#define SWIGTYPE_p_mfem__ND_TetrahedronElement swig_types[216]
+#define SWIGTYPE_p_mfem__ND_TriangleElement swig_types[217]
+#define SWIGTYPE_p_mfem__ND_WedgeElement swig_types[218]
+#define SWIGTYPE_p_mfem__NURBS1DFiniteElement swig_types[219]
+#define SWIGTYPE_p_mfem__NURBS2DFiniteElement swig_types[220]
+#define SWIGTYPE_p_mfem__NURBS3DFiniteElement swig_types[221]
+#define SWIGTYPE_p_mfem__NURBSFiniteElement swig_types[222]
+#define SWIGTYPE_p_mfem__Nedelec1HexFiniteElement swig_types[223]
+#define SWIGTYPE_p_mfem__Nedelec1PyrFiniteElement swig_types[224]
+#define SWIGTYPE_p_mfem__Nedelec1TetFiniteElement swig_types[225]
+#define SWIGTYPE_p_mfem__Nedelec1WdgFiniteElement swig_types[226]
+#define SWIGTYPE_p_mfem__NewtonSolver swig_types[227]
+#define SWIGTYPE_p_mfem__NodalFiniteElement swig_types[228]
+#define SWIGTYPE_p_mfem__NodalTensorFiniteElement swig_types[229]
+#define SWIGTYPE_p_mfem__NodeExtrudeCoefficient swig_types[230]
+#define SWIGTYPE_p_mfem__NonconservativeDGTraceIntegrator swig_types[231]
+#define SWIGTYPE_p_mfem__NonlinearFormIntegrator swig_types[232]
+#define SWIGTYPE_p_mfem__NormalInterpolator swig_types[233]
+#define SWIGTYPE_p_mfem__NormalTraceIntegrator swig_types[234]
+#define SWIGTYPE_p_mfem__NormalTraceJumpIntegrator swig_types[235]
+#define SWIGTYPE_p_mfem__NormalizedVectorCoefficient swig_types[236]
+#define SWIGTYPE_p_mfem__Operator swig_types[237]
+#define SWIGTYPE_p_mfem__OperatorChebyshevSmoother swig_types[238]
+#define SWIGTYPE_p_mfem__OperatorHandle swig_types[239]
+#define SWIGTYPE_p_mfem__OperatorJacobiSmoother swig_types[240]
+#define SWIGTYPE_p_mfem__OptimizationSolver swig_types[241]
+#define SWIGTYPE_p_mfem__OrthoSolver swig_types[242]
+#define SWIGTYPE_p_mfem__OuterProductCoefficient swig_types[243]
+#define SWIGTYPE_p_mfem__P0HexFiniteElement swig_types[244]
+#define SWIGTYPE_p_mfem__P0PyrFiniteElement swig_types[245]
+#define SWIGTYPE_p_mfem__P0QuadFiniteElement swig_types[246]
+#define SWIGTYPE_p_mfem__P0SegmentFiniteElement swig_types[247]
+#define SWIGTYPE_p_mfem__P0TetFiniteElement swig_types[248]
+#define SWIGTYPE_p_mfem__P0TriangleFiniteElement swig_types[249]
+#define SWIGTYPE_p_mfem__P0WdgFiniteElement swig_types[250]
+#define SWIGTYPE_p_mfem__P1OnQuadFiniteElement swig_types[251]
+#define SWIGTYPE_p_mfem__P1SegmentFiniteElement swig_types[252]
+#define SWIGTYPE_p_mfem__P1TetNonConfFiniteElement swig_types[253]
+#define SWIGTYPE_p_mfem__P2SegmentFiniteElement swig_types[254]
+#define SWIGTYPE_p_mfem__PWCoefficient swig_types[255]
+#define SWIGTYPE_p_mfem__PWConstCoefficient swig_types[256]
+#define SWIGTYPE_p_mfem__PWMatrixCoefficient swig_types[257]
+#define SWIGTYPE_p_mfem__PWVectorCoefficient swig_types[258]
+#define SWIGTYPE_p_mfem__ParFiniteElementSpace swig_types[259]
+#define SWIGTYPE_p_mfem__ParGridFunction swig_types[260]
+#define SWIGTYPE_p_mfem__ParMesh swig_types[261]
+#define SWIGTYPE_p_mfem__PointFiniteElement swig_types[262]
+#define SWIGTYPE_p_mfem__PositiveFiniteElement swig_types[263]
+#define SWIGTYPE_p_mfem__PositiveTensorFiniteElement swig_types[264]
+#define SWIGTYPE_p_mfem__PowerCoefficient swig_types[265]
+#define SWIGTYPE_p_mfem__ProductCoefficient swig_types[266]
+#define SWIGTYPE_p_mfem__ProductOperator swig_types[267]
+#define SWIGTYPE_p_mfem__ProductSolver swig_types[268]
+#define SWIGTYPE_p_mfem__PyCoefficientBase swig_types[269]
+#define SWIGTYPE_p_mfem__PyIterativeSolver swig_types[270]
+#define SWIGTYPE_p_mfem__PyOperatorBase swig_types[271]
+#define SWIGTYPE_p_mfem__PyTimeDependentOperatorBase swig_types[272]
+#define SWIGTYPE_p_mfem__Quad1DFiniteElement swig_types[273]
+#define SWIGTYPE_p_mfem__Quad2DFiniteElement swig_types[274]
+#define SWIGTYPE_p_mfem__QuadPos1DFiniteElement swig_types[275]
+#define SWIGTYPE_p_mfem__Quadratic3DFiniteElement swig_types[276]
+#define SWIGTYPE_p_mfem__QuadratureFunctionCoefficient swig_types[277]
+#define SWIGTYPE_p_mfem__RAPOperator swig_types[278]
+#define SWIGTYPE_p_mfem__RT0HexFiniteElement swig_types[279]
+#define SWIGTYPE_p_mfem__RT0PyrFiniteElement swig_types[280]
+#define SWIGTYPE_p_mfem__RT0QuadFiniteElement swig_types[281]
+#define SWIGTYPE_p_mfem__RT0TetFiniteElement swig_types[282]
+#define SWIGTYPE_p_mfem__RT0TriangleFiniteElement swig_types[283]
+#define SWIGTYPE_p_mfem__RT0WdgFiniteElement swig_types[284]
+#define SWIGTYPE_p_mfem__RT1HexFiniteElement swig_types[285]
+#define SWIGTYPE_p_mfem__RT1QuadFiniteElement swig_types[286]
+#define SWIGTYPE_p_mfem__RT1TriangleFiniteElement swig_types[287]
+#define SWIGTYPE_p_mfem__RT2QuadFiniteElement swig_types[288]
+#define SWIGTYPE_p_mfem__RT2TriangleFiniteElement swig_types[289]
+#define SWIGTYPE_p_mfem__RT_HexahedronElement swig_types[290]
+#define SWIGTYPE_p_mfem__RT_QuadrilateralElement swig_types[291]
+#define SWIGTYPE_p_mfem__RT_R1D_SegmentElement swig_types[292]
+#define SWIGTYPE_p_mfem__RT_R2D_FiniteElement swig_types[293]
+#define SWIGTYPE_p_mfem__RT_R2D_QuadrilateralElement swig_types[294]
+#define SWIGTYPE_p_mfem__RT_R2D_SegmentElement swig_types[295]
+#define SWIGTYPE_p_mfem__RT_R2D_TriangleElement swig_types[296]
+#define SWIGTYPE_p_mfem__RT_TetrahedronElement swig_types[297]
+#define SWIGTYPE_p_mfem__RT_TriangleElement swig_types[298]
+#define SWIGTYPE_p_mfem__RT_WedgeElement swig_types[299]
+#define SWIGTYPE_p_mfem__RatioCoefficient swig_types[300]
+#define SWIGTYPE_p_mfem__RectangularConstrainedOperator swig_types[301]
+#define SWIGTYPE_p_mfem__RefinedBiLinear2DFiniteElement swig_types[302]
+#define SWIGTYPE_p_mfem__RefinedLinear1DFiniteElement swig_types[303]
+#define SWIGTYPE_p_mfem__RefinedLinear2DFiniteElement swig_types[304]
+#define SWIGTYPE_p_mfem__RefinedLinear3DFiniteElement swig_types[305]
+#define SWIGTYPE_p_mfem__RefinedTriLinear3DFiniteElement swig_types[306]
+#define SWIGTYPE_p_mfem__Refinement swig_types[307]
+#define SWIGTYPE_p_mfem__RestrictedCoefficient swig_types[308]
+#define SWIGTYPE_p_mfem__RotTriLinearHexFiniteElement swig_types[309]
+#define SWIGTYPE_p_mfem__SLBQPOptimizer swig_types[310]
+#define SWIGTYPE_p_mfem__SLISolver swig_types[311]
+#define SWIGTYPE_p_mfem__ScalarCrossProductInterpolator swig_types[312]
+#define SWIGTYPE_p_mfem__ScalarFiniteElement swig_types[313]
+#define SWIGTYPE_p_mfem__ScalarMatrixProductCoefficient swig_types[314]
+#define SWIGTYPE_p_mfem__ScalarProductInterpolator swig_types[315]
+#define SWIGTYPE_p_mfem__ScalarVectorProductCoefficient swig_types[316]
+#define SWIGTYPE_p_mfem__ScalarVectorProductInterpolator swig_types[317]
+#define SWIGTYPE_p_mfem__ScaledOperator swig_types[318]
+#define SWIGTYPE_p_mfem__SecondOrderTimeDependentOperator swig_types[319]
+#define SWIGTYPE_p_mfem__SkewSymmetricVectorConvectionNLFIntegrator swig_types[320]
+#define SWIGTYPE_p_mfem__Solver swig_types[321]
+#define SWIGTYPE_p_mfem__SparseMatrix swig_types[322]
+#define SWIGTYPE_p_mfem__SumCoefficient swig_types[323]
+#define SWIGTYPE_p_mfem__SumIntegrator swig_types[324]
+#define SWIGTYPE_p_mfem__SymmetricMatrixCoefficient swig_types[325]
+#define SWIGTYPE_p_mfem__SymmetricMatrixConstantCoefficient swig_types[326]
+#define SWIGTYPE_p_mfem__SymmetricMatrixFunctionCoefficient swig_types[327]
+#define SWIGTYPE_p_mfem__TangentTraceIntegrator swig_types[328]
+#define SWIGTYPE_p_mfem__TimeDependentAdjointOperator swig_types[329]
+#define SWIGTYPE_p_mfem__TimeDependentOperator swig_types[330]
+#define SWIGTYPE_p_mfem__TraceIntegrator swig_types[331]
+#define SWIGTYPE_p_mfem__TraceJumpIntegrator swig_types[332]
+#define SWIGTYPE_p_mfem__TransformedCoefficient swig_types[333]
+#define SWIGTYPE_p_mfem__TransposeIntegrator swig_types[334]
+#define SWIGTYPE_p_mfem__TransposeMatrixCoefficient swig_types[335]
+#define SWIGTYPE_p_mfem__TransposeOperator swig_types[336]
+#define SWIGTYPE_p_mfem__TriLinear3DFiniteElement swig_types[337]
+#define SWIGTYPE_p_mfem__TripleProductOperator swig_types[338]
+#define SWIGTYPE_p_mfem__Vector swig_types[339]
+#define SWIGTYPE_p_mfem__VectorArrayCoefficient swig_types[340]
+#define SWIGTYPE_p_mfem__VectorCoefficient swig_types[341]
+#define SWIGTYPE_p_mfem__VectorConstantCoefficient swig_types[342]
+#define SWIGTYPE_p_mfem__VectorConvectionNLFIntegrator swig_types[343]
+#define SWIGTYPE_p_mfem__VectorCrossProductCoefficient swig_types[344]
+#define SWIGTYPE_p_mfem__VectorCrossProductInterpolator swig_types[345]
+#define SWIGTYPE_p_mfem__VectorCurlCurlIntegrator swig_types[346]
+#define SWIGTYPE_p_mfem__VectorDeltaCoefficient swig_types[347]
+#define SWIGTYPE_p_mfem__VectorDiffusionIntegrator swig_types[348]
+#define SWIGTYPE_p_mfem__VectorDivergenceIntegrator swig_types[349]
+#define SWIGTYPE_p_mfem__VectorFECurlIntegrator swig_types[350]
+#define SWIGTYPE_p_mfem__VectorFEDivergenceIntegrator swig_types[351]
+#define SWIGTYPE_p_mfem__VectorFEMassIntegrator swig_types[352]
+#define SWIGTYPE_p_mfem__VectorFEWeakDivergenceIntegrator swig_types[353]
+#define SWIGTYPE_p_mfem__VectorFiniteElement swig_types[354]
+#define SWIGTYPE_p_mfem__VectorFunctionCoefficient swig_types[355]
+#define SWIGTYPE_p_mfem__VectorGridFunctionCoefficient swig_types[356]
+#define SWIGTYPE_p_mfem__VectorInnerProductInterpolator swig_types[357]
+#define SWIGTYPE_p_mfem__VectorMassIntegrator swig_types[358]
+#define SWIGTYPE_p_mfem__VectorPyCoefficientBase swig_types[359]
+#define SWIGTYPE_p_mfem__VectorQuadratureFunctionCoefficient swig_types[360]
+#define SWIGTYPE_p_mfem__VectorRestrictedCoefficient swig_types[361]
+#define SWIGTYPE_p_mfem__VectorRotProductCoefficient swig_types[362]
+#define SWIGTYPE_p_mfem__VectorScalarProductInterpolator swig_types[363]
+#define SWIGTYPE_p_mfem__VectorSumCoefficient swig_types[364]
+#define SWIGTYPE_p_mfem__VectorTensorFiniteElement swig_types[365]
+#define SWIGTYPE_p_mfem__common__DistanceSolver swig_types[366]
+#define SWIGTYPE_p_mfem__common__HeatDistanceSolver swig_types[367]
+#define SWIGTYPE_p_mfem__common__NormalizationDistanceSolver swig_types[368]
+#define SWIGTYPE_p_mfem__common__NormalizedGradCoefficient swig_types[369]
+#define SWIGTYPE_p_mfem__common__PDEFilter swig_types[370]
+#define SWIGTYPE_p_mfem__common__PLapDistanceSolver swig_types[371]
+#define SWIGTYPE_p_mfem__common__PProductCoefficient swig_types[372]
+#define SWIGTYPE_p_mfem__common__PUMPLaplacian swig_types[373]
+#define SWIGTYPE_p_mfem__common__ScreenedPoisson swig_types[374]
+#define SWIGTYPE_p_p_mfem__AbstractSparseMatrix swig_types[375]
+#define SWIGTYPE_p_p_mfem__AuxSpaceSmoother swig_types[376]
+#define SWIGTYPE_p_p_mfem__BiCGSTABSolver swig_types[377]
+#define SWIGTYPE_p_p_mfem__BlockILU swig_types[378]
+#define SWIGTYPE_p_p_mfem__CGSolver swig_types[379]
+#define SWIGTYPE_p_p_mfem__CoefficientVector swig_types[380]
+#define SWIGTYPE_p_p_mfem__ConformingFaceRestriction swig_types[381]
+#define SWIGTYPE_p_p_mfem__ConformingProlongationOperator swig_types[382]
+#define SWIGTYPE_p_p_mfem__ConstrainedOperator swig_types[383]
+#define SWIGTYPE_p_p_mfem__DenseMatrix swig_types[384]
+#define SWIGTYPE_p_p_mfem__DenseMatrixInverse swig_types[385]
+#define SWIGTYPE_p_p_mfem__DenseSymmetricMatrix swig_types[386]
+#define SWIGTYPE_p_p_mfem__DeviceConformingProlongationOperator swig_types[387]
+#define SWIGTYPE_p_p_mfem__DirectSubBlockSolver swig_types[388]
+#define SWIGTYPE_p_p_mfem__ElementRestriction swig_types[389]
+#define SWIGTYPE_p_p_mfem__ElementRestrictionOperator swig_types[390]
+#define SWIGTYPE_p_p_mfem__FGMRESSolver swig_types[391]
+#define SWIGTYPE_p_p_mfem__FaceRestriction swig_types[392]
+#define SWIGTYPE_p_p_mfem__FiniteElementSpace swig_types[393]
+#define SWIGTYPE_p_p_mfem__GMRESSolver swig_types[394]
+#define SWIGTYPE_p_p_mfem__GridFunction swig_types[395]
+#define SWIGTYPE_p_p_mfem__HypreADS swig_types[396]
+#define SWIGTYPE_p_p_mfem__HypreAMS swig_types[397]
+#define SWIGTYPE_p_p_mfem__HypreBoomerAMG swig_types[398]
+#define SWIGTYPE_p_p_mfem__HypreDiagScale swig_types[399]
+#define SWIGTYPE_p_p_mfem__HypreEuclid swig_types[400]
+#define SWIGTYPE_p_p_mfem__HypreFGMRES swig_types[401]
+#define SWIGTYPE_p_p_mfem__HypreGMRES swig_types[402]
+#define SWIGTYPE_p_p_mfem__HypreILU swig_types[403]
+#define SWIGTYPE_p_p_mfem__HypreIdentity swig_types[404]
+#define SWIGTYPE_p_p_mfem__HyprePCG swig_types[405]
+#define SWIGTYPE_p_p_mfem__HypreParMatrix swig_types[406]
+#define SWIGTYPE_p_p_mfem__HypreParVector swig_types[407]
+#define SWIGTYPE_p_p_mfem__HypreParaSails swig_types[408]
+#define SWIGTYPE_p_p_mfem__HypreSmoother swig_types[409]
+#define SWIGTYPE_p_p_mfem__HypreSolver swig_types[410]
+#define SWIGTYPE_p_p_mfem__HypreTriSolve swig_types[411]
+#define SWIGTYPE_p_p_mfem__IdentityOperator swig_types[412]
+#define SWIGTYPE_p_p_mfem__IntegrationRule swig_types[413]
+#define SWIGTYPE_p_p_mfem__IterativeSolver swig_types[414]
+#define SWIGTYPE_p_p_mfem__L2ElementRestriction swig_types[415]
+#define SWIGTYPE_p_p_mfem__L2FaceRestriction swig_types[416]
+#define SWIGTYPE_p_p_mfem__LBFGSSolver swig_types[417]
+#define SWIGTYPE_p_p_mfem__LinearForm swig_types[418]
+#define SWIGTYPE_p_p_mfem__MINRESSolver swig_types[419]
+#define SWIGTYPE_p_p_mfem__Matrix swig_types[420]
+#define SWIGTYPE_p_p_mfem__MatrixInverse swig_types[421]
+#define SWIGTYPE_p_p_mfem__NCL2FaceRestriction swig_types[422]
+#define SWIGTYPE_p_p_mfem__NewtonSolver swig_types[423]
+#define SWIGTYPE_p_p_mfem__Operator swig_types[424]
+#define SWIGTYPE_p_p_mfem__OperatorChebyshevSmoother swig_types[425]
+#define SWIGTYPE_p_p_mfem__OperatorJacobiSmoother swig_types[426]
+#define SWIGTYPE_p_p_mfem__OptimizationSolver swig_types[427]
+#define SWIGTYPE_p_p_mfem__OrthoSolver swig_types[428]
+#define SWIGTYPE_p_p_mfem__ParFiniteElementSpace swig_types[429]
+#define SWIGTYPE_p_p_mfem__ParGridFunction swig_types[430]
+#define SWIGTYPE_p_p_mfem__ProductOperator swig_types[431]
+#define SWIGTYPE_p_p_mfem__ProductSolver swig_types[432]
+#define SWIGTYPE_p_p_mfem__PyIterativeSolver swig_types[433]
+#define SWIGTYPE_p_p_mfem__PyOperatorBase swig_types[434]
+#define SWIGTYPE_p_p_mfem__PyTimeDependentOperatorBase swig_types[435]
+#define SWIGTYPE_p_p_mfem__RAPOperator swig_types[436]
+#define SWIGTYPE_p_p_mfem__RectangularConstrainedOperator swig_types[437]
+#define SWIGTYPE_p_p_mfem__SLBQPOptimizer swig_types[438]
+#define SWIGTYPE_p_p_mfem__SLISolver swig_types[439]
+#define SWIGTYPE_p_p_mfem__ScaledOperator swig_types[440]
+#define SWIGTYPE_p_p_mfem__SecondOrderTimeDependentOperator swig_types[441]
+#define SWIGTYPE_p_p_mfem__Solver swig_types[442]
+#define SWIGTYPE_p_p_mfem__SparseMatrix swig_types[443]
+#define SWIGTYPE_p_p_mfem__TimeDependentAdjointOperator swig_types[444]
+#define SWIGTYPE_p_p_mfem__TimeDependentOperator swig_types[445]
+#define SWIGTYPE_p_p_mfem__TransposeOperator swig_types[446]
+#define SWIGTYPE_p_p_mfem__TripleProductOperator swig_types[447]
+#define SWIGTYPE_p_p_mfem__Vector swig_types[448]
+#define SWIGTYPE_p_pri_t swig_types[449]
+#define SWIGTYPE_p_pyr_t swig_types[450]
+#define SWIGTYPE_p_quad_t swig_types[451]
+#define SWIGTYPE_p_seg_t swig_types[452]
+#define SWIGTYPE_p_size_type swig_types[453]
+#define SWIGTYPE_p_tet_t swig_types[454]
+#define SWIGTYPE_p_tri_t swig_types[455]
+#define SWIGTYPE_p_value_type swig_types[456]
+static swig_type_info *swig_types[458];
+static swig_module_info swig_module = {swig_types, 457, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4006,14 +4009,14 @@ namespace swig {
 
 
 #include "mfem.hpp"      
-#include "miniapps/shifted/dist_solver.hpp"
+#include "miniapps/common/dist_solver.hpp"
 #include "pyoperator.hpp"
 #include "../common/pysolvers.hpp"
 #include "../common/pycoefficient.hpp"  
 #include "numpy/arrayobject.h"    
 
 
-#include "miniapps/shifted/dist_solver.cpp"
+#include "miniapps/common/dist_solver.cpp"
 
 
   #define SWIG_From_double   PyFloat_FromDouble 
@@ -4204,7 +4207,7 @@ SWIGINTERN PyObject *_wrap_AvgElementSize(PyObject *self, PyObject *args, PyObje
   arg1 = reinterpret_cast< mfem::ParMesh * >(argp1);
   {
     try {
-      result = (double)mfem::AvgElementSize(*arg1); 
+      result = (double)mfem::common::AvgElementSize(*arg1); 
     }
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
@@ -4224,7 +4227,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_DistanceSolver_print_level_set(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::DistanceSolver *arg1 = (mfem::DistanceSolver *) 0 ;
+  mfem::common::DistanceSolver *arg1 = (mfem::common::DistanceSolver *) 0 ;
   mfem::IterativeSolver::PrintLevel *arg2 = (mfem::IterativeSolver::PrintLevel *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -4233,11 +4236,11 @@ SWIGINTERN PyObject *_wrap_DistanceSolver_print_level_set(PyObject *self, PyObje
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "DistanceSolver_print_level_set", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__DistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__DistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DistanceSolver_print_level_set" "', argument " "1"" of type '" "mfem::DistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DistanceSolver_print_level_set" "', argument " "1"" of type '" "mfem::common::DistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::DistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::DistanceSolver * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_mfem__IterativeSolver__PrintLevel, 0 |  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DistanceSolver_print_level_set" "', argument " "2"" of type '" "mfem::IterativeSolver::PrintLevel *""'"); 
@@ -4253,7 +4256,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_DistanceSolver_print_level_get(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::DistanceSolver *arg1 = (mfem::DistanceSolver *) 0 ;
+  mfem::common::DistanceSolver *arg1 = (mfem::common::DistanceSolver *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -4261,11 +4264,11 @@ SWIGINTERN PyObject *_wrap_DistanceSolver_print_level_get(PyObject *self, PyObje
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__DistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__DistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DistanceSolver_print_level_get" "', argument " "1"" of type '" "mfem::DistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DistanceSolver_print_level_get" "', argument " "1"" of type '" "mfem::common::DistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::DistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::DistanceSolver * >(argp1);
   result = (mfem::IterativeSolver::PrintLevel *)& ((arg1)->print_level);
   resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__IterativeSolver__PrintLevel, 0 |  0 );
   return resultobj;
@@ -4276,18 +4279,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_delete_DistanceSolver(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::DistanceSolver *arg1 = (mfem::DistanceSolver *) 0 ;
+  mfem::common::DistanceSolver *arg1 = (mfem::common::DistanceSolver *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__DistanceSolver, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__DistanceSolver, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_DistanceSolver" "', argument " "1"" of type '" "mfem::DistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_DistanceSolver" "', argument " "1"" of type '" "mfem::common::DistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::DistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::DistanceSolver * >(argp1);
   {
     try {
       delete arg1; 
@@ -4310,7 +4313,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_DistanceSolver_ComputeScalarDistance(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::DistanceSolver *arg1 = (mfem::DistanceSolver *) 0 ;
+  mfem::common::DistanceSolver *arg1 = (mfem::common::DistanceSolver *) 0 ;
   mfem::Coefficient *arg2 = 0 ;
   mfem::ParGridFunction *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -4327,11 +4330,11 @@ SWIGINTERN PyObject *_wrap_DistanceSolver_ComputeScalarDistance(PyObject *self, 
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:DistanceSolver_ComputeScalarDistance", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__DistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__DistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DistanceSolver_ComputeScalarDistance" "', argument " "1"" of type '" "mfem::DistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DistanceSolver_ComputeScalarDistance" "', argument " "1"" of type '" "mfem::common::DistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::DistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::DistanceSolver * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__Coefficient,  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DistanceSolver_ComputeScalarDistance" "', argument " "2"" of type '" "mfem::Coefficient &""'"); 
@@ -4370,7 +4373,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_DistanceSolver_ComputeVectorDistance(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::DistanceSolver *arg1 = (mfem::DistanceSolver *) 0 ;
+  mfem::common::DistanceSolver *arg1 = (mfem::common::DistanceSolver *) 0 ;
   mfem::Coefficient *arg2 = 0 ;
   mfem::ParGridFunction *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -4387,11 +4390,11 @@ SWIGINTERN PyObject *_wrap_DistanceSolver_ComputeVectorDistance(PyObject *self, 
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:DistanceSolver_ComputeVectorDistance", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__DistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__DistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DistanceSolver_ComputeVectorDistance" "', argument " "1"" of type '" "mfem::DistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "DistanceSolver_ComputeVectorDistance" "', argument " "1"" of type '" "mfem::common::DistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::DistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::DistanceSolver * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__Coefficient,  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "DistanceSolver_ComputeVectorDistance" "', argument " "2"" of type '" "mfem::Coefficient &""'"); 
@@ -4431,7 +4434,7 @@ fail:
 SWIGINTERN PyObject *DistanceSolver_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__DistanceSolver, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__common__DistanceSolver, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -4444,7 +4447,7 @@ SWIGINTERN PyObject *_wrap_new_HeatDistanceSolver(PyObject *self, PyObject *args
   char * kwnames[] = {
     (char *)"diff_coeff",  NULL 
   };
-  mfem::HeatDistanceSolver *result = 0 ;
+  mfem::common::HeatDistanceSolver *result = 0 ;
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O:new_HeatDistanceSolver", kwnames, &obj0)) SWIG_fail;
   ecode1 = SWIG_AsVal_double(obj0, &val1);
@@ -4454,7 +4457,7 @@ SWIGINTERN PyObject *_wrap_new_HeatDistanceSolver(PyObject *self, PyObject *args
   arg1 = static_cast< double >(val1);
   {
     try {
-      result = (mfem::HeatDistanceSolver *)new mfem::HeatDistanceSolver(arg1); 
+      result = (mfem::common::HeatDistanceSolver *)new mfem::common::HeatDistanceSolver(arg1); 
     }
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
@@ -4465,7 +4468,7 @@ SWIGINTERN PyObject *_wrap_new_HeatDistanceSolver(PyObject *self, PyObject *args
     //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
     //    catch (std::exception &e) { SWIG_fail; }    
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__HeatDistanceSolver, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__common__HeatDistanceSolver, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -4474,7 +4477,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_HeatDistanceSolver_ComputeScalarDistance(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   mfem::Coefficient *arg2 = 0 ;
   mfem::ParGridFunction *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -4491,11 +4494,11 @@ SWIGINTERN PyObject *_wrap_HeatDistanceSolver_ComputeScalarDistance(PyObject *se
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:HeatDistanceSolver_ComputeScalarDistance", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_ComputeScalarDistance" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_ComputeScalarDistance" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__Coefficient,  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "HeatDistanceSolver_ComputeScalarDistance" "', argument " "2"" of type '" "mfem::Coefficient &""'"); 
@@ -4534,7 +4537,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_HeatDistanceSolver_parameter_t_set(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   double arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -4543,11 +4546,11 @@ SWIGINTERN PyObject *_wrap_HeatDistanceSolver_parameter_t_set(PyObject *self, Py
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "HeatDistanceSolver_parameter_t_set", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_parameter_t_set" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_parameter_t_set" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   ecode2 = SWIG_AsVal_double(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "HeatDistanceSolver_parameter_t_set" "', argument " "2"" of type '" "double""'");
@@ -4563,7 +4566,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_HeatDistanceSolver_parameter_t_get(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -4571,11 +4574,11 @@ SWIGINTERN PyObject *_wrap_HeatDistanceSolver_parameter_t_get(PyObject *self, Py
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_parameter_t_get" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_parameter_t_get" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   result = (double) ((arg1)->parameter_t);
   resultobj = SWIG_From_double(static_cast< double >(result));
   return resultobj;
@@ -4586,18 +4589,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_HeatDistanceSolver_smooth_steps_set(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   int arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "HeatDistanceSolver_smooth_steps_set", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_smooth_steps_set" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_smooth_steps_set" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   {
     if ((PyArray_PyIntAsInt(swig_obj[1]) == -1) && PyErr_Occurred()) {
       SWIG_exception_fail(SWIG_TypeError, "Input must be integer");
@@ -4614,7 +4617,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_HeatDistanceSolver_smooth_steps_get(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -4622,11 +4625,11 @@ SWIGINTERN PyObject *_wrap_HeatDistanceSolver_smooth_steps_get(PyObject *self, P
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_smooth_steps_get" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_smooth_steps_get" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   result = (int) ((arg1)->smooth_steps);
   resultobj = SWIG_From_int(static_cast< int >(result));
   return resultobj;
@@ -4637,18 +4640,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_HeatDistanceSolver_diffuse_iter_set(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   int arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "HeatDistanceSolver_diffuse_iter_set", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_diffuse_iter_set" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_diffuse_iter_set" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   {
     if ((PyArray_PyIntAsInt(swig_obj[1]) == -1) && PyErr_Occurred()) {
       SWIG_exception_fail(SWIG_TypeError, "Input must be integer");
@@ -4665,7 +4668,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_HeatDistanceSolver_diffuse_iter_get(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -4673,11 +4676,11 @@ SWIGINTERN PyObject *_wrap_HeatDistanceSolver_diffuse_iter_get(PyObject *self, P
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_diffuse_iter_get" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_diffuse_iter_get" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   result = (int) ((arg1)->diffuse_iter);
   resultobj = SWIG_From_int(static_cast< int >(result));
   return resultobj;
@@ -4688,7 +4691,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_HeatDistanceSolver_transform_set(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   bool arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -4697,11 +4700,11 @@ SWIGINTERN PyObject *_wrap_HeatDistanceSolver_transform_set(PyObject *self, PyOb
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "HeatDistanceSolver_transform_set", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_transform_set" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_transform_set" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "HeatDistanceSolver_transform_set" "', argument " "2"" of type '" "bool""'");
@@ -4717,7 +4720,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_HeatDistanceSolver_transform_get(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -4725,11 +4728,11 @@ SWIGINTERN PyObject *_wrap_HeatDistanceSolver_transform_get(PyObject *self, PyOb
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_transform_get" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_transform_get" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   result = (bool) ((arg1)->transform);
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
@@ -4740,7 +4743,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_HeatDistanceSolver_vis_glvis_set(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   bool arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -4749,11 +4752,11 @@ SWIGINTERN PyObject *_wrap_HeatDistanceSolver_vis_glvis_set(PyObject *self, PyOb
   PyObject *swig_obj[2] ;
   
   if (!SWIG_Python_UnpackTuple(args, "HeatDistanceSolver_vis_glvis_set", 2, 2, swig_obj)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_vis_glvis_set" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_vis_glvis_set" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   ecode2 = SWIG_AsVal_bool(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "HeatDistanceSolver_vis_glvis_set" "', argument " "2"" of type '" "bool""'");
@@ -4769,7 +4772,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_HeatDistanceSolver_vis_glvis_get(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -4777,11 +4780,11 @@ SWIGINTERN PyObject *_wrap_HeatDistanceSolver_vis_glvis_get(PyObject *self, PyOb
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_vis_glvis_get" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "HeatDistanceSolver_vis_glvis_get" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   result = (bool) ((arg1)->vis_glvis);
   resultobj = SWIG_From_bool(static_cast< bool >(result));
   return resultobj;
@@ -4792,18 +4795,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_delete_HeatDistanceSolver(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::HeatDistanceSolver *arg1 = (mfem::HeatDistanceSolver *) 0 ;
+  mfem::common::HeatDistanceSolver *arg1 = (mfem::common::HeatDistanceSolver *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__HeatDistanceSolver, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__HeatDistanceSolver, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_HeatDistanceSolver" "', argument " "1"" of type '" "mfem::HeatDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_HeatDistanceSolver" "', argument " "1"" of type '" "mfem::common::HeatDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::HeatDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::HeatDistanceSolver * >(argp1);
   {
     try {
       delete arg1; 
@@ -4827,7 +4830,7 @@ fail:
 SWIGINTERN PyObject *HeatDistanceSolver_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__HeatDistanceSolver, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__common__HeatDistanceSolver, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -4837,12 +4840,12 @@ SWIGINTERN PyObject *HeatDistanceSolver_swiginit(PyObject *SWIGUNUSEDPARM(self),
 
 SWIGINTERN PyObject *_wrap_new_NormalizationDistanceSolver(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::NormalizationDistanceSolver *result = 0 ;
+  mfem::common::NormalizationDistanceSolver *result = 0 ;
   
   if (!SWIG_Python_UnpackTuple(args, "new_NormalizationDistanceSolver", 0, 0, 0)) SWIG_fail;
   {
     try {
-      result = (mfem::NormalizationDistanceSolver *)new mfem::NormalizationDistanceSolver(); 
+      result = (mfem::common::NormalizationDistanceSolver *)new mfem::common::NormalizationDistanceSolver(); 
     }
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
@@ -4853,7 +4856,7 @@ SWIGINTERN PyObject *_wrap_new_NormalizationDistanceSolver(PyObject *self, PyObj
     //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
     //    catch (std::exception &e) { SWIG_fail; }    
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__NormalizationDistanceSolver, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__common__NormalizationDistanceSolver, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -4862,7 +4865,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_NormalizationDistanceSolver_ComputeScalarDistance(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::NormalizationDistanceSolver *arg1 = (mfem::NormalizationDistanceSolver *) 0 ;
+  mfem::common::NormalizationDistanceSolver *arg1 = (mfem::common::NormalizationDistanceSolver *) 0 ;
   mfem::Coefficient *arg2 = 0 ;
   mfem::ParGridFunction *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -4879,11 +4882,11 @@ SWIGINTERN PyObject *_wrap_NormalizationDistanceSolver_ComputeScalarDistance(PyO
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:NormalizationDistanceSolver_ComputeScalarDistance", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__NormalizationDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__NormalizationDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NormalizationDistanceSolver_ComputeScalarDistance" "', argument " "1"" of type '" "mfem::NormalizationDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NormalizationDistanceSolver_ComputeScalarDistance" "', argument " "1"" of type '" "mfem::common::NormalizationDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::NormalizationDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::NormalizationDistanceSolver * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__Coefficient,  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NormalizationDistanceSolver_ComputeScalarDistance" "', argument " "2"" of type '" "mfem::Coefficient &""'"); 
@@ -4922,18 +4925,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_delete_NormalizationDistanceSolver(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::NormalizationDistanceSolver *arg1 = (mfem::NormalizationDistanceSolver *) 0 ;
+  mfem::common::NormalizationDistanceSolver *arg1 = (mfem::common::NormalizationDistanceSolver *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__NormalizationDistanceSolver, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__NormalizationDistanceSolver, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_NormalizationDistanceSolver" "', argument " "1"" of type '" "mfem::NormalizationDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_NormalizationDistanceSolver" "', argument " "1"" of type '" "mfem::common::NormalizationDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::NormalizationDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::NormalizationDistanceSolver * >(argp1);
   {
     try {
       delete arg1; 
@@ -4957,7 +4960,7 @@ fail:
 SWIGINTERN PyObject *NormalizationDistanceSolver_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__NormalizationDistanceSolver, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__common__NormalizationDistanceSolver, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -4982,7 +4985,7 @@ SWIGINTERN PyObject *_wrap_new_PLapDistanceSolver(PyObject *self, PyObject *args
   char * kwnames[] = {
     (char *)"maxp_",  (char *)"newton_iter_",  (char *)"rtol",  (char *)"atol",  NULL 
   };
-  mfem::PLapDistanceSolver *result = 0 ;
+  mfem::common::PLapDistanceSolver *result = 0 ;
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "|OOOO:new_PLapDistanceSolver", kwnames, &obj0, &obj1, &obj2, &obj3)) SWIG_fail;
   if (obj0) {
@@ -5017,7 +5020,7 @@ SWIGINTERN PyObject *_wrap_new_PLapDistanceSolver(PyObject *self, PyObject *args
   }
   {
     try {
-      result = (mfem::PLapDistanceSolver *)new mfem::PLapDistanceSolver(arg1,arg2,arg3,arg4); 
+      result = (mfem::common::PLapDistanceSolver *)new mfem::common::PLapDistanceSolver(arg1,arg2,arg3,arg4); 
     }
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
@@ -5028,7 +5031,7 @@ SWIGINTERN PyObject *_wrap_new_PLapDistanceSolver(PyObject *self, PyObject *args
     //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
     //    catch (std::exception &e) { SWIG_fail; }    
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__PLapDistanceSolver, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__common__PLapDistanceSolver, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -5037,7 +5040,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_PLapDistanceSolver_SetMaxPower(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::PLapDistanceSolver *arg1 = (mfem::PLapDistanceSolver *) 0 ;
+  mfem::common::PLapDistanceSolver *arg1 = (mfem::common::PLapDistanceSolver *) 0 ;
   int arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -5048,11 +5051,11 @@ SWIGINTERN PyObject *_wrap_PLapDistanceSolver_SetMaxPower(PyObject *self, PyObje
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PLapDistanceSolver_SetMaxPower", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__PLapDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__PLapDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PLapDistanceSolver_SetMaxPower" "', argument " "1"" of type '" "mfem::PLapDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PLapDistanceSolver_SetMaxPower" "', argument " "1"" of type '" "mfem::common::PLapDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PLapDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PLapDistanceSolver * >(argp1);
   {
     if ((PyArray_PyIntAsInt(obj1) == -1) && PyErr_Occurred()) {
       SWIG_exception_fail(SWIG_TypeError, "Input must be integer");
@@ -5081,7 +5084,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_PLapDistanceSolver_ComputeScalarDistance(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::PLapDistanceSolver *arg1 = (mfem::PLapDistanceSolver *) 0 ;
+  mfem::common::PLapDistanceSolver *arg1 = (mfem::common::PLapDistanceSolver *) 0 ;
   mfem::Coefficient *arg2 = 0 ;
   mfem::ParGridFunction *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -5098,11 +5101,11 @@ SWIGINTERN PyObject *_wrap_PLapDistanceSolver_ComputeScalarDistance(PyObject *se
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:PLapDistanceSolver_ComputeScalarDistance", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__PLapDistanceSolver, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__PLapDistanceSolver, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PLapDistanceSolver_ComputeScalarDistance" "', argument " "1"" of type '" "mfem::PLapDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PLapDistanceSolver_ComputeScalarDistance" "', argument " "1"" of type '" "mfem::common::PLapDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PLapDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PLapDistanceSolver * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__Coefficient,  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PLapDistanceSolver_ComputeScalarDistance" "', argument " "2"" of type '" "mfem::Coefficient &""'"); 
@@ -5141,18 +5144,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_delete_PLapDistanceSolver(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::PLapDistanceSolver *arg1 = (mfem::PLapDistanceSolver *) 0 ;
+  mfem::common::PLapDistanceSolver *arg1 = (mfem::common::PLapDistanceSolver *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__PLapDistanceSolver, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__PLapDistanceSolver, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PLapDistanceSolver" "', argument " "1"" of type '" "mfem::PLapDistanceSolver *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PLapDistanceSolver" "', argument " "1"" of type '" "mfem::common::PLapDistanceSolver *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PLapDistanceSolver * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PLapDistanceSolver * >(argp1);
   {
     try {
       delete arg1; 
@@ -5176,7 +5179,7 @@ fail:
 SWIGINTERN PyObject *PLapDistanceSolver_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__PLapDistanceSolver, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__common__PLapDistanceSolver, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -5186,7 +5189,7 @@ SWIGINTERN PyObject *PLapDistanceSolver_swiginit(PyObject *SWIGUNUSEDPARM(self),
 
 SWIGINTERN PyObject *_wrap_NormalizedGradCoefficient_Eval__SWIG_0_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  mfem::NormalizedGradCoefficient *arg1 = (mfem::NormalizedGradCoefficient *) 0 ;
+  mfem::common::NormalizedGradCoefficient *arg1 = (mfem::common::NormalizedGradCoefficient *) 0 ;
   mfem::DenseMatrix *arg2 = 0 ;
   mfem::ElementTransformation *arg3 = 0 ;
   mfem::IntegrationRule *arg4 = 0 ;
@@ -5200,11 +5203,11 @@ SWIGINTERN PyObject *_wrap_NormalizedGradCoefficient_Eval__SWIG_0_0(PyObject *se
   int res4 = 0 ;
   
   if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__NormalizedGradCoefficient, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__NormalizedGradCoefficient, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NormalizedGradCoefficient_Eval" "', argument " "1"" of type '" "mfem::NormalizedGradCoefficient *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NormalizedGradCoefficient_Eval" "', argument " "1"" of type '" "mfem::common::NormalizedGradCoefficient *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::NormalizedGradCoefficient * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::NormalizedGradCoefficient * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_mfem__DenseMatrix,  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NormalizedGradCoefficient_Eval" "', argument " "2"" of type '" "mfem::DenseMatrix &""'"); 
@@ -5251,7 +5254,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_NormalizedGradCoefficient_Eval__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  mfem::NormalizedGradCoefficient *arg1 = (mfem::NormalizedGradCoefficient *) 0 ;
+  mfem::common::NormalizedGradCoefficient *arg1 = (mfem::common::NormalizedGradCoefficient *) 0 ;
   mfem::Vector *arg2 = 0 ;
   mfem::ElementTransformation *arg3 = 0 ;
   mfem::IntegrationPoint *arg4 = 0 ;
@@ -5265,11 +5268,11 @@ SWIGINTERN PyObject *_wrap_NormalizedGradCoefficient_Eval__SWIG_1(PyObject *self
   int res4 = 0 ;
   
   if ((nobjs < 4) || (nobjs > 4)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__NormalizedGradCoefficient, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__NormalizedGradCoefficient, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NormalizedGradCoefficient_Eval" "', argument " "1"" of type '" "mfem::NormalizedGradCoefficient *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "NormalizedGradCoefficient_Eval" "', argument " "1"" of type '" "mfem::common::NormalizedGradCoefficient *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::NormalizedGradCoefficient * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::NormalizedGradCoefficient * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_mfem__Vector,  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "NormalizedGradCoefficient_Eval" "', argument " "2"" of type '" "mfem::Vector &""'"); 
@@ -5325,7 +5328,7 @@ SWIGINTERN PyObject *_wrap_NormalizedGradCoefficient_Eval(PyObject *self, PyObje
   if (argc == 4) {
     int _v = 0;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_mfem__NormalizedGradCoefficient, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_mfem__common__NormalizedGradCoefficient, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       void *vptr = 0;
@@ -5348,7 +5351,7 @@ SWIGINTERN PyObject *_wrap_NormalizedGradCoefficient_Eval(PyObject *self, PyObje
   if (argc == 4) {
     int _v = 0;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_mfem__NormalizedGradCoefficient, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_mfem__common__NormalizedGradCoefficient, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       void *vptr = 0;
@@ -5372,26 +5375,26 @@ SWIGINTERN PyObject *_wrap_NormalizedGradCoefficient_Eval(PyObject *self, PyObje
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'NormalizedGradCoefficient_Eval'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    mfem::NormalizedGradCoefficient::Eval(mfem::DenseMatrix &,mfem::ElementTransformation &,mfem::IntegrationRule const &)\n"
-    "    mfem::NormalizedGradCoefficient::Eval(mfem::Vector &,mfem::ElementTransformation &,mfem::IntegrationPoint const &)\n");
+    "    mfem::common::NormalizedGradCoefficient::Eval(mfem::DenseMatrix &,mfem::ElementTransformation &,mfem::IntegrationRule const &)\n"
+    "    mfem::common::NormalizedGradCoefficient::Eval(mfem::Vector &,mfem::ElementTransformation &,mfem::IntegrationPoint const &)\n");
   return 0;
 }
 
 
 SWIGINTERN PyObject *_wrap_delete_NormalizedGradCoefficient(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::NormalizedGradCoefficient *arg1 = (mfem::NormalizedGradCoefficient *) 0 ;
+  mfem::common::NormalizedGradCoefficient *arg1 = (mfem::common::NormalizedGradCoefficient *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__NormalizedGradCoefficient, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__NormalizedGradCoefficient, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_NormalizedGradCoefficient" "', argument " "1"" of type '" "mfem::NormalizedGradCoefficient *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_NormalizedGradCoefficient" "', argument " "1"" of type '" "mfem::common::NormalizedGradCoefficient *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::NormalizedGradCoefficient * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::NormalizedGradCoefficient * >(argp1);
   {
     try {
       delete arg1; 
@@ -5415,7 +5418,7 @@ fail:
 SWIGINTERN PyObject *NormalizedGradCoefficient_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__NormalizedGradCoefficient, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__common__NormalizedGradCoefficient, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -5432,7 +5435,7 @@ SWIGINTERN PyObject *_wrap_new_PProductCoefficient(PyObject *self, PyObject *arg
   char * kwnames[] = {
     (char *)"basec_",  (char *)"corrc_",  NULL 
   };
-  mfem::PProductCoefficient *result = 0 ;
+  mfem::common::PProductCoefficient *result = 0 ;
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:new_PProductCoefficient", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_mfem__Coefficient,  0 );
@@ -5453,7 +5456,7 @@ SWIGINTERN PyObject *_wrap_new_PProductCoefficient(PyObject *self, PyObject *arg
   arg2 = reinterpret_cast< mfem::Coefficient * >(argp2);
   {
     try {
-      result = (mfem::PProductCoefficient *)new mfem::PProductCoefficient(*arg1,*arg2); 
+      result = (mfem::common::PProductCoefficient *)new mfem::common::PProductCoefficient(*arg1,*arg2); 
     }
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
@@ -5464,7 +5467,7 @@ SWIGINTERN PyObject *_wrap_new_PProductCoefficient(PyObject *self, PyObject *arg
     //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
     //    catch (std::exception &e) { SWIG_fail; }    
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__PProductCoefficient, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__common__PProductCoefficient, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -5473,7 +5476,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_PProductCoefficient_Eval(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::PProductCoefficient *arg1 = (mfem::PProductCoefficient *) 0 ;
+  mfem::common::PProductCoefficient *arg1 = (mfem::common::PProductCoefficient *) 0 ;
   mfem::ElementTransformation *arg2 = 0 ;
   mfem::IntegrationPoint *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -5491,11 +5494,11 @@ SWIGINTERN PyObject *_wrap_PProductCoefficient_Eval(PyObject *self, PyObject *ar
   double result;
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:PProductCoefficient_Eval", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__PProductCoefficient, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__PProductCoefficient, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PProductCoefficient_Eval" "', argument " "1"" of type '" "mfem::PProductCoefficient *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PProductCoefficient_Eval" "', argument " "1"" of type '" "mfem::common::PProductCoefficient *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PProductCoefficient * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PProductCoefficient * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__ElementTransformation,  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PProductCoefficient_Eval" "', argument " "2"" of type '" "mfem::ElementTransformation &""'"); 
@@ -5534,18 +5537,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_delete_PProductCoefficient(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::PProductCoefficient *arg1 = (mfem::PProductCoefficient *) 0 ;
+  mfem::common::PProductCoefficient *arg1 = (mfem::common::PProductCoefficient *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__PProductCoefficient, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__PProductCoefficient, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PProductCoefficient" "', argument " "1"" of type '" "mfem::PProductCoefficient *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PProductCoefficient" "', argument " "1"" of type '" "mfem::common::PProductCoefficient *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PProductCoefficient * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PProductCoefficient * >(argp1);
   {
     try {
       delete arg1; 
@@ -5569,7 +5572,7 @@ fail:
 SWIGINTERN PyObject *PProductCoefficient_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__PProductCoefficient, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__common__PProductCoefficient, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -5590,7 +5593,7 @@ SWIGINTERN PyObject *_wrap_new_ScreenedPoisson(PyObject *self, PyObject *args, P
   char * kwnames[] = {
     (char *)"nfunc",  (char *)"rh",  NULL 
   };
-  mfem::ScreenedPoisson *result = 0 ;
+  mfem::common::ScreenedPoisson *result = 0 ;
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:new_ScreenedPoisson", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_mfem__Coefficient,  0 );
@@ -5608,7 +5611,7 @@ SWIGINTERN PyObject *_wrap_new_ScreenedPoisson(PyObject *self, PyObject *args, P
   arg2 = static_cast< double >(val2);
   {
     try {
-      result = (mfem::ScreenedPoisson *)new mfem::ScreenedPoisson(*arg1,arg2); 
+      result = (mfem::common::ScreenedPoisson *)new mfem::common::ScreenedPoisson(*arg1,arg2); 
     }
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
@@ -5619,7 +5622,7 @@ SWIGINTERN PyObject *_wrap_new_ScreenedPoisson(PyObject *self, PyObject *args, P
     //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
     //    catch (std::exception &e) { SWIG_fail; }    
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__ScreenedPoisson, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__common__ScreenedPoisson, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -5628,18 +5631,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_delete_ScreenedPoisson(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::ScreenedPoisson *arg1 = (mfem::ScreenedPoisson *) 0 ;
+  mfem::common::ScreenedPoisson *arg1 = (mfem::common::ScreenedPoisson *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__ScreenedPoisson, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__ScreenedPoisson, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_ScreenedPoisson" "', argument " "1"" of type '" "mfem::ScreenedPoisson *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_ScreenedPoisson" "', argument " "1"" of type '" "mfem::common::ScreenedPoisson *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::ScreenedPoisson * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::ScreenedPoisson * >(argp1);
   {
     try {
       delete arg1; 
@@ -5662,7 +5665,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_ScreenedPoisson_SetInput(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::ScreenedPoisson *arg1 = (mfem::ScreenedPoisson *) 0 ;
+  mfem::common::ScreenedPoisson *arg1 = (mfem::common::ScreenedPoisson *) 0 ;
   mfem::Coefficient *arg2 = 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -5675,11 +5678,11 @@ SWIGINTERN PyObject *_wrap_ScreenedPoisson_SetInput(PyObject *self, PyObject *ar
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:ScreenedPoisson_SetInput", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__ScreenedPoisson, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__ScreenedPoisson, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ScreenedPoisson_SetInput" "', argument " "1"" of type '" "mfem::ScreenedPoisson *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ScreenedPoisson_SetInput" "', argument " "1"" of type '" "mfem::common::ScreenedPoisson *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::ScreenedPoisson * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::ScreenedPoisson * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__Coefficient,  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ScreenedPoisson_SetInput" "', argument " "2"" of type '" "mfem::Coefficient &""'"); 
@@ -5710,7 +5713,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_ScreenedPoisson_GetElementEnergy(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::ScreenedPoisson *arg1 = (mfem::ScreenedPoisson *) 0 ;
+  mfem::common::ScreenedPoisson *arg1 = (mfem::common::ScreenedPoisson *) 0 ;
   mfem::FiniteElement *arg2 = 0 ;
   mfem::ElementTransformation *arg3 = 0 ;
   mfem::Vector *arg4 = 0 ;
@@ -5732,11 +5735,11 @@ SWIGINTERN PyObject *_wrap_ScreenedPoisson_GetElementEnergy(PyObject *self, PyOb
   double result;
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOOO:ScreenedPoisson_GetElementEnergy", kwnames, &obj0, &obj1, &obj2, &obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__ScreenedPoisson, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__ScreenedPoisson, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ScreenedPoisson_GetElementEnergy" "', argument " "1"" of type '" "mfem::ScreenedPoisson *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ScreenedPoisson_GetElementEnergy" "', argument " "1"" of type '" "mfem::common::ScreenedPoisson *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::ScreenedPoisson * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::ScreenedPoisson * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__FiniteElement,  0  | 0);
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ScreenedPoisson_GetElementEnergy" "', argument " "2"" of type '" "mfem::FiniteElement const &""'"); 
@@ -5783,7 +5786,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_ScreenedPoisson_AssembleElementVector(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::ScreenedPoisson *arg1 = (mfem::ScreenedPoisson *) 0 ;
+  mfem::common::ScreenedPoisson *arg1 = (mfem::common::ScreenedPoisson *) 0 ;
   mfem::FiniteElement *arg2 = 0 ;
   mfem::ElementTransformation *arg3 = 0 ;
   mfem::Vector *arg4 = 0 ;
@@ -5808,11 +5811,11 @@ SWIGINTERN PyObject *_wrap_ScreenedPoisson_AssembleElementVector(PyObject *self,
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOOOO:ScreenedPoisson_AssembleElementVector", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__ScreenedPoisson, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__ScreenedPoisson, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ScreenedPoisson_AssembleElementVector" "', argument " "1"" of type '" "mfem::ScreenedPoisson *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ScreenedPoisson_AssembleElementVector" "', argument " "1"" of type '" "mfem::common::ScreenedPoisson *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::ScreenedPoisson * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::ScreenedPoisson * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__FiniteElement,  0  | 0);
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ScreenedPoisson_AssembleElementVector" "', argument " "2"" of type '" "mfem::FiniteElement const &""'"); 
@@ -5867,7 +5870,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_ScreenedPoisson_AssembleElementGrad(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::ScreenedPoisson *arg1 = (mfem::ScreenedPoisson *) 0 ;
+  mfem::common::ScreenedPoisson *arg1 = (mfem::common::ScreenedPoisson *) 0 ;
   mfem::FiniteElement *arg2 = 0 ;
   mfem::ElementTransformation *arg3 = 0 ;
   mfem::Vector *arg4 = 0 ;
@@ -5892,11 +5895,11 @@ SWIGINTERN PyObject *_wrap_ScreenedPoisson_AssembleElementGrad(PyObject *self, P
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOOOO:ScreenedPoisson_AssembleElementGrad", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__ScreenedPoisson, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__ScreenedPoisson, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ScreenedPoisson_AssembleElementGrad" "', argument " "1"" of type '" "mfem::ScreenedPoisson *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "ScreenedPoisson_AssembleElementGrad" "', argument " "1"" of type '" "mfem::common::ScreenedPoisson *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::ScreenedPoisson * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::ScreenedPoisson * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__FiniteElement,  0  | 0);
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "ScreenedPoisson_AssembleElementGrad" "', argument " "2"" of type '" "mfem::FiniteElement const &""'"); 
@@ -5952,7 +5955,7 @@ fail:
 SWIGINTERN PyObject *ScreenedPoisson_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__ScreenedPoisson, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__common__ScreenedPoisson, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -5977,7 +5980,7 @@ SWIGINTERN PyObject *_wrap_new_PUMPLaplacian(PyObject *self, PyObject *args, PyO
   char * kwnames[] = {
     (char *)"nfunc",  (char *)"nfgrad",  (char *)"ownership_",  NULL 
   };
-  mfem::PUMPLaplacian *result = 0 ;
+  mfem::common::PUMPLaplacian *result = 0 ;
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO|O:new_PUMPLaplacian", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__Coefficient, 0 |  0 );
@@ -5999,7 +6002,7 @@ SWIGINTERN PyObject *_wrap_new_PUMPLaplacian(PyObject *self, PyObject *args, PyO
   }
   {
     try {
-      result = (mfem::PUMPLaplacian *)new mfem::PUMPLaplacian(arg1,arg2,arg3); 
+      result = (mfem::common::PUMPLaplacian *)new mfem::common::PUMPLaplacian(arg1,arg2,arg3); 
     }
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
@@ -6010,7 +6013,7 @@ SWIGINTERN PyObject *_wrap_new_PUMPLaplacian(PyObject *self, PyObject *args, PyO
     //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
     //    catch (std::exception &e) { SWIG_fail; }    
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__PUMPLaplacian, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__common__PUMPLaplacian, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -6019,7 +6022,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_PUMPLaplacian_SetPower(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::PUMPLaplacian *arg1 = (mfem::PUMPLaplacian *) 0 ;
+  mfem::common::PUMPLaplacian *arg1 = (mfem::common::PUMPLaplacian *) 0 ;
   double arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -6032,11 +6035,11 @@ SWIGINTERN PyObject *_wrap_PUMPLaplacian_SetPower(PyObject *self, PyObject *args
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PUMPLaplacian_SetPower", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__PUMPLaplacian, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__PUMPLaplacian, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PUMPLaplacian_SetPower" "', argument " "1"" of type '" "mfem::PUMPLaplacian *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PUMPLaplacian_SetPower" "', argument " "1"" of type '" "mfem::common::PUMPLaplacian *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PUMPLaplacian * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PUMPLaplacian * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PUMPLaplacian_SetPower" "', argument " "2"" of type '" "double""'");
@@ -6064,7 +6067,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_PUMPLaplacian_SetReg(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::PUMPLaplacian *arg1 = (mfem::PUMPLaplacian *) 0 ;
+  mfem::common::PUMPLaplacian *arg1 = (mfem::common::PUMPLaplacian *) 0 ;
   double arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -6077,11 +6080,11 @@ SWIGINTERN PyObject *_wrap_PUMPLaplacian_SetReg(PyObject *self, PyObject *args, 
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PUMPLaplacian_SetReg", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__PUMPLaplacian, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__PUMPLaplacian, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PUMPLaplacian_SetReg" "', argument " "1"" of type '" "mfem::PUMPLaplacian *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PUMPLaplacian_SetReg" "', argument " "1"" of type '" "mfem::common::PUMPLaplacian *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PUMPLaplacian * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PUMPLaplacian * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PUMPLaplacian_SetReg" "', argument " "2"" of type '" "double""'");
@@ -6109,18 +6112,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_delete_PUMPLaplacian(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::PUMPLaplacian *arg1 = (mfem::PUMPLaplacian *) 0 ;
+  mfem::common::PUMPLaplacian *arg1 = (mfem::common::PUMPLaplacian *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__PUMPLaplacian, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__PUMPLaplacian, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PUMPLaplacian" "', argument " "1"" of type '" "mfem::PUMPLaplacian *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PUMPLaplacian" "', argument " "1"" of type '" "mfem::common::PUMPLaplacian *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PUMPLaplacian * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PUMPLaplacian * >(argp1);
   {
     try {
       delete arg1; 
@@ -6143,7 +6146,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_PUMPLaplacian_GetElementEnergy(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::PUMPLaplacian *arg1 = (mfem::PUMPLaplacian *) 0 ;
+  mfem::common::PUMPLaplacian *arg1 = (mfem::common::PUMPLaplacian *) 0 ;
   mfem::FiniteElement *arg2 = 0 ;
   mfem::ElementTransformation *arg3 = 0 ;
   mfem::Vector *arg4 = 0 ;
@@ -6165,11 +6168,11 @@ SWIGINTERN PyObject *_wrap_PUMPLaplacian_GetElementEnergy(PyObject *self, PyObje
   double result;
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOOO:PUMPLaplacian_GetElementEnergy", kwnames, &obj0, &obj1, &obj2, &obj3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__PUMPLaplacian, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__PUMPLaplacian, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PUMPLaplacian_GetElementEnergy" "', argument " "1"" of type '" "mfem::PUMPLaplacian *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PUMPLaplacian_GetElementEnergy" "', argument " "1"" of type '" "mfem::common::PUMPLaplacian *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PUMPLaplacian * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PUMPLaplacian * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__FiniteElement,  0  | 0);
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PUMPLaplacian_GetElementEnergy" "', argument " "2"" of type '" "mfem::FiniteElement const &""'"); 
@@ -6216,7 +6219,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_PUMPLaplacian_AssembleElementVector(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::PUMPLaplacian *arg1 = (mfem::PUMPLaplacian *) 0 ;
+  mfem::common::PUMPLaplacian *arg1 = (mfem::common::PUMPLaplacian *) 0 ;
   mfem::FiniteElement *arg2 = 0 ;
   mfem::ElementTransformation *arg3 = 0 ;
   mfem::Vector *arg4 = 0 ;
@@ -6241,11 +6244,11 @@ SWIGINTERN PyObject *_wrap_PUMPLaplacian_AssembleElementVector(PyObject *self, P
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOOOO:PUMPLaplacian_AssembleElementVector", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__PUMPLaplacian, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__PUMPLaplacian, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PUMPLaplacian_AssembleElementVector" "', argument " "1"" of type '" "mfem::PUMPLaplacian *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PUMPLaplacian_AssembleElementVector" "', argument " "1"" of type '" "mfem::common::PUMPLaplacian *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PUMPLaplacian * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PUMPLaplacian * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__FiniteElement,  0  | 0);
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PUMPLaplacian_AssembleElementVector" "', argument " "2"" of type '" "mfem::FiniteElement const &""'"); 
@@ -6300,7 +6303,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_PUMPLaplacian_AssembleElementGrad(PyObject *self, PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  mfem::PUMPLaplacian *arg1 = (mfem::PUMPLaplacian *) 0 ;
+  mfem::common::PUMPLaplacian *arg1 = (mfem::common::PUMPLaplacian *) 0 ;
   mfem::FiniteElement *arg2 = 0 ;
   mfem::ElementTransformation *arg3 = 0 ;
   mfem::Vector *arg4 = 0 ;
@@ -6325,11 +6328,11 @@ SWIGINTERN PyObject *_wrap_PUMPLaplacian_AssembleElementGrad(PyObject *self, PyO
   };
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOOOO:PUMPLaplacian_AssembleElementGrad", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__PUMPLaplacian, 0 |  0 );
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__common__PUMPLaplacian, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PUMPLaplacian_AssembleElementGrad" "', argument " "1"" of type '" "mfem::PUMPLaplacian *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PUMPLaplacian_AssembleElementGrad" "', argument " "1"" of type '" "mfem::common::PUMPLaplacian *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PUMPLaplacian * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PUMPLaplacian * >(argp1);
   res2 = SWIG_ConvertPtr(obj1, &argp2, SWIGTYPE_p_mfem__FiniteElement,  0  | 0);
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PUMPLaplacian_AssembleElementGrad" "', argument " "2"" of type '" "mfem::FiniteElement const &""'"); 
@@ -6385,7 +6388,7 @@ fail:
 SWIGINTERN PyObject *PUMPLaplacian_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__PUMPLaplacian, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__common__PUMPLaplacian, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -6420,7 +6423,7 @@ SWIGINTERN PyObject *_wrap_new_PDEFilter(PyObject *self, PyObject *args, PyObjec
   char * kwnames[] = {
     (char *)"mesh",  (char *)"rh",  (char *)"order",  (char *)"maxiter",  (char *)"rtol",  (char *)"atol",  (char *)"print_lv",  NULL 
   };
-  mfem::PDEFilter *result = 0 ;
+  mfem::common::PDEFilter *result = 0 ;
   
   if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO|OOOOO:new_PDEFilter", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4, &obj5, &obj6)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1, SWIGTYPE_p_mfem__ParMesh,  0 );
@@ -6476,7 +6479,7 @@ SWIGINTERN PyObject *_wrap_new_PDEFilter(PyObject *self, PyObject *args, PyObjec
   }
   {
     try {
-      result = (mfem::PDEFilter *)new mfem::PDEFilter(*arg1,arg2,arg3,arg4,arg5,arg6,arg7); 
+      result = (mfem::common::PDEFilter *)new mfem::common::PDEFilter(*arg1,arg2,arg3,arg4,arg5,arg6,arg7); 
     }
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
@@ -6487,7 +6490,7 @@ SWIGINTERN PyObject *_wrap_new_PDEFilter(PyObject *self, PyObject *args, PyObjec
     //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
     //    catch (std::exception &e) { SWIG_fail; }    
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__PDEFilter, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__common__PDEFilter, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
@@ -6496,18 +6499,18 @@ fail:
 
 SWIGINTERN PyObject *_wrap_delete_PDEFilter(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
-  mfem::PDEFilter *arg1 = (mfem::PDEFilter *) 0 ;
+  mfem::common::PDEFilter *arg1 = (mfem::common::PDEFilter *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__PDEFilter, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__PDEFilter, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PDEFilter" "', argument " "1"" of type '" "mfem::PDEFilter *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PDEFilter" "', argument " "1"" of type '" "mfem::common::PDEFilter *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PDEFilter * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PDEFilter * >(argp1);
   {
     try {
       delete arg1; 
@@ -6530,7 +6533,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_PDEFilter_Filter__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  mfem::PDEFilter *arg1 = (mfem::PDEFilter *) 0 ;
+  mfem::common::PDEFilter *arg1 = (mfem::common::PDEFilter *) 0 ;
   mfem::ParGridFunction *arg2 = 0 ;
   mfem::ParGridFunction *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -6541,11 +6544,11 @@ SWIGINTERN PyObject *_wrap_PDEFilter_Filter__SWIG_0(PyObject *self, Py_ssize_t n
   int res3 = 0 ;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__PDEFilter, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__PDEFilter, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PDEFilter_Filter" "', argument " "1"" of type '" "mfem::PDEFilter *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PDEFilter_Filter" "', argument " "1"" of type '" "mfem::common::PDEFilter *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PDEFilter * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PDEFilter * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_mfem__ParGridFunction,  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PDEFilter_Filter" "', argument " "2"" of type '" "mfem::ParGridFunction &""'"); 
@@ -6584,7 +6587,7 @@ fail:
 
 SWIGINTERN PyObject *_wrap_PDEFilter_Filter__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  mfem::PDEFilter *arg1 = (mfem::PDEFilter *) 0 ;
+  mfem::common::PDEFilter *arg1 = (mfem::common::PDEFilter *) 0 ;
   mfem::Coefficient *arg2 = 0 ;
   mfem::ParGridFunction *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -6595,11 +6598,11 @@ SWIGINTERN PyObject *_wrap_PDEFilter_Filter__SWIG_1(PyObject *self, Py_ssize_t n
   int res3 = 0 ;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__PDEFilter, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__common__PDEFilter, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PDEFilter_Filter" "', argument " "1"" of type '" "mfem::PDEFilter *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PDEFilter_Filter" "', argument " "1"" of type '" "mfem::common::PDEFilter *""'"); 
   }
-  arg1 = reinterpret_cast< mfem::PDEFilter * >(argp1);
+  arg1 = reinterpret_cast< mfem::common::PDEFilter * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_mfem__Coefficient,  0 );
   if (!SWIG_IsOK(res2)) {
     SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PDEFilter_Filter" "', argument " "2"" of type '" "mfem::Coefficient &""'"); 
@@ -6647,7 +6650,7 @@ SWIGINTERN PyObject *_wrap_PDEFilter_Filter(PyObject *self, PyObject *args) {
   if (argc == 3) {
     int _v = 0;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_mfem__PDEFilter, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_mfem__common__PDEFilter, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       void *vptr = 0;
@@ -6666,7 +6669,7 @@ SWIGINTERN PyObject *_wrap_PDEFilter_Filter(PyObject *self, PyObject *args) {
   if (argc == 3) {
     int _v = 0;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_mfem__PDEFilter, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_mfem__common__PDEFilter, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       void *vptr = 0;
@@ -6686,8 +6689,8 @@ SWIGINTERN PyObject *_wrap_PDEFilter_Filter(PyObject *self, PyObject *args) {
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'PDEFilter_Filter'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    mfem::PDEFilter::Filter(mfem::ParGridFunction &,mfem::ParGridFunction &)\n"
-    "    mfem::PDEFilter::Filter(mfem::Coefficient &,mfem::ParGridFunction &)\n");
+    "    mfem::common::PDEFilter::Filter(mfem::ParGridFunction &,mfem::ParGridFunction &)\n"
+    "    mfem::common::PDEFilter::Filter(mfem::Coefficient &,mfem::ParGridFunction &)\n");
   return 0;
 }
 
@@ -6695,7 +6698,7 @@ fail:
 SWIGINTERN PyObject *PDEFilter_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__PDEFilter, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_mfem__common__PDEFilter, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
@@ -6883,9 +6886,6 @@ static void *_p_mfem__GridFunctionCoefficientTo_p_mfem__Coefficient(void *x, int
 static void *_p_mfem__InnerProductCoefficientTo_p_mfem__Coefficient(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Coefficient *)  ((mfem::InnerProductCoefficient *) x));
 }
-static void *_p_mfem__PProductCoefficientTo_p_mfem__Coefficient(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((mfem::Coefficient *)  ((mfem::PProductCoefficient *) x));
-}
 static void *_p_mfem__PWCoefficientTo_p_mfem__Coefficient(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Coefficient *)  ((mfem::PWCoefficient *) x));
 }
@@ -6919,14 +6919,8 @@ static void *_p_mfem__TransformedCoefficientTo_p_mfem__Coefficient(void *x, int 
 static void *_p_mfem__VectorRotProductCoefficientTo_p_mfem__Coefficient(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Coefficient *)  ((mfem::VectorRotProductCoefficient *) x));
 }
-static void *_p_mfem__HeatDistanceSolverTo_p_mfem__DistanceSolver(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((mfem::DistanceSolver *)  ((mfem::HeatDistanceSolver *) x));
-}
-static void *_p_mfem__NormalizationDistanceSolverTo_p_mfem__DistanceSolver(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((mfem::DistanceSolver *)  ((mfem::NormalizationDistanceSolver *) x));
-}
-static void *_p_mfem__PLapDistanceSolverTo_p_mfem__DistanceSolver(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((mfem::DistanceSolver *)  ((mfem::PLapDistanceSolver *) x));
+static void *_p_mfem__common__PProductCoefficientTo_p_mfem__Coefficient(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::Coefficient *)  ((mfem::common::PProductCoefficient *) x));
 }
 static void *_p_mfem__FaceElementTransformationsTo_p_mfem__ElementTransformation(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::ElementTransformation *) (mfem::IsoparametricTransformation *) ((mfem::FaceElementTransformations *) x));
@@ -7543,11 +7537,11 @@ static void *_p_mfem__NonconservativeDGTraceIntegratorTo_p_mfem__NonlinearFormIn
 static void *_p_mfem__NormalInterpolatorTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::NonlinearFormIntegrator *) (mfem::BilinearFormIntegrator *)(mfem::DiscreteInterpolator *) ((mfem::NormalInterpolator *) x));
 }
+static void *_p_mfem__NormalTraceIntegratorTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::NonlinearFormIntegrator *) (mfem::BilinearFormIntegrator *) ((mfem::NormalTraceIntegrator *) x));
+}
 static void *_p_mfem__NormalTraceJumpIntegratorTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::NonlinearFormIntegrator *) (mfem::BilinearFormIntegrator *) ((mfem::NormalTraceJumpIntegrator *) x));
-}
-static void *_p_mfem__PUMPLaplacianTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((mfem::NonlinearFormIntegrator *)  ((mfem::PUMPLaplacian *) x));
 }
 static void *_p_mfem__ScalarCrossProductInterpolatorTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::NonlinearFormIntegrator *) (mfem::BilinearFormIntegrator *)(mfem::DiscreteInterpolator *) ((mfem::ScalarCrossProductInterpolator *) x));
@@ -7558,14 +7552,17 @@ static void *_p_mfem__ScalarProductInterpolatorTo_p_mfem__NonlinearFormIntegrato
 static void *_p_mfem__ScalarVectorProductInterpolatorTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::NonlinearFormIntegrator *) (mfem::BilinearFormIntegrator *)(mfem::DiscreteInterpolator *) ((mfem::ScalarVectorProductInterpolator *) x));
 }
-static void *_p_mfem__ScreenedPoissonTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((mfem::NonlinearFormIntegrator *)  ((mfem::ScreenedPoisson *) x));
-}
 static void *_p_mfem__SkewSymmetricVectorConvectionNLFIntegratorTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::NonlinearFormIntegrator *) (mfem::VectorConvectionNLFIntegrator *) ((mfem::SkewSymmetricVectorConvectionNLFIntegrator *) x));
 }
 static void *_p_mfem__SumIntegratorTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::NonlinearFormIntegrator *) (mfem::BilinearFormIntegrator *) ((mfem::SumIntegrator *) x));
+}
+static void *_p_mfem__TangentTraceIntegratorTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::NonlinearFormIntegrator *) (mfem::BilinearFormIntegrator *) ((mfem::TangentTraceIntegrator *) x));
+}
+static void *_p_mfem__TraceIntegratorTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::NonlinearFormIntegrator *) (mfem::BilinearFormIntegrator *) ((mfem::TraceIntegrator *) x));
 }
 static void *_p_mfem__TraceJumpIntegratorTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::NonlinearFormIntegrator *) (mfem::BilinearFormIntegrator *) ((mfem::TraceJumpIntegrator *) x));
@@ -7609,6 +7606,12 @@ static void *_p_mfem__VectorMassIntegratorTo_p_mfem__NonlinearFormIntegrator(voi
 static void *_p_mfem__VectorScalarProductInterpolatorTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::NonlinearFormIntegrator *) (mfem::BilinearFormIntegrator *)(mfem::DiscreteInterpolator *) ((mfem::VectorScalarProductInterpolator *) x));
 }
+static void *_p_mfem__common__PUMPLaplacianTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::NonlinearFormIntegrator *)  ((mfem::common::PUMPLaplacian *) x));
+}
+static void *_p_mfem__common__ScreenedPoissonTo_p_mfem__NonlinearFormIntegrator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::NonlinearFormIntegrator *)  ((mfem::common::ScreenedPoisson *) x));
+}
 static void *_p_mfem__AbstractSparseMatrixTo_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Operator *) (mfem::Matrix *) ((mfem::AbstractSparseMatrix *) x));
 }
@@ -7623,6 +7626,9 @@ static void *_p_mfem__BlockILUTo_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(n
 }
 static void *_p_mfem__CGSolverTo_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Operator *) (mfem::Solver *)(mfem::IterativeSolver *) ((mfem::CGSolver *) x));
+}
+static void *_p_mfem__ConformingFaceRestrictionTo_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::Operator *) (mfem::FaceRestriction *) ((mfem::ConformingFaceRestriction *) x));
 }
 static void *_p_mfem__ConformingProlongationOperatorTo_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Operator *)  ((mfem::ConformingProlongationOperator *) x));
@@ -7659,9 +7665,6 @@ static void *_p_mfem__FaceRestrictionTo_p_mfem__Operator(void *x, int *SWIGUNUSE
 }
 static void *_p_mfem__GMRESSolverTo_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Operator *) (mfem::Solver *)(mfem::IterativeSolver *) ((mfem::GMRESSolver *) x));
-}
-static void *_p_mfem__H1FaceRestrictionTo_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((mfem::Operator *) (mfem::FaceRestriction *) ((mfem::H1FaceRestriction *) x));
 }
 static void *_p_mfem__HypreADSTo_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Operator *) (mfem::Solver *)(mfem::HypreSolver *) ((mfem::HypreADS *) x));
@@ -7936,9 +7939,6 @@ static void *_p_mfem__MatrixVectorProductCoefficientTo_p_mfem__VectorCoefficient
 static void *_p_mfem__NodeExtrudeCoefficientTo_p_mfem__VectorCoefficient(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::VectorCoefficient *)  ((mfem::NodeExtrudeCoefficient *) x));
 }
-static void *_p_mfem__NormalizedGradCoefficientTo_p_mfem__VectorCoefficient(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((mfem::VectorCoefficient *)  ((mfem::NormalizedGradCoefficient *) x));
-}
 static void *_p_mfem__NormalizedVectorCoefficientTo_p_mfem__VectorCoefficient(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::VectorCoefficient *)  ((mfem::NormalizedVectorCoefficient *) x));
 }
@@ -7978,6 +7978,18 @@ static void *_p_mfem__VectorRestrictedCoefficientTo_p_mfem__VectorCoefficient(vo
 static void *_p_mfem__VectorSumCoefficientTo_p_mfem__VectorCoefficient(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::VectorCoefficient *)  ((mfem::VectorSumCoefficient *) x));
 }
+static void *_p_mfem__common__NormalizedGradCoefficientTo_p_mfem__VectorCoefficient(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::VectorCoefficient *)  ((mfem::common::NormalizedGradCoefficient *) x));
+}
+static void *_p_mfem__common__HeatDistanceSolverTo_p_mfem__common__DistanceSolver(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::common::DistanceSolver *)  ((mfem::common::HeatDistanceSolver *) x));
+}
+static void *_p_mfem__common__NormalizationDistanceSolverTo_p_mfem__common__DistanceSolver(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::common::DistanceSolver *)  ((mfem::common::NormalizationDistanceSolver *) x));
+}
+static void *_p_mfem__common__PLapDistanceSolverTo_p_mfem__common__DistanceSolver(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::common::DistanceSolver *)  ((mfem::common::PLapDistanceSolver *) x));
+}
 static void *_p_p_mfem__ParFiniteElementSpaceTo_p_p_mfem__FiniteElementSpace(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::FiniteElementSpace **)  ((mfem::ParFiniteElementSpace **) x));
 }
@@ -7995,6 +8007,9 @@ static void *_p_p_mfem__BlockILUTo_p_p_mfem__Operator(void *x, int *SWIGUNUSEDPA
 }
 static void *_p_p_mfem__CGSolverTo_p_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Operator **) (mfem::Solver *)(mfem::IterativeSolver *) ((mfem::CGSolver **) x));
+}
+static void *_p_p_mfem__ConformingFaceRestrictionTo_p_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((mfem::Operator **) (mfem::FaceRestriction *) ((mfem::ConformingFaceRestriction **) x));
 }
 static void *_p_p_mfem__ConformingProlongationOperatorTo_p_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Operator **)  ((mfem::ConformingProlongationOperator **) x));
@@ -8031,9 +8046,6 @@ static void *_p_p_mfem__FaceRestrictionTo_p_p_mfem__Operator(void *x, int *SWIGU
 }
 static void *_p_p_mfem__GMRESSolverTo_p_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Operator **) (mfem::Solver *)(mfem::IterativeSolver *) ((mfem::GMRESSolver **) x));
-}
-static void *_p_p_mfem__H1FaceRestrictionTo_p_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((mfem::Operator **) (mfem::FaceRestriction *) ((mfem::H1FaceRestriction **) x));
 }
 static void *_p_p_mfem__HypreADSTo_p_p_mfem__Operator(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((mfem::Operator **) (mfem::Solver *)(mfem::HypreSolver *) ((mfem::HypreADS **) x));
@@ -8332,10 +8344,10 @@ static swig_type_info _swigt__p_mfem__RestrictedCoefficient = {"_p_mfem__Restric
 static swig_type_info _swigt__p_mfem__SumCoefficient = {"_p_mfem__SumCoefficient", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__TransformedCoefficient = {"_p_mfem__TransformedCoefficient", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__VectorRotProductCoefficient = {"_p_mfem__VectorRotProductCoefficient", 0, 0, 0, 0, 0};
+static swig_type_info _swigt__p_mfem__ConformingFaceRestriction = {"_p_mfem__ConformingFaceRestriction", "mfem::H1FaceRestriction *|mfem::ConformingFaceRestriction *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__ConvectionIntegrator = {"_p_mfem__ConvectionIntegrator", "mfem::NonconservativeConvectionIntegrator *|mfem::ConvectionIntegrator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__DGTraceIntegrator = {"_p_mfem__DGTraceIntegrator", "mfem::ConservativeDGTraceIntegrator *|mfem::DGTraceIntegrator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__DenseMatrix = {"_p_mfem__DenseMatrix", "mfem::DenseMatrix *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_mfem__DistanceSolver = {"_p_mfem__DistanceSolver", "mfem::DistanceSolver *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__ElementTransformation = {"_p_mfem__ElementTransformation", "mfem::ElementTransformation *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__FaceElementTransformations = {"_p_mfem__FaceElementTransformations", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__IsoparametricTransformation = {"_p_mfem__IsoparametricTransformation", 0, 0, 0, 0, 0};
@@ -8459,7 +8471,6 @@ static swig_type_info _swigt__p_mfem__VectorTensorFiniteElement = {"_p_mfem__Vec
 static swig_type_info _swigt__p_mfem__FiniteElementSpace = {"_p_mfem__FiniteElementSpace", "mfem::FiniteElementSpace *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__ParFiniteElementSpace = {"_p_mfem__ParFiniteElementSpace", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__GridFunction = {"_p_mfem__GridFunction", "mfem::GridFunction *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_mfem__HeatDistanceSolver = {"_p_mfem__HeatDistanceSolver", "mfem::HeatDistanceSolver *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__IntegrationPoint = {"_p_mfem__IntegrationPoint", "mfem::IntegrationPoint *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__IntegrationRule = {"_p_mfem__IntegrationRule", "mfem::IntegrationRule *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__IterativeSolver__PrintLevel = {"_p_mfem__IterativeSolver__PrintLevel", "mfem::IterativeSolver::PrintLevel *", 0, 0, (void*)0, 0};
@@ -8549,12 +8560,15 @@ static swig_type_info _swigt__p_mfem__MixedWeakDivCrossIntegrator = {"_p_mfem__M
 static swig_type_info _swigt__p_mfem__MixedWeakGradDotIntegrator = {"_p_mfem__MixedWeakGradDotIntegrator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__NonconservativeDGTraceIntegrator = {"_p_mfem__NonconservativeDGTraceIntegrator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__NormalInterpolator = {"_p_mfem__NormalInterpolator", 0, 0, 0, 0, 0};
+static swig_type_info _swigt__p_mfem__NormalTraceIntegrator = {"_p_mfem__NormalTraceIntegrator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__NormalTraceJumpIntegrator = {"_p_mfem__NormalTraceJumpIntegrator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__ScalarCrossProductInterpolator = {"_p_mfem__ScalarCrossProductInterpolator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__ScalarProductInterpolator = {"_p_mfem__ScalarProductInterpolator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__ScalarVectorProductInterpolator = {"_p_mfem__ScalarVectorProductInterpolator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__SkewSymmetricVectorConvectionNLFIntegrator = {"_p_mfem__SkewSymmetricVectorConvectionNLFIntegrator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__SumIntegrator = {"_p_mfem__SumIntegrator", 0, 0, 0, 0, 0};
+static swig_type_info _swigt__p_mfem__TangentTraceIntegrator = {"_p_mfem__TangentTraceIntegrator", 0, 0, 0, 0, 0};
+static swig_type_info _swigt__p_mfem__TraceIntegrator = {"_p_mfem__TraceIntegrator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__TraceJumpIntegrator = {"_p_mfem__TraceJumpIntegrator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__TransposeIntegrator = {"_p_mfem__TransposeIntegrator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__VectorConvectionNLFIntegrator = {"_p_mfem__VectorConvectionNLFIntegrator", 0, 0, 0, 0, 0};
@@ -8569,8 +8583,6 @@ static swig_type_info _swigt__p_mfem__VectorFEWeakDivergenceIntegrator = {"_p_mf
 static swig_type_info _swigt__p_mfem__VectorInnerProductInterpolator = {"_p_mfem__VectorInnerProductInterpolator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__VectorMassIntegrator = {"_p_mfem__VectorMassIntegrator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__VectorScalarProductInterpolator = {"_p_mfem__VectorScalarProductInterpolator", 0, 0, 0, 0, 0};
-static swig_type_info _swigt__p_mfem__NormalizationDistanceSolver = {"_p_mfem__NormalizationDistanceSolver", "mfem::NormalizationDistanceSolver *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_mfem__NormalizedGradCoefficient = {"_p_mfem__NormalizedGradCoefficient", "mfem::NormalizedGradCoefficient *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__Operator = {"_p_mfem__Operator", "mfem::Operator *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__AbstractSparseMatrix = {"_p_mfem__AbstractSparseMatrix", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__AuxSpaceSmoother = {"_p_mfem__AuxSpaceSmoother", 0, 0, 0, 0, 0};
@@ -8588,7 +8600,6 @@ static swig_type_info _swigt__p_mfem__ElementRestrictionOperator = {"_p_mfem__El
 static swig_type_info _swigt__p_mfem__FGMRESSolver = {"_p_mfem__FGMRESSolver", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__FaceRestriction = {"_p_mfem__FaceRestriction", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__GMRESSolver = {"_p_mfem__GMRESSolver", 0, 0, 0, 0, 0};
-static swig_type_info _swigt__p_mfem__H1FaceRestriction = {"_p_mfem__H1FaceRestriction", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__HypreADS = {"_p_mfem__HypreADS", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__HypreAMS = {"_p_mfem__HypreAMS", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__HypreBoomerAMG = {"_p_mfem__HypreBoomerAMG", 0, 0, 0, 0, 0};
@@ -8635,14 +8646,9 @@ static swig_type_info _swigt__p_mfem__TimeDependentOperator = {"_p_mfem__TimeDep
 static swig_type_info _swigt__p_mfem__TransposeOperator = {"_p_mfem__TransposeOperator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__TripleProductOperator = {"_p_mfem__TripleProductOperator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__OperatorHandle = {"_p_mfem__OperatorHandle", "mfem::OperatorPtr *|mfem::OperatorHandle *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_mfem__PDEFilter = {"_p_mfem__PDEFilter", "mfem::PDEFilter *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_mfem__PLapDistanceSolver = {"_p_mfem__PLapDistanceSolver", "mfem::PLapDistanceSolver *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_mfem__PProductCoefficient = {"_p_mfem__PProductCoefficient", "mfem::PProductCoefficient *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_mfem__PUMPLaplacian = {"_p_mfem__PUMPLaplacian", "mfem::PUMPLaplacian *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__ParGridFunction = {"_p_mfem__ParGridFunction", "mfem::ParGridFunction *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__ParMesh = {"_p_mfem__ParMesh", "mfem::ParMesh *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__Refinement = {"_p_mfem__Refinement", "mfem::Refinement *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_mfem__ScreenedPoisson = {"_p_mfem__ScreenedPoisson", "mfem::ScreenedPoisson *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__Solver = {"_p_mfem__Solver", "mfem::Solver *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__Vector = {"_p_mfem__Vector", "mfem::Vector *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__CoefficientVector = {"_p_mfem__CoefficientVector", 0, 0, 0, 0, 0};
@@ -8665,6 +8671,15 @@ static swig_type_info _swigt__p_mfem__VectorPyCoefficientBase = {"_p_mfem__Vecto
 static swig_type_info _swigt__p_mfem__VectorQuadratureFunctionCoefficient = {"_p_mfem__VectorQuadratureFunctionCoefficient", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__VectorRestrictedCoefficient = {"_p_mfem__VectorRestrictedCoefficient", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_mfem__VectorSumCoefficient = {"_p_mfem__VectorSumCoefficient", 0, 0, 0, 0, 0};
+static swig_type_info _swigt__p_mfem__common__DistanceSolver = {"_p_mfem__common__DistanceSolver", "mfem::common::DistanceSolver *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_mfem__common__HeatDistanceSolver = {"_p_mfem__common__HeatDistanceSolver", "mfem::common::HeatDistanceSolver *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_mfem__common__NormalizationDistanceSolver = {"_p_mfem__common__NormalizationDistanceSolver", "mfem::common::NormalizationDistanceSolver *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_mfem__common__NormalizedGradCoefficient = {"_p_mfem__common__NormalizedGradCoefficient", "mfem::common::NormalizedGradCoefficient *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_mfem__common__PDEFilter = {"_p_mfem__common__PDEFilter", "mfem::common::PDEFilter *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_mfem__common__PLapDistanceSolver = {"_p_mfem__common__PLapDistanceSolver", "mfem::common::PLapDistanceSolver *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_mfem__common__PProductCoefficient = {"_p_mfem__common__PProductCoefficient", "mfem::common::PProductCoefficient *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_mfem__common__PUMPLaplacian = {"_p_mfem__common__PUMPLaplacian", "mfem::common::PUMPLaplacian *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_mfem__common__ScreenedPoisson = {"_p_mfem__common__ScreenedPoisson", "mfem::common::ScreenedPoisson *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_p_mfem__FiniteElementSpace = {"_p_p_mfem__FiniteElementSpace", "mfem::FiniteElementSpace **", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_p_mfem__ParFiniteElementSpace = {"_p_p_mfem__ParFiniteElementSpace", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_p_mfem__IntegrationRule = {"_p_p_mfem__IntegrationRule", "mfem::IntegrationRule **", 0, 0, (void*)0, 0};
@@ -8674,6 +8689,7 @@ static swig_type_info _swigt__p_p_mfem__AuxSpaceSmoother = {"_p_p_mfem__AuxSpace
 static swig_type_info _swigt__p_p_mfem__BiCGSTABSolver = {"_p_p_mfem__BiCGSTABSolver", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_p_mfem__BlockILU = {"_p_p_mfem__BlockILU", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_p_mfem__CGSolver = {"_p_p_mfem__CGSolver", 0, 0, 0, 0, 0};
+static swig_type_info _swigt__p_p_mfem__ConformingFaceRestriction = {"_p_p_mfem__ConformingFaceRestriction", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_p_mfem__ConformingProlongationOperator = {"_p_p_mfem__ConformingProlongationOperator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_p_mfem__ConstrainedOperator = {"_p_p_mfem__ConstrainedOperator", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_p_mfem__DenseMatrix = {"_p_p_mfem__DenseMatrix", 0, 0, 0, 0, 0};
@@ -8686,7 +8702,6 @@ static swig_type_info _swigt__p_p_mfem__ElementRestrictionOperator = {"_p_p_mfem
 static swig_type_info _swigt__p_p_mfem__FGMRESSolver = {"_p_p_mfem__FGMRESSolver", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_p_mfem__FaceRestriction = {"_p_p_mfem__FaceRestriction", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_p_mfem__GMRESSolver = {"_p_p_mfem__GMRESSolver", 0, 0, 0, 0, 0};
-static swig_type_info _swigt__p_p_mfem__H1FaceRestriction = {"_p_p_mfem__H1FaceRestriction", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_p_mfem__HypreADS = {"_p_p_mfem__HypreADS", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_p_mfem__HypreAMS = {"_p_p_mfem__HypreAMS", 0, 0, 0, 0, 0};
 static swig_type_info _swigt__p_p_mfem__HypreBoomerAMG = {"_p_p_mfem__HypreBoomerAMG", 0, 0, 0, 0, 0};
@@ -8781,6 +8796,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_mfem__CGSolver,
   &_swigt__p_mfem__Coefficient,
   &_swigt__p_mfem__CoefficientVector,
+  &_swigt__p_mfem__ConformingFaceRestriction,
   &_swigt__p_mfem__ConformingProlongationOperator,
   &_swigt__p_mfem__ConservativeConvectionIntegrator,
   &_swigt__p_mfem__ConstantCoefficient,
@@ -8810,7 +8826,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_mfem__DiffusionIntegrator,
   &_swigt__p_mfem__DirectSubBlockSolver,
   &_swigt__p_mfem__DiscreteInterpolator,
-  &_swigt__p_mfem__DistanceSolver,
   &_swigt__p_mfem__DivDivIntegrator,
   &_swigt__p_mfem__DivergenceGridFunctionCoefficient,
   &_swigt__p_mfem__DivergenceInterpolator,
@@ -8836,7 +8851,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_mfem__GridFunction,
   &_swigt__p_mfem__GridFunctionCoefficient,
   &_swigt__p_mfem__GroupConvectionIntegrator,
-  &_swigt__p_mfem__H1FaceRestriction,
   &_swigt__p_mfem__H1Pos_HexahedronElement,
   &_swigt__p_mfem__H1Pos_QuadrilateralElement,
   &_swigt__p_mfem__H1Pos_SegmentElement,
@@ -8850,7 +8864,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_mfem__H1_TetrahedronElement,
   &_swigt__p_mfem__H1_TriangleElement,
   &_swigt__p_mfem__H1_WedgeElement,
-  &_swigt__p_mfem__HeatDistanceSolver,
   &_swigt__p_mfem__HyperelasticNLFIntegrator,
   &_swigt__p_mfem__HypreADS,
   &_swigt__p_mfem__HypreAMS,
@@ -8985,9 +8998,8 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_mfem__NonconservativeDGTraceIntegrator,
   &_swigt__p_mfem__NonlinearFormIntegrator,
   &_swigt__p_mfem__NormalInterpolator,
+  &_swigt__p_mfem__NormalTraceIntegrator,
   &_swigt__p_mfem__NormalTraceJumpIntegrator,
-  &_swigt__p_mfem__NormalizationDistanceSolver,
-  &_swigt__p_mfem__NormalizedGradCoefficient,
   &_swigt__p_mfem__NormalizedVectorCoefficient,
   &_swigt__p_mfem__Operator,
   &_swigt__p_mfem__OperatorChebyshevSmoother,
@@ -9007,10 +9019,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_mfem__P1SegmentFiniteElement,
   &_swigt__p_mfem__P1TetNonConfFiniteElement,
   &_swigt__p_mfem__P2SegmentFiniteElement,
-  &_swigt__p_mfem__PDEFilter,
-  &_swigt__p_mfem__PLapDistanceSolver,
-  &_swigt__p_mfem__PProductCoefficient,
-  &_swigt__p_mfem__PUMPLaplacian,
   &_swigt__p_mfem__PWCoefficient,
   &_swigt__p_mfem__PWConstCoefficient,
   &_swigt__p_mfem__PWMatrixCoefficient,
@@ -9075,7 +9083,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_mfem__ScalarVectorProductCoefficient,
   &_swigt__p_mfem__ScalarVectorProductInterpolator,
   &_swigt__p_mfem__ScaledOperator,
-  &_swigt__p_mfem__ScreenedPoisson,
   &_swigt__p_mfem__SecondOrderTimeDependentOperator,
   &_swigt__p_mfem__SkewSymmetricVectorConvectionNLFIntegrator,
   &_swigt__p_mfem__Solver,
@@ -9085,8 +9092,10 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_mfem__SymmetricMatrixCoefficient,
   &_swigt__p_mfem__SymmetricMatrixConstantCoefficient,
   &_swigt__p_mfem__SymmetricMatrixFunctionCoefficient,
+  &_swigt__p_mfem__TangentTraceIntegrator,
   &_swigt__p_mfem__TimeDependentAdjointOperator,
   &_swigt__p_mfem__TimeDependentOperator,
+  &_swigt__p_mfem__TraceIntegrator,
   &_swigt__p_mfem__TraceJumpIntegrator,
   &_swigt__p_mfem__TransformedCoefficient,
   &_swigt__p_mfem__TransposeIntegrator,
@@ -9121,12 +9130,22 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_mfem__VectorScalarProductInterpolator,
   &_swigt__p_mfem__VectorSumCoefficient,
   &_swigt__p_mfem__VectorTensorFiniteElement,
+  &_swigt__p_mfem__common__DistanceSolver,
+  &_swigt__p_mfem__common__HeatDistanceSolver,
+  &_swigt__p_mfem__common__NormalizationDistanceSolver,
+  &_swigt__p_mfem__common__NormalizedGradCoefficient,
+  &_swigt__p_mfem__common__PDEFilter,
+  &_swigt__p_mfem__common__PLapDistanceSolver,
+  &_swigt__p_mfem__common__PProductCoefficient,
+  &_swigt__p_mfem__common__PUMPLaplacian,
+  &_swigt__p_mfem__common__ScreenedPoisson,
   &_swigt__p_p_mfem__AbstractSparseMatrix,
   &_swigt__p_p_mfem__AuxSpaceSmoother,
   &_swigt__p_p_mfem__BiCGSTABSolver,
   &_swigt__p_p_mfem__BlockILU,
   &_swigt__p_p_mfem__CGSolver,
   &_swigt__p_p_mfem__CoefficientVector,
+  &_swigt__p_p_mfem__ConformingFaceRestriction,
   &_swigt__p_p_mfem__ConformingProlongationOperator,
   &_swigt__p_p_mfem__ConstrainedOperator,
   &_swigt__p_p_mfem__DenseMatrix,
@@ -9141,7 +9160,6 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_p_mfem__FiniteElementSpace,
   &_swigt__p_p_mfem__GMRESSolver,
   &_swigt__p_p_mfem__GridFunction,
-  &_swigt__p_p_mfem__H1FaceRestriction,
   &_swigt__p_p_mfem__HypreADS,
   &_swigt__p_p_mfem__HypreAMS,
   &_swigt__p_p_mfem__HypreBoomerAMG,
@@ -9243,11 +9261,11 @@ static swig_cast_info _swigc__p_mfem__RestrictedCoefficient[] = {{&_swigt__p_mfe
 static swig_cast_info _swigc__p_mfem__SumCoefficient[] = {{&_swigt__p_mfem__SumCoefficient, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__TransformedCoefficient[] = {{&_swigt__p_mfem__TransformedCoefficient, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__VectorRotProductCoefficient[] = {{&_swigt__p_mfem__VectorRotProductCoefficient, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__Coefficient[] = {  {&_swigt__p_mfem__Coefficient, 0, 0, 0},  {&_swigt__p_ScalarNumbaCoefficient, _p_ScalarNumbaCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__ConstantCoefficient, _p_mfem__ConstantCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__DeltaCoefficient, _p_mfem__DeltaCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__DeterminantCoefficient, _p_mfem__DeterminantCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__DivergenceGridFunctionCoefficient, _p_mfem__DivergenceGridFunctionCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__ExtrudeCoefficient, _p_mfem__ExtrudeCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__FunctionCoefficient, _p_mfem__FunctionCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__GridFunctionCoefficient, _p_mfem__GridFunctionCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__InnerProductCoefficient, _p_mfem__InnerProductCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__PProductCoefficient, _p_mfem__PProductCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__PWCoefficient, _p_mfem__PWCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__PWConstCoefficient, _p_mfem__PWConstCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__PowerCoefficient, _p_mfem__PowerCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__ProductCoefficient, _p_mfem__ProductCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__PyCoefficientBase, _p_mfem__PyCoefficientBaseTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__QuadratureFunctionCoefficient, _p_mfem__QuadratureFunctionCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__RatioCoefficient, _p_mfem__RatioCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__RestrictedCoefficient, _p_mfem__RestrictedCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__SumCoefficient, _p_mfem__SumCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__TransformedCoefficient, _p_mfem__TransformedCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__VectorRotProductCoefficient, _p_mfem__VectorRotProductCoefficientTo_p_mfem__Coefficient, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__Coefficient[] = {  {&_swigt__p_mfem__Coefficient, 0, 0, 0},  {&_swigt__p_ScalarNumbaCoefficient, _p_ScalarNumbaCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__ConstantCoefficient, _p_mfem__ConstantCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__DeltaCoefficient, _p_mfem__DeltaCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__DeterminantCoefficient, _p_mfem__DeterminantCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__DivergenceGridFunctionCoefficient, _p_mfem__DivergenceGridFunctionCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__ExtrudeCoefficient, _p_mfem__ExtrudeCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__FunctionCoefficient, _p_mfem__FunctionCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__GridFunctionCoefficient, _p_mfem__GridFunctionCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__InnerProductCoefficient, _p_mfem__InnerProductCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__PWCoefficient, _p_mfem__PWCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__PWConstCoefficient, _p_mfem__PWConstCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__PowerCoefficient, _p_mfem__PowerCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__ProductCoefficient, _p_mfem__ProductCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__PyCoefficientBase, _p_mfem__PyCoefficientBaseTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__QuadratureFunctionCoefficient, _p_mfem__QuadratureFunctionCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__RatioCoefficient, _p_mfem__RatioCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__RestrictedCoefficient, _p_mfem__RestrictedCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__SumCoefficient, _p_mfem__SumCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__TransformedCoefficient, _p_mfem__TransformedCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__VectorRotProductCoefficient, _p_mfem__VectorRotProductCoefficientTo_p_mfem__Coefficient, 0, 0},  {&_swigt__p_mfem__common__PProductCoefficient, _p_mfem__common__PProductCoefficientTo_p_mfem__Coefficient, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__ConformingFaceRestriction[] = {  {&_swigt__p_mfem__ConformingFaceRestriction, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__ConvectionIntegrator[] = {  {&_swigt__p_mfem__ConvectionIntegrator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__DGTraceIntegrator[] = {  {&_swigt__p_mfem__DGTraceIntegrator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__DenseMatrix[] = {  {&_swigt__p_mfem__DenseMatrix, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__DistanceSolver[] = {  {&_swigt__p_mfem__DistanceSolver, 0, 0, 0},  {&_swigt__p_mfem__HeatDistanceSolver, _p_mfem__HeatDistanceSolverTo_p_mfem__DistanceSolver, 0, 0},  {&_swigt__p_mfem__NormalizationDistanceSolver, _p_mfem__NormalizationDistanceSolverTo_p_mfem__DistanceSolver, 0, 0},  {&_swigt__p_mfem__PLapDistanceSolver, _p_mfem__PLapDistanceSolverTo_p_mfem__DistanceSolver, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__FaceElementTransformations[] = {{&_swigt__p_mfem__FaceElementTransformations, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__IsoparametricTransformation[] = {{&_swigt__p_mfem__IsoparametricTransformation, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__ElementTransformation[] = {  {&_swigt__p_mfem__ElementTransformation, 0, 0, 0},  {&_swigt__p_mfem__FaceElementTransformations, _p_mfem__FaceElementTransformationsTo_p_mfem__ElementTransformation, 0, 0},  {&_swigt__p_mfem__IsoparametricTransformation, _p_mfem__IsoparametricTransformationTo_p_mfem__ElementTransformation, 0, 0},{0, 0, 0, 0}};
@@ -9371,7 +9389,6 @@ static swig_cast_info _swigc__p_mfem__FiniteElement[] = {  {&_swigt__p_mfem__Fin
 static swig_cast_info _swigc__p_mfem__ParFiniteElementSpace[] = {{&_swigt__p_mfem__ParFiniteElementSpace, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__FiniteElementSpace[] = {  {&_swigt__p_mfem__FiniteElementSpace, 0, 0, 0},  {&_swigt__p_mfem__ParFiniteElementSpace, _p_mfem__ParFiniteElementSpaceTo_p_mfem__FiniteElementSpace, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__GridFunction[] = {  {&_swigt__p_mfem__GridFunction, 0, 0, 0},  {&_swigt__p_mfem__ParGridFunction, _p_mfem__ParGridFunctionTo_p_mfem__GridFunction, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__HeatDistanceSolver[] = {  {&_swigt__p_mfem__HeatDistanceSolver, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__IntegrationPoint[] = {  {&_swigt__p_mfem__IntegrationPoint, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__IntegrationRule[] = {  {&_swigt__p_mfem__IntegrationRule, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__IterativeSolver__PrintLevel[] = {  {&_swigt__p_mfem__IterativeSolver__PrintLevel, 0, 0, 0},{0, 0, 0, 0}};
@@ -9460,12 +9477,15 @@ static swig_cast_info _swigc__p_mfem__MixedWeakDivCrossIntegrator[] = {{&_swigt_
 static swig_cast_info _swigc__p_mfem__MixedWeakGradDotIntegrator[] = {{&_swigt__p_mfem__MixedWeakGradDotIntegrator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__NonconservativeDGTraceIntegrator[] = {{&_swigt__p_mfem__NonconservativeDGTraceIntegrator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__NormalInterpolator[] = {{&_swigt__p_mfem__NormalInterpolator, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__NormalTraceIntegrator[] = {{&_swigt__p_mfem__NormalTraceIntegrator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__NormalTraceJumpIntegrator[] = {{&_swigt__p_mfem__NormalTraceJumpIntegrator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__ScalarCrossProductInterpolator[] = {{&_swigt__p_mfem__ScalarCrossProductInterpolator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__ScalarProductInterpolator[] = {{&_swigt__p_mfem__ScalarProductInterpolator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__ScalarVectorProductInterpolator[] = {{&_swigt__p_mfem__ScalarVectorProductInterpolator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__SkewSymmetricVectorConvectionNLFIntegrator[] = {{&_swigt__p_mfem__SkewSymmetricVectorConvectionNLFIntegrator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__SumIntegrator[] = {{&_swigt__p_mfem__SumIntegrator, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__TangentTraceIntegrator[] = {{&_swigt__p_mfem__TangentTraceIntegrator, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__TraceIntegrator[] = {{&_swigt__p_mfem__TraceIntegrator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__TraceJumpIntegrator[] = {{&_swigt__p_mfem__TraceJumpIntegrator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__TransposeIntegrator[] = {{&_swigt__p_mfem__TransposeIntegrator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__VectorConvectionNLFIntegrator[] = {{&_swigt__p_mfem__VectorConvectionNLFIntegrator, 0, 0, 0},{0, 0, 0, 0}};
@@ -9480,9 +9500,7 @@ static swig_cast_info _swigc__p_mfem__VectorFEWeakDivergenceIntegrator[] = {{&_s
 static swig_cast_info _swigc__p_mfem__VectorInnerProductInterpolator[] = {{&_swigt__p_mfem__VectorInnerProductInterpolator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__VectorMassIntegrator[] = {{&_swigt__p_mfem__VectorMassIntegrator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__VectorScalarProductInterpolator[] = {{&_swigt__p_mfem__VectorScalarProductInterpolator, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__NonlinearFormIntegrator[] = {  {&_swigt__p_mfem__NonlinearFormIntegrator, 0, 0, 0},  {&_swigt__p_mfem__BilinearFormIntegrator, _p_mfem__BilinearFormIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__BoundaryMassIntegrator, _p_mfem__BoundaryMassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ConservativeConvectionIntegrator, _p_mfem__ConservativeConvectionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ConvectionIntegrator, _p_mfem__ConvectionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ConvectiveVectorConvectionNLFIntegrator, _p_mfem__ConvectiveVectorConvectionNLFIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__CurlCurlIntegrator, _p_mfem__CurlCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__CurlInterpolator, _p_mfem__CurlInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DGDiffusionBR2Integrator, _p_mfem__DGDiffusionBR2IntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DGDiffusionIntegrator, _p_mfem__DGDiffusionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DGElasticityIntegrator, _p_mfem__DGElasticityIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DGTraceIntegrator, _p_mfem__DGTraceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DerivativeIntegrator, _p_mfem__DerivativeIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DiffusionIntegrator, _p_mfem__DiffusionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DiscreteInterpolator, _p_mfem__DiscreteInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DivDivIntegrator, _p_mfem__DivDivIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DivergenceInterpolator, _p_mfem__DivergenceInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ElasticityIntegrator, _p_mfem__ElasticityIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__GradientIntegrator, _p_mfem__GradientIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__GradientInterpolator, _p_mfem__GradientInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__GroupConvectionIntegrator, _p_mfem__GroupConvectionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__HyperelasticNLFIntegrator, _p_mfem__HyperelasticNLFIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__IdentityInterpolator, _p_mfem__IdentityInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__InverseIntegrator, _p_mfem__InverseIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__LumpedIntegrator, _p_mfem__LumpedIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MassIntegrator, _p_mfem__MassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossCurlCurlIntegrator, _p_mfem__MixedCrossCurlCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossCurlGradIntegrator, _p_mfem__MixedCrossCurlGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossCurlIntegrator, _p_mfem__MixedCrossCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossGradCurlIntegrator, _p_mfem__MixedCrossGradCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossGradGradIntegrator, _p_mfem__MixedCrossGradGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossGradIntegrator, _p_mfem__MixedCrossGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossProductIntegrator, _p_mfem__MixedCrossProductIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCurlCurlIntegrator, _p_mfem__MixedCurlCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCurlIntegrator, _p_mfem__MixedCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedDirectionalDerivativeIntegrator, _p_mfem__MixedDirectionalDerivativeIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedDivGradIntegrator, _p_mfem__MixedDivGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedDotProductIntegrator, _p_mfem__MixedDotProductIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedGradDivIntegrator, _p_mfem__MixedGradDivIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedGradGradIntegrator, _p_mfem__MixedGradGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarCrossCurlIntegrator, _p_mfem__MixedScalarCrossCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarCrossGradIntegrator, _p_mfem__MixedScalarCrossGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarCrossProductIntegrator, _p_mfem__MixedScalarCrossProductIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarCurlIntegrator, _p_mfem__MixedScalarCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarDerivativeIntegrator, _p_mfem__MixedScalarDerivativeIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarDivergenceIntegrator, _p_mfem__MixedScalarDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarIntegrator, _p_mfem__MixedScalarIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarMassIntegrator, _p_mfem__MixedScalarMassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarVectorIntegrator, _p_mfem__MixedScalarVectorIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakCrossProductIntegrator, _p_mfem__MixedScalarWeakCrossProductIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakCurlCrossIntegrator, _p_mfem__MixedScalarWeakCurlCrossIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakCurlIntegrator, _p_mfem__MixedScalarWeakCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakDerivativeIntegrator, _p_mfem__MixedScalarWeakDerivativeIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakDivergenceIntegrator, _p_mfem__MixedScalarWeakDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakGradientIntegrator, _p_mfem__MixedScalarWeakGradientIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorCurlIntegrator, _p_mfem__MixedVectorCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorDivergenceIntegrator, _p_mfem__MixedVectorDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorGradientIntegrator, _p_mfem__MixedVectorGradientIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorIntegrator, _p_mfem__MixedVectorIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorMassIntegrator, _p_mfem__MixedVectorMassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorProductIntegrator, _p_mfem__MixedVectorProductIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorWeakCurlIntegrator, _p_mfem__MixedVectorWeakCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorWeakDivergenceIntegrator, _p_mfem__MixedVectorWeakDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedWeakCurlCrossIntegrator, _p_mfem__MixedWeakCurlCrossIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedWeakDivCrossIntegrator, _p_mfem__MixedWeakDivCrossIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedWeakGradDotIntegrator, _p_mfem__MixedWeakGradDotIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__NonconservativeDGTraceIntegrator, _p_mfem__NonconservativeDGTraceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__NormalInterpolator, _p_mfem__NormalInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__NormalTraceJumpIntegrator, _p_mfem__NormalTraceJumpIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__PUMPLaplacian, _p_mfem__PUMPLaplacianTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ScalarCrossProductInterpolator, _p_mfem__ScalarCrossProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ScalarProductInterpolator, _p_mfem__ScalarProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ScalarVectorProductInterpolator, _p_mfem__ScalarVectorProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ScreenedPoisson, _p_mfem__ScreenedPoissonTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__SkewSymmetricVectorConvectionNLFIntegrator, _p_mfem__SkewSymmetricVectorConvectionNLFIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__SumIntegrator, _p_mfem__SumIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__TraceJumpIntegrator, _p_mfem__TraceJumpIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__TransposeIntegrator, _p_mfem__TransposeIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorConvectionNLFIntegrator, _p_mfem__VectorConvectionNLFIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorCrossProductInterpolator, _p_mfem__VectorCrossProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorCurlCurlIntegrator, _p_mfem__VectorCurlCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorDiffusionIntegrator, _p_mfem__VectorDiffusionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorDivergenceIntegrator, _p_mfem__VectorDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorFECurlIntegrator, _p_mfem__VectorFECurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorFEDivergenceIntegrator, _p_mfem__VectorFEDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorFEMassIntegrator, _p_mfem__VectorFEMassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorFEWeakDivergenceIntegrator, _p_mfem__VectorFEWeakDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorInnerProductInterpolator, _p_mfem__VectorInnerProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorMassIntegrator, _p_mfem__VectorMassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorScalarProductInterpolator, _p_mfem__VectorScalarProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__NormalizationDistanceSolver[] = {  {&_swigt__p_mfem__NormalizationDistanceSolver, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__NormalizedGradCoefficient[] = {  {&_swigt__p_mfem__NormalizedGradCoefficient, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__NonlinearFormIntegrator[] = {  {&_swigt__p_mfem__NonlinearFormIntegrator, 0, 0, 0},  {&_swigt__p_mfem__BilinearFormIntegrator, _p_mfem__BilinearFormIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__BoundaryMassIntegrator, _p_mfem__BoundaryMassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ConservativeConvectionIntegrator, _p_mfem__ConservativeConvectionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ConvectionIntegrator, _p_mfem__ConvectionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ConvectiveVectorConvectionNLFIntegrator, _p_mfem__ConvectiveVectorConvectionNLFIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__CurlCurlIntegrator, _p_mfem__CurlCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__CurlInterpolator, _p_mfem__CurlInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DGDiffusionBR2Integrator, _p_mfem__DGDiffusionBR2IntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DGDiffusionIntegrator, _p_mfem__DGDiffusionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DGElasticityIntegrator, _p_mfem__DGElasticityIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DGTraceIntegrator, _p_mfem__DGTraceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DerivativeIntegrator, _p_mfem__DerivativeIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DiffusionIntegrator, _p_mfem__DiffusionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DiscreteInterpolator, _p_mfem__DiscreteInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DivDivIntegrator, _p_mfem__DivDivIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__DivergenceInterpolator, _p_mfem__DivergenceInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ElasticityIntegrator, _p_mfem__ElasticityIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__GradientIntegrator, _p_mfem__GradientIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__GradientInterpolator, _p_mfem__GradientInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__GroupConvectionIntegrator, _p_mfem__GroupConvectionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__HyperelasticNLFIntegrator, _p_mfem__HyperelasticNLFIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__IdentityInterpolator, _p_mfem__IdentityInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__InverseIntegrator, _p_mfem__InverseIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__LumpedIntegrator, _p_mfem__LumpedIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MassIntegrator, _p_mfem__MassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossCurlCurlIntegrator, _p_mfem__MixedCrossCurlCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossCurlGradIntegrator, _p_mfem__MixedCrossCurlGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossCurlIntegrator, _p_mfem__MixedCrossCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossGradCurlIntegrator, _p_mfem__MixedCrossGradCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossGradGradIntegrator, _p_mfem__MixedCrossGradGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossGradIntegrator, _p_mfem__MixedCrossGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCrossProductIntegrator, _p_mfem__MixedCrossProductIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCurlCurlIntegrator, _p_mfem__MixedCurlCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedCurlIntegrator, _p_mfem__MixedCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedDirectionalDerivativeIntegrator, _p_mfem__MixedDirectionalDerivativeIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedDivGradIntegrator, _p_mfem__MixedDivGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedDotProductIntegrator, _p_mfem__MixedDotProductIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedGradDivIntegrator, _p_mfem__MixedGradDivIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedGradGradIntegrator, _p_mfem__MixedGradGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarCrossCurlIntegrator, _p_mfem__MixedScalarCrossCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarCrossGradIntegrator, _p_mfem__MixedScalarCrossGradIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarCrossProductIntegrator, _p_mfem__MixedScalarCrossProductIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarCurlIntegrator, _p_mfem__MixedScalarCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarDerivativeIntegrator, _p_mfem__MixedScalarDerivativeIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarDivergenceIntegrator, _p_mfem__MixedScalarDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarIntegrator, _p_mfem__MixedScalarIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarMassIntegrator, _p_mfem__MixedScalarMassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarVectorIntegrator, _p_mfem__MixedScalarVectorIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakCrossProductIntegrator, _p_mfem__MixedScalarWeakCrossProductIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakCurlCrossIntegrator, _p_mfem__MixedScalarWeakCurlCrossIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakCurlIntegrator, _p_mfem__MixedScalarWeakCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakDerivativeIntegrator, _p_mfem__MixedScalarWeakDerivativeIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakDivergenceIntegrator, _p_mfem__MixedScalarWeakDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedScalarWeakGradientIntegrator, _p_mfem__MixedScalarWeakGradientIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorCurlIntegrator, _p_mfem__MixedVectorCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorDivergenceIntegrator, _p_mfem__MixedVectorDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorGradientIntegrator, _p_mfem__MixedVectorGradientIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorIntegrator, _p_mfem__MixedVectorIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorMassIntegrator, _p_mfem__MixedVectorMassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorProductIntegrator, _p_mfem__MixedVectorProductIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorWeakCurlIntegrator, _p_mfem__MixedVectorWeakCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedVectorWeakDivergenceIntegrator, _p_mfem__MixedVectorWeakDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedWeakCurlCrossIntegrator, _p_mfem__MixedWeakCurlCrossIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedWeakDivCrossIntegrator, _p_mfem__MixedWeakDivCrossIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__MixedWeakGradDotIntegrator, _p_mfem__MixedWeakGradDotIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__NonconservativeDGTraceIntegrator, _p_mfem__NonconservativeDGTraceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__NormalInterpolator, _p_mfem__NormalInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__NormalTraceIntegrator, _p_mfem__NormalTraceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__NormalTraceJumpIntegrator, _p_mfem__NormalTraceJumpIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ScalarCrossProductInterpolator, _p_mfem__ScalarCrossProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ScalarProductInterpolator, _p_mfem__ScalarProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__ScalarVectorProductInterpolator, _p_mfem__ScalarVectorProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__SkewSymmetricVectorConvectionNLFIntegrator, _p_mfem__SkewSymmetricVectorConvectionNLFIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__SumIntegrator, _p_mfem__SumIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__TangentTraceIntegrator, _p_mfem__TangentTraceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__TraceIntegrator, _p_mfem__TraceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__TraceJumpIntegrator, _p_mfem__TraceJumpIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__TransposeIntegrator, _p_mfem__TransposeIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorConvectionNLFIntegrator, _p_mfem__VectorConvectionNLFIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorCrossProductInterpolator, _p_mfem__VectorCrossProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorCurlCurlIntegrator, _p_mfem__VectorCurlCurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorDiffusionIntegrator, _p_mfem__VectorDiffusionIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorDivergenceIntegrator, _p_mfem__VectorDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorFECurlIntegrator, _p_mfem__VectorFECurlIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorFEDivergenceIntegrator, _p_mfem__VectorFEDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorFEMassIntegrator, _p_mfem__VectorFEMassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorFEWeakDivergenceIntegrator, _p_mfem__VectorFEWeakDivergenceIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorInnerProductInterpolator, _p_mfem__VectorInnerProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorMassIntegrator, _p_mfem__VectorMassIntegratorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__VectorScalarProductInterpolator, _p_mfem__VectorScalarProductInterpolatorTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__common__PUMPLaplacian, _p_mfem__common__PUMPLaplacianTo_p_mfem__NonlinearFormIntegrator, 0, 0},  {&_swigt__p_mfem__common__ScreenedPoisson, _p_mfem__common__ScreenedPoissonTo_p_mfem__NonlinearFormIntegrator, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__AbstractSparseMatrix[] = {{&_swigt__p_mfem__AbstractSparseMatrix, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__AuxSpaceSmoother[] = {{&_swigt__p_mfem__AuxSpaceSmoother, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__BiCGSTABSolver[] = {{&_swigt__p_mfem__BiCGSTABSolver, 0, 0, 0},{0, 0, 0, 0}};
@@ -9499,7 +9517,6 @@ static swig_cast_info _swigc__p_mfem__ElementRestrictionOperator[] = {{&_swigt__
 static swig_cast_info _swigc__p_mfem__FGMRESSolver[] = {{&_swigt__p_mfem__FGMRESSolver, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__FaceRestriction[] = {{&_swigt__p_mfem__FaceRestriction, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__GMRESSolver[] = {{&_swigt__p_mfem__GMRESSolver, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__H1FaceRestriction[] = {{&_swigt__p_mfem__H1FaceRestriction, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__HypreADS[] = {{&_swigt__p_mfem__HypreADS, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__HypreAMS[] = {{&_swigt__p_mfem__HypreAMS, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__HypreBoomerAMG[] = {{&_swigt__p_mfem__HypreBoomerAMG, 0, 0, 0},{0, 0, 0, 0}};
@@ -9545,16 +9562,11 @@ static swig_cast_info _swigc__p_mfem__TimeDependentAdjointOperator[] = {{&_swigt
 static swig_cast_info _swigc__p_mfem__TimeDependentOperator[] = {{&_swigt__p_mfem__TimeDependentOperator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__TransposeOperator[] = {{&_swigt__p_mfem__TransposeOperator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__TripleProductOperator[] = {{&_swigt__p_mfem__TripleProductOperator, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__Operator[] = {  {&_swigt__p_mfem__Operator, 0, 0, 0},  {&_swigt__p_mfem__AbstractSparseMatrix, _p_mfem__AbstractSparseMatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__AuxSpaceSmoother, _p_mfem__AuxSpaceSmootherTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__BiCGSTABSolver, _p_mfem__BiCGSTABSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__BlockILU, _p_mfem__BlockILUTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__CGSolver, _p_mfem__CGSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ConformingProlongationOperator, _p_mfem__ConformingProlongationOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ConstrainedOperator, _p_mfem__ConstrainedOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__DenseMatrix, _p_mfem__DenseMatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__DenseMatrixInverse, _p_mfem__DenseMatrixInverseTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__DenseSymmetricMatrix, _p_mfem__DenseSymmetricMatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__DeviceConformingProlongationOperator, _p_mfem__DeviceConformingProlongationOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__DirectSubBlockSolver, _p_mfem__DirectSubBlockSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ElementRestriction, _p_mfem__ElementRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ElementRestrictionOperator, _p_mfem__ElementRestrictionOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__FGMRESSolver, _p_mfem__FGMRESSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__FaceRestriction, _p_mfem__FaceRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__GMRESSolver, _p_mfem__GMRESSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__H1FaceRestriction, _p_mfem__H1FaceRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreADS, _p_mfem__HypreADSTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreAMS, _p_mfem__HypreAMSTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreBoomerAMG, _p_mfem__HypreBoomerAMGTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreDiagScale, _p_mfem__HypreDiagScaleTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreEuclid, _p_mfem__HypreEuclidTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreFGMRES, _p_mfem__HypreFGMRESTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreGMRES, _p_mfem__HypreGMRESTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreILU, _p_mfem__HypreILUTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreIdentity, _p_mfem__HypreIdentityTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HyprePCG, _p_mfem__HyprePCGTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreParMatrix, _p_mfem__HypreParMatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreParaSails, _p_mfem__HypreParaSailsTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreSmoother, _p_mfem__HypreSmootherTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreSolver, _p_mfem__HypreSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreTriSolve, _p_mfem__HypreTriSolveTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__IdentityOperator, _p_mfem__IdentityOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__IterativeSolver, _p_mfem__IterativeSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__L2ElementRestriction, _p_mfem__L2ElementRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__L2FaceRestriction, _p_mfem__L2FaceRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__LBFGSSolver, _p_mfem__LBFGSSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__MINRESSolver, _p_mfem__MINRESSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__Matrix, _p_mfem__MatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__MatrixInverse, _p_mfem__MatrixInverseTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__NCL2FaceRestriction, _p_mfem__NCL2FaceRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__NewtonSolver, _p_mfem__NewtonSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__OperatorChebyshevSmoother, _p_mfem__OperatorChebyshevSmootherTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__OperatorJacobiSmoother, _p_mfem__OperatorJacobiSmootherTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__OptimizationSolver, _p_mfem__OptimizationSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__OrthoSolver, _p_mfem__OrthoSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ProductOperator, _p_mfem__ProductOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ProductSolver, _p_mfem__ProductSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__PyIterativeSolver, _p_mfem__PyIterativeSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__PyOperatorBase, _p_mfem__PyOperatorBaseTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__PyTimeDependentOperatorBase, _p_mfem__PyTimeDependentOperatorBaseTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__RAPOperator, _p_mfem__RAPOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__RectangularConstrainedOperator, _p_mfem__RectangularConstrainedOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__SLBQPOptimizer, _p_mfem__SLBQPOptimizerTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__SLISolver, _p_mfem__SLISolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ScaledOperator, _p_mfem__ScaledOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__SecondOrderTimeDependentOperator, _p_mfem__SecondOrderTimeDependentOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__Solver, _p_mfem__SolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__SparseMatrix, _p_mfem__SparseMatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__TimeDependentAdjointOperator, _p_mfem__TimeDependentAdjointOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__TimeDependentOperator, _p_mfem__TimeDependentOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__TransposeOperator, _p_mfem__TransposeOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__TripleProductOperator, _p_mfem__TripleProductOperatorTo_p_mfem__Operator, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__Operator[] = {  {&_swigt__p_mfem__Operator, 0, 0, 0},  {&_swigt__p_mfem__AbstractSparseMatrix, _p_mfem__AbstractSparseMatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__AuxSpaceSmoother, _p_mfem__AuxSpaceSmootherTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__BiCGSTABSolver, _p_mfem__BiCGSTABSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__BlockILU, _p_mfem__BlockILUTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__CGSolver, _p_mfem__CGSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ConformingFaceRestriction, _p_mfem__ConformingFaceRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ConformingProlongationOperator, _p_mfem__ConformingProlongationOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ConstrainedOperator, _p_mfem__ConstrainedOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__DenseMatrix, _p_mfem__DenseMatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__DenseMatrixInverse, _p_mfem__DenseMatrixInverseTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__DenseSymmetricMatrix, _p_mfem__DenseSymmetricMatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__DeviceConformingProlongationOperator, _p_mfem__DeviceConformingProlongationOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__DirectSubBlockSolver, _p_mfem__DirectSubBlockSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ElementRestriction, _p_mfem__ElementRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ElementRestrictionOperator, _p_mfem__ElementRestrictionOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__FGMRESSolver, _p_mfem__FGMRESSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__FaceRestriction, _p_mfem__FaceRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__GMRESSolver, _p_mfem__GMRESSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreADS, _p_mfem__HypreADSTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreAMS, _p_mfem__HypreAMSTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreBoomerAMG, _p_mfem__HypreBoomerAMGTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreDiagScale, _p_mfem__HypreDiagScaleTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreEuclid, _p_mfem__HypreEuclidTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreFGMRES, _p_mfem__HypreFGMRESTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreGMRES, _p_mfem__HypreGMRESTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreILU, _p_mfem__HypreILUTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreIdentity, _p_mfem__HypreIdentityTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HyprePCG, _p_mfem__HyprePCGTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreParMatrix, _p_mfem__HypreParMatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreParaSails, _p_mfem__HypreParaSailsTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreSmoother, _p_mfem__HypreSmootherTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreSolver, _p_mfem__HypreSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__HypreTriSolve, _p_mfem__HypreTriSolveTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__IdentityOperator, _p_mfem__IdentityOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__IterativeSolver, _p_mfem__IterativeSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__L2ElementRestriction, _p_mfem__L2ElementRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__L2FaceRestriction, _p_mfem__L2FaceRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__LBFGSSolver, _p_mfem__LBFGSSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__MINRESSolver, _p_mfem__MINRESSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__Matrix, _p_mfem__MatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__MatrixInverse, _p_mfem__MatrixInverseTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__NCL2FaceRestriction, _p_mfem__NCL2FaceRestrictionTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__NewtonSolver, _p_mfem__NewtonSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__OperatorChebyshevSmoother, _p_mfem__OperatorChebyshevSmootherTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__OperatorJacobiSmoother, _p_mfem__OperatorJacobiSmootherTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__OptimizationSolver, _p_mfem__OptimizationSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__OrthoSolver, _p_mfem__OrthoSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ProductOperator, _p_mfem__ProductOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ProductSolver, _p_mfem__ProductSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__PyIterativeSolver, _p_mfem__PyIterativeSolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__PyOperatorBase, _p_mfem__PyOperatorBaseTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__PyTimeDependentOperatorBase, _p_mfem__PyTimeDependentOperatorBaseTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__RAPOperator, _p_mfem__RAPOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__RectangularConstrainedOperator, _p_mfem__RectangularConstrainedOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__SLBQPOptimizer, _p_mfem__SLBQPOptimizerTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__SLISolver, _p_mfem__SLISolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__ScaledOperator, _p_mfem__ScaledOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__SecondOrderTimeDependentOperator, _p_mfem__SecondOrderTimeDependentOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__Solver, _p_mfem__SolverTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__SparseMatrix, _p_mfem__SparseMatrixTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__TimeDependentAdjointOperator, _p_mfem__TimeDependentAdjointOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__TimeDependentOperator, _p_mfem__TimeDependentOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__TransposeOperator, _p_mfem__TransposeOperatorTo_p_mfem__Operator, 0, 0},  {&_swigt__p_mfem__TripleProductOperator, _p_mfem__TripleProductOperatorTo_p_mfem__Operator, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__OperatorHandle[] = {  {&_swigt__p_mfem__OperatorHandle, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__PDEFilter[] = {  {&_swigt__p_mfem__PDEFilter, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__PLapDistanceSolver[] = {  {&_swigt__p_mfem__PLapDistanceSolver, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__PProductCoefficient[] = {  {&_swigt__p_mfem__PProductCoefficient, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__PUMPLaplacian[] = {  {&_swigt__p_mfem__PUMPLaplacian, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__ParGridFunction[] = {  {&_swigt__p_mfem__ParGridFunction, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__ParMesh[] = {  {&_swigt__p_mfem__ParMesh, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__Refinement[] = {  {&_swigt__p_mfem__Refinement, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__ScreenedPoisson[] = {  {&_swigt__p_mfem__ScreenedPoisson, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__Solver[] = {  {&_swigt__p_mfem__Solver, 0, 0, 0},  {&_swigt__p_mfem__AuxSpaceSmoother, _p_mfem__AuxSpaceSmootherTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__BiCGSTABSolver, _p_mfem__BiCGSTABSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__BlockILU, _p_mfem__BlockILUTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__CGSolver, _p_mfem__CGSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__DenseMatrixInverse, _p_mfem__DenseMatrixInverseTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__DirectSubBlockSolver, _p_mfem__DirectSubBlockSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__FGMRESSolver, _p_mfem__FGMRESSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__GMRESSolver, _p_mfem__GMRESSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreADS, _p_mfem__HypreADSTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreAMS, _p_mfem__HypreAMSTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreBoomerAMG, _p_mfem__HypreBoomerAMGTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreDiagScale, _p_mfem__HypreDiagScaleTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreEuclid, _p_mfem__HypreEuclidTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreFGMRES, _p_mfem__HypreFGMRESTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreGMRES, _p_mfem__HypreGMRESTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreILU, _p_mfem__HypreILUTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreIdentity, _p_mfem__HypreIdentityTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HyprePCG, _p_mfem__HyprePCGTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreParaSails, _p_mfem__HypreParaSailsTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreSmoother, _p_mfem__HypreSmootherTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreSolver, _p_mfem__HypreSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__HypreTriSolve, _p_mfem__HypreTriSolveTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__IterativeSolver, _p_mfem__IterativeSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__LBFGSSolver, _p_mfem__LBFGSSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__MINRESSolver, _p_mfem__MINRESSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__MatrixInverse, _p_mfem__MatrixInverseTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__NewtonSolver, _p_mfem__NewtonSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__OperatorChebyshevSmoother, _p_mfem__OperatorChebyshevSmootherTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__OperatorJacobiSmoother, _p_mfem__OperatorJacobiSmootherTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__OptimizationSolver, _p_mfem__OptimizationSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__OrthoSolver, _p_mfem__OrthoSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__ProductSolver, _p_mfem__ProductSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__PyIterativeSolver, _p_mfem__PyIterativeSolverTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__SLBQPOptimizer, _p_mfem__SLBQPOptimizerTo_p_mfem__Solver, 0, 0},  {&_swigt__p_mfem__SLISolver, _p_mfem__SLISolverTo_p_mfem__Solver, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__CoefficientVector[] = {{&_swigt__p_mfem__CoefficientVector, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__HypreParVector[] = {{&_swigt__p_mfem__HypreParVector, 0, 0, 0},{0, 0, 0, 0}};
@@ -9576,7 +9588,16 @@ static swig_cast_info _swigc__p_mfem__VectorPyCoefficientBase[] = {{&_swigt__p_m
 static swig_cast_info _swigc__p_mfem__VectorQuadratureFunctionCoefficient[] = {{&_swigt__p_mfem__VectorQuadratureFunctionCoefficient, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__VectorRestrictedCoefficient[] = {{&_swigt__p_mfem__VectorRestrictedCoefficient, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__VectorSumCoefficient[] = {{&_swigt__p_mfem__VectorSumCoefficient, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_mfem__VectorCoefficient[] = {  {&_swigt__p_mfem__VectorCoefficient, 0, 0, 0},  {&_swigt__p_VectorNumbaCoefficient, _p_VectorNumbaCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__CurlGridFunctionCoefficient, _p_mfem__CurlGridFunctionCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__GradientGridFunctionCoefficient, _p_mfem__GradientGridFunctionCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__MatrixVectorProductCoefficient, _p_mfem__MatrixVectorProductCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__NodeExtrudeCoefficient, _p_mfem__NodeExtrudeCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__NormalizedGradCoefficient, _p_mfem__NormalizedGradCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__NormalizedVectorCoefficient, _p_mfem__NormalizedVectorCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__PWVectorCoefficient, _p_mfem__PWVectorCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__ScalarVectorProductCoefficient, _p_mfem__ScalarVectorProductCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorArrayCoefficient, _p_mfem__VectorArrayCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorConstantCoefficient, _p_mfem__VectorConstantCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorCrossProductCoefficient, _p_mfem__VectorCrossProductCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorDeltaCoefficient, _p_mfem__VectorDeltaCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorFunctionCoefficient, _p_mfem__VectorFunctionCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorGridFunctionCoefficient, _p_mfem__VectorGridFunctionCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorPyCoefficientBase, _p_mfem__VectorPyCoefficientBaseTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorQuadratureFunctionCoefficient, _p_mfem__VectorQuadratureFunctionCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorRestrictedCoefficient, _p_mfem__VectorRestrictedCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorSumCoefficient, _p_mfem__VectorSumCoefficientTo_p_mfem__VectorCoefficient, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__VectorCoefficient[] = {  {&_swigt__p_mfem__VectorCoefficient, 0, 0, 0},  {&_swigt__p_VectorNumbaCoefficient, _p_VectorNumbaCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__CurlGridFunctionCoefficient, _p_mfem__CurlGridFunctionCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__GradientGridFunctionCoefficient, _p_mfem__GradientGridFunctionCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__MatrixVectorProductCoefficient, _p_mfem__MatrixVectorProductCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__NodeExtrudeCoefficient, _p_mfem__NodeExtrudeCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__NormalizedVectorCoefficient, _p_mfem__NormalizedVectorCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__PWVectorCoefficient, _p_mfem__PWVectorCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__ScalarVectorProductCoefficient, _p_mfem__ScalarVectorProductCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorArrayCoefficient, _p_mfem__VectorArrayCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorConstantCoefficient, _p_mfem__VectorConstantCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorCrossProductCoefficient, _p_mfem__VectorCrossProductCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorDeltaCoefficient, _p_mfem__VectorDeltaCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorFunctionCoefficient, _p_mfem__VectorFunctionCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorGridFunctionCoefficient, _p_mfem__VectorGridFunctionCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorPyCoefficientBase, _p_mfem__VectorPyCoefficientBaseTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorQuadratureFunctionCoefficient, _p_mfem__VectorQuadratureFunctionCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorRestrictedCoefficient, _p_mfem__VectorRestrictedCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__VectorSumCoefficient, _p_mfem__VectorSumCoefficientTo_p_mfem__VectorCoefficient, 0, 0},  {&_swigt__p_mfem__common__NormalizedGradCoefficient, _p_mfem__common__NormalizedGradCoefficientTo_p_mfem__VectorCoefficient, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__common__DistanceSolver[] = {  {&_swigt__p_mfem__common__DistanceSolver, 0, 0, 0},  {&_swigt__p_mfem__common__HeatDistanceSolver, _p_mfem__common__HeatDistanceSolverTo_p_mfem__common__DistanceSolver, 0, 0},  {&_swigt__p_mfem__common__NormalizationDistanceSolver, _p_mfem__common__NormalizationDistanceSolverTo_p_mfem__common__DistanceSolver, 0, 0},  {&_swigt__p_mfem__common__PLapDistanceSolver, _p_mfem__common__PLapDistanceSolverTo_p_mfem__common__DistanceSolver, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__common__HeatDistanceSolver[] = {  {&_swigt__p_mfem__common__HeatDistanceSolver, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__common__NormalizationDistanceSolver[] = {  {&_swigt__p_mfem__common__NormalizationDistanceSolver, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__common__NormalizedGradCoefficient[] = {  {&_swigt__p_mfem__common__NormalizedGradCoefficient, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__common__PDEFilter[] = {  {&_swigt__p_mfem__common__PDEFilter, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__common__PLapDistanceSolver[] = {  {&_swigt__p_mfem__common__PLapDistanceSolver, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__common__PProductCoefficient[] = {  {&_swigt__p_mfem__common__PProductCoefficient, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__common__PUMPLaplacian[] = {  {&_swigt__p_mfem__common__PUMPLaplacian, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__common__ScreenedPoisson[] = {  {&_swigt__p_mfem__common__ScreenedPoisson, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__ParFiniteElementSpace[] = {{&_swigt__p_p_mfem__ParFiniteElementSpace, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__FiniteElementSpace[] = {  {&_swigt__p_p_mfem__FiniteElementSpace, 0, 0, 0},  {&_swigt__p_p_mfem__ParFiniteElementSpace, _p_p_mfem__ParFiniteElementSpaceTo_p_p_mfem__FiniteElementSpace, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__IntegrationRule[] = {  {&_swigt__p_p_mfem__IntegrationRule, 0, 0, 0},{0, 0, 0, 0}};
@@ -9585,6 +9606,7 @@ static swig_cast_info _swigc__p_p_mfem__AuxSpaceSmoother[] = {{&_swigt__p_p_mfem
 static swig_cast_info _swigc__p_p_mfem__BiCGSTABSolver[] = {{&_swigt__p_p_mfem__BiCGSTABSolver, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__BlockILU[] = {{&_swigt__p_p_mfem__BlockILU, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__CGSolver[] = {{&_swigt__p_p_mfem__CGSolver, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_mfem__ConformingFaceRestriction[] = {{&_swigt__p_p_mfem__ConformingFaceRestriction, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__ConformingProlongationOperator[] = {{&_swigt__p_p_mfem__ConformingProlongationOperator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__ConstrainedOperator[] = {{&_swigt__p_p_mfem__ConstrainedOperator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__DenseMatrix[] = {{&_swigt__p_p_mfem__DenseMatrix, 0, 0, 0},{0, 0, 0, 0}};
@@ -9597,7 +9619,6 @@ static swig_cast_info _swigc__p_p_mfem__ElementRestrictionOperator[] = {{&_swigt
 static swig_cast_info _swigc__p_p_mfem__FGMRESSolver[] = {{&_swigt__p_p_mfem__FGMRESSolver, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__FaceRestriction[] = {{&_swigt__p_p_mfem__FaceRestriction, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__GMRESSolver[] = {{&_swigt__p_p_mfem__GMRESSolver, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_p_mfem__H1FaceRestriction[] = {{&_swigt__p_p_mfem__H1FaceRestriction, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__HypreADS[] = {{&_swigt__p_p_mfem__HypreADS, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__HypreAMS[] = {{&_swigt__p_p_mfem__HypreAMS, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__HypreBoomerAMG[] = {{&_swigt__p_p_mfem__HypreBoomerAMG, 0, 0, 0},{0, 0, 0, 0}};
@@ -9643,7 +9664,7 @@ static swig_cast_info _swigc__p_p_mfem__TimeDependentAdjointOperator[] = {{&_swi
 static swig_cast_info _swigc__p_p_mfem__TimeDependentOperator[] = {{&_swigt__p_p_mfem__TimeDependentOperator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__TransposeOperator[] = {{&_swigt__p_p_mfem__TransposeOperator, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__TripleProductOperator[] = {{&_swigt__p_p_mfem__TripleProductOperator, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_p_mfem__Operator[] = {  {&_swigt__p_p_mfem__Operator, 0, 0, 0},  {&_swigt__p_p_mfem__AbstractSparseMatrix, _p_p_mfem__AbstractSparseMatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__AuxSpaceSmoother, _p_p_mfem__AuxSpaceSmootherTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__BiCGSTABSolver, _p_p_mfem__BiCGSTABSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__BlockILU, _p_p_mfem__BlockILUTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__CGSolver, _p_p_mfem__CGSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ConformingProlongationOperator, _p_p_mfem__ConformingProlongationOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ConstrainedOperator, _p_p_mfem__ConstrainedOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__DenseMatrix, _p_p_mfem__DenseMatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__DenseMatrixInverse, _p_p_mfem__DenseMatrixInverseTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__DenseSymmetricMatrix, _p_p_mfem__DenseSymmetricMatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__DeviceConformingProlongationOperator, _p_p_mfem__DeviceConformingProlongationOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__DirectSubBlockSolver, _p_p_mfem__DirectSubBlockSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ElementRestriction, _p_p_mfem__ElementRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ElementRestrictionOperator, _p_p_mfem__ElementRestrictionOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__FGMRESSolver, _p_p_mfem__FGMRESSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__FaceRestriction, _p_p_mfem__FaceRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__GMRESSolver, _p_p_mfem__GMRESSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__H1FaceRestriction, _p_p_mfem__H1FaceRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreADS, _p_p_mfem__HypreADSTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreAMS, _p_p_mfem__HypreAMSTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreBoomerAMG, _p_p_mfem__HypreBoomerAMGTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreDiagScale, _p_p_mfem__HypreDiagScaleTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreEuclid, _p_p_mfem__HypreEuclidTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreFGMRES, _p_p_mfem__HypreFGMRESTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreGMRES, _p_p_mfem__HypreGMRESTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreILU, _p_p_mfem__HypreILUTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreIdentity, _p_p_mfem__HypreIdentityTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HyprePCG, _p_p_mfem__HyprePCGTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreParMatrix, _p_p_mfem__HypreParMatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreParaSails, _p_p_mfem__HypreParaSailsTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreSmoother, _p_p_mfem__HypreSmootherTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreSolver, _p_p_mfem__HypreSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreTriSolve, _p_p_mfem__HypreTriSolveTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__IdentityOperator, _p_p_mfem__IdentityOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__IterativeSolver, _p_p_mfem__IterativeSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__L2ElementRestriction, _p_p_mfem__L2ElementRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__L2FaceRestriction, _p_p_mfem__L2FaceRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__LBFGSSolver, _p_p_mfem__LBFGSSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__MINRESSolver, _p_p_mfem__MINRESSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__Matrix, _p_p_mfem__MatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__MatrixInverse, _p_p_mfem__MatrixInverseTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__NCL2FaceRestriction, _p_p_mfem__NCL2FaceRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__NewtonSolver, _p_p_mfem__NewtonSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__OperatorChebyshevSmoother, _p_p_mfem__OperatorChebyshevSmootherTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__OperatorJacobiSmoother, _p_p_mfem__OperatorJacobiSmootherTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__OptimizationSolver, _p_p_mfem__OptimizationSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__OrthoSolver, _p_p_mfem__OrthoSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ProductOperator, _p_p_mfem__ProductOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ProductSolver, _p_p_mfem__ProductSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__PyIterativeSolver, _p_p_mfem__PyIterativeSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__PyOperatorBase, _p_p_mfem__PyOperatorBaseTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__PyTimeDependentOperatorBase, _p_p_mfem__PyTimeDependentOperatorBaseTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__RAPOperator, _p_p_mfem__RAPOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__RectangularConstrainedOperator, _p_p_mfem__RectangularConstrainedOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__SLBQPOptimizer, _p_p_mfem__SLBQPOptimizerTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__SLISolver, _p_p_mfem__SLISolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ScaledOperator, _p_p_mfem__ScaledOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__SecondOrderTimeDependentOperator, _p_p_mfem__SecondOrderTimeDependentOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__Solver, _p_p_mfem__SolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__SparseMatrix, _p_p_mfem__SparseMatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__TimeDependentAdjointOperator, _p_p_mfem__TimeDependentAdjointOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__TimeDependentOperator, _p_p_mfem__TimeDependentOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__TransposeOperator, _p_p_mfem__TransposeOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__TripleProductOperator, _p_p_mfem__TripleProductOperatorTo_p_p_mfem__Operator, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_p_mfem__Operator[] = {  {&_swigt__p_p_mfem__Operator, 0, 0, 0},  {&_swigt__p_p_mfem__AbstractSparseMatrix, _p_p_mfem__AbstractSparseMatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__AuxSpaceSmoother, _p_p_mfem__AuxSpaceSmootherTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__BiCGSTABSolver, _p_p_mfem__BiCGSTABSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__BlockILU, _p_p_mfem__BlockILUTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__CGSolver, _p_p_mfem__CGSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ConformingFaceRestriction, _p_p_mfem__ConformingFaceRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ConformingProlongationOperator, _p_p_mfem__ConformingProlongationOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ConstrainedOperator, _p_p_mfem__ConstrainedOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__DenseMatrix, _p_p_mfem__DenseMatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__DenseMatrixInverse, _p_p_mfem__DenseMatrixInverseTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__DenseSymmetricMatrix, _p_p_mfem__DenseSymmetricMatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__DeviceConformingProlongationOperator, _p_p_mfem__DeviceConformingProlongationOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__DirectSubBlockSolver, _p_p_mfem__DirectSubBlockSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ElementRestriction, _p_p_mfem__ElementRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ElementRestrictionOperator, _p_p_mfem__ElementRestrictionOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__FGMRESSolver, _p_p_mfem__FGMRESSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__FaceRestriction, _p_p_mfem__FaceRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__GMRESSolver, _p_p_mfem__GMRESSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreADS, _p_p_mfem__HypreADSTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreAMS, _p_p_mfem__HypreAMSTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreBoomerAMG, _p_p_mfem__HypreBoomerAMGTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreDiagScale, _p_p_mfem__HypreDiagScaleTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreEuclid, _p_p_mfem__HypreEuclidTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreFGMRES, _p_p_mfem__HypreFGMRESTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreGMRES, _p_p_mfem__HypreGMRESTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreILU, _p_p_mfem__HypreILUTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreIdentity, _p_p_mfem__HypreIdentityTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HyprePCG, _p_p_mfem__HyprePCGTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreParMatrix, _p_p_mfem__HypreParMatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreParaSails, _p_p_mfem__HypreParaSailsTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreSmoother, _p_p_mfem__HypreSmootherTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreSolver, _p_p_mfem__HypreSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__HypreTriSolve, _p_p_mfem__HypreTriSolveTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__IdentityOperator, _p_p_mfem__IdentityOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__IterativeSolver, _p_p_mfem__IterativeSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__L2ElementRestriction, _p_p_mfem__L2ElementRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__L2FaceRestriction, _p_p_mfem__L2FaceRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__LBFGSSolver, _p_p_mfem__LBFGSSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__MINRESSolver, _p_p_mfem__MINRESSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__Matrix, _p_p_mfem__MatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__MatrixInverse, _p_p_mfem__MatrixInverseTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__NCL2FaceRestriction, _p_p_mfem__NCL2FaceRestrictionTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__NewtonSolver, _p_p_mfem__NewtonSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__OperatorChebyshevSmoother, _p_p_mfem__OperatorChebyshevSmootherTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__OperatorJacobiSmoother, _p_p_mfem__OperatorJacobiSmootherTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__OptimizationSolver, _p_p_mfem__OptimizationSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__OrthoSolver, _p_p_mfem__OrthoSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ProductOperator, _p_p_mfem__ProductOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ProductSolver, _p_p_mfem__ProductSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__PyIterativeSolver, _p_p_mfem__PyIterativeSolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__PyOperatorBase, _p_p_mfem__PyOperatorBaseTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__PyTimeDependentOperatorBase, _p_p_mfem__PyTimeDependentOperatorBaseTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__RAPOperator, _p_p_mfem__RAPOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__RectangularConstrainedOperator, _p_p_mfem__RectangularConstrainedOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__SLBQPOptimizer, _p_p_mfem__SLBQPOptimizerTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__SLISolver, _p_p_mfem__SLISolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__ScaledOperator, _p_p_mfem__ScaledOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__SecondOrderTimeDependentOperator, _p_p_mfem__SecondOrderTimeDependentOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__Solver, _p_p_mfem__SolverTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__SparseMatrix, _p_p_mfem__SparseMatrixTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__TimeDependentAdjointOperator, _p_p_mfem__TimeDependentAdjointOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__TimeDependentOperator, _p_p_mfem__TimeDependentOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__TransposeOperator, _p_p_mfem__TransposeOperatorTo_p_p_mfem__Operator, 0, 0},  {&_swigt__p_p_mfem__TripleProductOperator, _p_p_mfem__TripleProductOperatorTo_p_p_mfem__Operator, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__Solver[] = {  {&_swigt__p_p_mfem__Solver, 0, 0, 0},  {&_swigt__p_p_mfem__AuxSpaceSmoother, _p_p_mfem__AuxSpaceSmootherTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__BiCGSTABSolver, _p_p_mfem__BiCGSTABSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__BlockILU, _p_p_mfem__BlockILUTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__CGSolver, _p_p_mfem__CGSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__DenseMatrixInverse, _p_p_mfem__DenseMatrixInverseTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__DirectSubBlockSolver, _p_p_mfem__DirectSubBlockSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__FGMRESSolver, _p_p_mfem__FGMRESSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__GMRESSolver, _p_p_mfem__GMRESSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreADS, _p_p_mfem__HypreADSTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreAMS, _p_p_mfem__HypreAMSTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreBoomerAMG, _p_p_mfem__HypreBoomerAMGTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreDiagScale, _p_p_mfem__HypreDiagScaleTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreEuclid, _p_p_mfem__HypreEuclidTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreFGMRES, _p_p_mfem__HypreFGMRESTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreGMRES, _p_p_mfem__HypreGMRESTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreILU, _p_p_mfem__HypreILUTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreIdentity, _p_p_mfem__HypreIdentityTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HyprePCG, _p_p_mfem__HyprePCGTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreParaSails, _p_p_mfem__HypreParaSailsTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreSmoother, _p_p_mfem__HypreSmootherTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreSolver, _p_p_mfem__HypreSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__HypreTriSolve, _p_p_mfem__HypreTriSolveTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__IterativeSolver, _p_p_mfem__IterativeSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__LBFGSSolver, _p_p_mfem__LBFGSSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__MINRESSolver, _p_p_mfem__MINRESSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__MatrixInverse, _p_p_mfem__MatrixInverseTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__NewtonSolver, _p_p_mfem__NewtonSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__OperatorChebyshevSmoother, _p_p_mfem__OperatorChebyshevSmootherTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__OperatorJacobiSmoother, _p_p_mfem__OperatorJacobiSmootherTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__OptimizationSolver, _p_p_mfem__OptimizationSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__OrthoSolver, _p_p_mfem__OrthoSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__ProductSolver, _p_p_mfem__ProductSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__PyIterativeSolver, _p_p_mfem__PyIterativeSolverTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__SLBQPOptimizer, _p_p_mfem__SLBQPOptimizerTo_p_p_mfem__Solver, 0, 0},  {&_swigt__p_p_mfem__SLISolver, _p_p_mfem__SLISolverTo_p_p_mfem__Solver, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__CoefficientVector[] = {{&_swigt__p_p_mfem__CoefficientVector, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_p_mfem__GridFunction[] = {{&_swigt__p_p_mfem__GridFunction, 0, 0, 0},{0, 0, 0, 0}};
@@ -9693,6 +9714,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_mfem__CGSolver,
   _swigc__p_mfem__Coefficient,
   _swigc__p_mfem__CoefficientVector,
+  _swigc__p_mfem__ConformingFaceRestriction,
   _swigc__p_mfem__ConformingProlongationOperator,
   _swigc__p_mfem__ConservativeConvectionIntegrator,
   _swigc__p_mfem__ConstantCoefficient,
@@ -9722,7 +9744,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_mfem__DiffusionIntegrator,
   _swigc__p_mfem__DirectSubBlockSolver,
   _swigc__p_mfem__DiscreteInterpolator,
-  _swigc__p_mfem__DistanceSolver,
   _swigc__p_mfem__DivDivIntegrator,
   _swigc__p_mfem__DivergenceGridFunctionCoefficient,
   _swigc__p_mfem__DivergenceInterpolator,
@@ -9748,7 +9769,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_mfem__GridFunction,
   _swigc__p_mfem__GridFunctionCoefficient,
   _swigc__p_mfem__GroupConvectionIntegrator,
-  _swigc__p_mfem__H1FaceRestriction,
   _swigc__p_mfem__H1Pos_HexahedronElement,
   _swigc__p_mfem__H1Pos_QuadrilateralElement,
   _swigc__p_mfem__H1Pos_SegmentElement,
@@ -9762,7 +9782,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_mfem__H1_TetrahedronElement,
   _swigc__p_mfem__H1_TriangleElement,
   _swigc__p_mfem__H1_WedgeElement,
-  _swigc__p_mfem__HeatDistanceSolver,
   _swigc__p_mfem__HyperelasticNLFIntegrator,
   _swigc__p_mfem__HypreADS,
   _swigc__p_mfem__HypreAMS,
@@ -9897,9 +9916,8 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_mfem__NonconservativeDGTraceIntegrator,
   _swigc__p_mfem__NonlinearFormIntegrator,
   _swigc__p_mfem__NormalInterpolator,
+  _swigc__p_mfem__NormalTraceIntegrator,
   _swigc__p_mfem__NormalTraceJumpIntegrator,
-  _swigc__p_mfem__NormalizationDistanceSolver,
-  _swigc__p_mfem__NormalizedGradCoefficient,
   _swigc__p_mfem__NormalizedVectorCoefficient,
   _swigc__p_mfem__Operator,
   _swigc__p_mfem__OperatorChebyshevSmoother,
@@ -9919,10 +9937,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_mfem__P1SegmentFiniteElement,
   _swigc__p_mfem__P1TetNonConfFiniteElement,
   _swigc__p_mfem__P2SegmentFiniteElement,
-  _swigc__p_mfem__PDEFilter,
-  _swigc__p_mfem__PLapDistanceSolver,
-  _swigc__p_mfem__PProductCoefficient,
-  _swigc__p_mfem__PUMPLaplacian,
   _swigc__p_mfem__PWCoefficient,
   _swigc__p_mfem__PWConstCoefficient,
   _swigc__p_mfem__PWMatrixCoefficient,
@@ -9987,7 +10001,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_mfem__ScalarVectorProductCoefficient,
   _swigc__p_mfem__ScalarVectorProductInterpolator,
   _swigc__p_mfem__ScaledOperator,
-  _swigc__p_mfem__ScreenedPoisson,
   _swigc__p_mfem__SecondOrderTimeDependentOperator,
   _swigc__p_mfem__SkewSymmetricVectorConvectionNLFIntegrator,
   _swigc__p_mfem__Solver,
@@ -9997,8 +10010,10 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_mfem__SymmetricMatrixCoefficient,
   _swigc__p_mfem__SymmetricMatrixConstantCoefficient,
   _swigc__p_mfem__SymmetricMatrixFunctionCoefficient,
+  _swigc__p_mfem__TangentTraceIntegrator,
   _swigc__p_mfem__TimeDependentAdjointOperator,
   _swigc__p_mfem__TimeDependentOperator,
+  _swigc__p_mfem__TraceIntegrator,
   _swigc__p_mfem__TraceJumpIntegrator,
   _swigc__p_mfem__TransformedCoefficient,
   _swigc__p_mfem__TransposeIntegrator,
@@ -10033,12 +10048,22 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_mfem__VectorScalarProductInterpolator,
   _swigc__p_mfem__VectorSumCoefficient,
   _swigc__p_mfem__VectorTensorFiniteElement,
+  _swigc__p_mfem__common__DistanceSolver,
+  _swigc__p_mfem__common__HeatDistanceSolver,
+  _swigc__p_mfem__common__NormalizationDistanceSolver,
+  _swigc__p_mfem__common__NormalizedGradCoefficient,
+  _swigc__p_mfem__common__PDEFilter,
+  _swigc__p_mfem__common__PLapDistanceSolver,
+  _swigc__p_mfem__common__PProductCoefficient,
+  _swigc__p_mfem__common__PUMPLaplacian,
+  _swigc__p_mfem__common__ScreenedPoisson,
   _swigc__p_p_mfem__AbstractSparseMatrix,
   _swigc__p_p_mfem__AuxSpaceSmoother,
   _swigc__p_p_mfem__BiCGSTABSolver,
   _swigc__p_p_mfem__BlockILU,
   _swigc__p_p_mfem__CGSolver,
   _swigc__p_p_mfem__CoefficientVector,
+  _swigc__p_p_mfem__ConformingFaceRestriction,
   _swigc__p_p_mfem__ConformingProlongationOperator,
   _swigc__p_p_mfem__ConstrainedOperator,
   _swigc__p_p_mfem__DenseMatrix,
@@ -10053,7 +10078,6 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_p_mfem__FiniteElementSpace,
   _swigc__p_p_mfem__GMRESSolver,
   _swigc__p_p_mfem__GridFunction,
-  _swigc__p_p_mfem__H1FaceRestriction,
   _swigc__p_p_mfem__HypreADS,
   _swigc__p_p_mfem__HypreAMS,
   _swigc__p_p_mfem__HypreBoomerAMG,

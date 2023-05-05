@@ -125,6 +125,11 @@ class PositiveTensorFiniteElement(PositiveFiniteElement, mfem._par.fe_base.Tenso
         r"""GetDofToQuad(PositiveTensorFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"""
         return _fe_pos.PositiveTensorFiniteElement_GetDofToQuad(self, ir, mode)
     GetDofToQuad = _swig_new_instance_method(_fe_pos.PositiveTensorFiniteElement_GetDofToQuad)
+
+    def GetFaceMap(self, face_id, face_map):
+        r"""GetFaceMap(PositiveTensorFiniteElement self, int const face_id, intArray face_map)"""
+        return _fe_pos.PositiveTensorFiniteElement_GetFaceMap(self, face_id, face_map)
+    GetFaceMap = _swig_new_instance_method(_fe_pos.PositiveTensorFiniteElement_GetFaceMap)
     __swig_destroy__ = _fe_pos.delete_PositiveTensorFiniteElement
 
 # Register PositiveTensorFiniteElement in _fe_pos:

@@ -491,6 +491,16 @@ class VectorFEDomainLFIntegrator(DeltaLFIntegrator):
         return _lininteg.VectorFEDomainLFIntegrator_AssembleDeltaElementVect(self, fe, Trans, elvect)
     AssembleDeltaElementVect = _swig_new_instance_method(_lininteg.VectorFEDomainLFIntegrator_AssembleDeltaElementVect)
 
+    def SupportsDevice(self):
+        r"""SupportsDevice(VectorFEDomainLFIntegrator self) -> bool"""
+        return _lininteg.VectorFEDomainLFIntegrator_SupportsDevice(self)
+    SupportsDevice = _swig_new_instance_method(_lininteg.VectorFEDomainLFIntegrator_SupportsDevice)
+
+    def AssembleDevice(self, fes, markers, b):
+        r"""AssembleDevice(VectorFEDomainLFIntegrator self, FiniteElementSpace fes, intArray markers, Vector b)"""
+        return _lininteg.VectorFEDomainLFIntegrator_AssembleDevice(self, fes, markers, b)
+    AssembleDevice = _swig_new_instance_method(_lininteg.VectorFEDomainLFIntegrator_AssembleDevice)
+
     def AssembleRHSElementVect(self, *args):
         r"""
         AssembleRHSElementVect(VectorFEDomainLFIntegrator self, FiniteElement el, ElementTransformation Tr, Vector elvect)
@@ -620,6 +630,16 @@ class VectorFEBoundaryFluxLFIntegrator(LinearFormIntegrator):
         """
         return _lininteg.VectorFEBoundaryFluxLFIntegrator_AssembleRHSElementVect(self, *args)
     AssembleRHSElementVect = _swig_new_instance_method(_lininteg.VectorFEBoundaryFluxLFIntegrator_AssembleRHSElementVect)
+
+    def SupportsDevice(self):
+        r"""SupportsDevice(VectorFEBoundaryFluxLFIntegrator self) -> bool"""
+        return _lininteg.VectorFEBoundaryFluxLFIntegrator_SupportsDevice(self)
+    SupportsDevice = _swig_new_instance_method(_lininteg.VectorFEBoundaryFluxLFIntegrator_SupportsDevice)
+
+    def AssembleDevice(self, fes, markers, b):
+        r"""AssembleDevice(VectorFEBoundaryFluxLFIntegrator self, FiniteElementSpace fes, intArray markers, Vector b)"""
+        return _lininteg.VectorFEBoundaryFluxLFIntegrator_AssembleDevice(self, fes, markers, b)
+    AssembleDevice = _swig_new_instance_method(_lininteg.VectorFEBoundaryFluxLFIntegrator_AssembleDevice)
     __swig_destroy__ = _lininteg.delete_VectorFEBoundaryFluxLFIntegrator
 
 # Register VectorFEBoundaryFluxLFIntegrator in _lininteg:

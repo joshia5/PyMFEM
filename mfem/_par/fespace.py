@@ -495,7 +495,7 @@ class FiniteElementSpace(object):
     GetElementRestriction = _swig_new_instance_method(_fespace.FiniteElementSpace_GetElementRestriction)
 
     def GetFaceRestriction(self, *args, **kwargs):
-        r"""GetFaceRestriction(FiniteElementSpace self, mfem::ElementDofOrdering e_ordering, mfem::FaceType arg3, mfem::L2FaceValues mul=DoubleValued) -> FaceRestriction"""
+        r"""GetFaceRestriction(FiniteElementSpace self, mfem::ElementDofOrdering f_ordering, mfem::FaceType arg3, mfem::L2FaceValues mul=DoubleValued) -> FaceRestriction"""
         return _fespace.FiniteElementSpace_GetFaceRestriction(self, *args, **kwargs)
     GetFaceRestriction = _swig_new_instance_method(_fespace.FiniteElementSpace_GetFaceRestriction)
 

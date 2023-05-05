@@ -297,6 +297,11 @@ class GridFunction(mfem._par.vector.Vector):
         return _gridfunc.GridFunction_GetVectorGradient(self, tr, grad)
     GetVectorGradient = _swig_new_instance_method(_gridfunc.GridFunction_GetVectorGradient)
 
+    def GetVectorGradientHat(self, T, gh):
+        r"""GetVectorGradientHat(GridFunction self, ElementTransformation T, DenseMatrix gh)"""
+        return _gridfunc.GridFunction_GetVectorGradientHat(self, T, gh)
+    GetVectorGradientHat = _swig_new_instance_method(_gridfunc.GridFunction_GetVectorGradientHat)
+
     def GetElementAverages(self, avgs):
         r"""GetElementAverages(GridFunction self, GridFunction avgs)"""
         return _gridfunc.GridFunction_GetElementAverages(self, avgs)
@@ -349,6 +354,11 @@ class GridFunction(mfem._par.vector.Vector):
         """
         return _gridfunc.GridFunction_ProjectDiscCoefficient(self, *args)
     ProjectDiscCoefficient = _swig_new_instance_method(_gridfunc.GridFunction_ProjectDiscCoefficient)
+
+    def CountElementsPerVDof(self, elem_per_vdof):
+        r"""CountElementsPerVDof(GridFunction self, intArray elem_per_vdof)"""
+        return _gridfunc.GridFunction_CountElementsPerVDof(self, elem_per_vdof)
+    CountElementsPerVDof = _swig_new_instance_method(_gridfunc.GridFunction_CountElementsPerVDof)
 
     def ProjectBdrCoefficient(self, *args):
         r"""
@@ -495,6 +505,11 @@ class GridFunction(mfem._par.vector.Vector):
         r"""Update(GridFunction self)"""
         return _gridfunc.GridFunction_Update(self)
     Update = _swig_new_instance_method(_gridfunc.GridFunction_Update)
+
+    def GetSequence(self):
+        r"""GetSequence(GridFunction self) -> long"""
+        return _gridfunc.GridFunction_GetSequence(self)
+    GetSequence = _swig_new_instance_method(_gridfunc.GridFunction_GetSequence)
 
     def FESpace(self, *args):
         r"""

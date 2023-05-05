@@ -210,6 +210,11 @@ class BilinearFormIntegrator(mfem._par.nonlininteg.NonlinearFormIntegrator):
         return _bilininteg.BilinearFormIntegrator_AssembleFaceMatrix(self, *args)
     AssembleFaceMatrix = _swig_new_instance_method(_bilininteg.BilinearFormIntegrator_AssembleFaceMatrix)
 
+    def AssembleTraceFaceMatrix(self, elem, trial_face_fe, test_fe, Trans, elmat):
+        r"""AssembleTraceFaceMatrix(BilinearFormIntegrator self, int elem, FiniteElement trial_face_fe, FiniteElement test_fe, FaceElementTransformations Trans, DenseMatrix elmat)"""
+        return _bilininteg.BilinearFormIntegrator_AssembleTraceFaceMatrix(self, elem, trial_face_fe, test_fe, Trans, elmat)
+    AssembleTraceFaceMatrix = _swig_new_instance_method(_bilininteg.BilinearFormIntegrator_AssembleTraceFaceMatrix)
+
     def AssembleElementVector(self, el, Tr, elfun, elvect):
         r"""AssembleElementVector(BilinearFormIntegrator self, FiniteElement el, ElementTransformation Tr, Vector elfun, Vector elvect)"""
         return _bilininteg.BilinearFormIntegrator_AssembleElementVector(self, el, Tr, elfun, elvect)
@@ -2962,6 +2967,60 @@ class NormalTraceJumpIntegrator(BilinearFormIntegrator):
 
 # Register NormalTraceJumpIntegrator in _bilininteg:
 _bilininteg.NormalTraceJumpIntegrator_swigregister(NormalTraceJumpIntegrator)
+class TraceIntegrator(BilinearFormIntegrator):
+    r"""Proxy of C++ mfem::TraceIntegrator class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        r"""__init__(TraceIntegrator self) -> TraceIntegrator"""
+        _bilininteg.TraceIntegrator_swiginit(self, _bilininteg.new_TraceIntegrator())
+
+    def AssembleTraceFaceMatrix(self, elem, trial_face_fe, test_fe, Trans, elmat):
+        r"""AssembleTraceFaceMatrix(TraceIntegrator self, int elem, FiniteElement trial_face_fe, FiniteElement test_fe, FaceElementTransformations Trans, DenseMatrix elmat)"""
+        return _bilininteg.TraceIntegrator_AssembleTraceFaceMatrix(self, elem, trial_face_fe, test_fe, Trans, elmat)
+    AssembleTraceFaceMatrix = _swig_new_instance_method(_bilininteg.TraceIntegrator_AssembleTraceFaceMatrix)
+    __swig_destroy__ = _bilininteg.delete_TraceIntegrator
+
+# Register TraceIntegrator in _bilininteg:
+_bilininteg.TraceIntegrator_swigregister(TraceIntegrator)
+class NormalTraceIntegrator(BilinearFormIntegrator):
+    r"""Proxy of C++ mfem::NormalTraceIntegrator class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        r"""__init__(NormalTraceIntegrator self) -> NormalTraceIntegrator"""
+        _bilininteg.NormalTraceIntegrator_swiginit(self, _bilininteg.new_NormalTraceIntegrator())
+
+    def AssembleTraceFaceMatrix(self, ielem, trial_face_fe, test_fe, Trans, elmat):
+        r"""AssembleTraceFaceMatrix(NormalTraceIntegrator self, int ielem, FiniteElement trial_face_fe, FiniteElement test_fe, FaceElementTransformations Trans, DenseMatrix elmat)"""
+        return _bilininteg.NormalTraceIntegrator_AssembleTraceFaceMatrix(self, ielem, trial_face_fe, test_fe, Trans, elmat)
+    AssembleTraceFaceMatrix = _swig_new_instance_method(_bilininteg.NormalTraceIntegrator_AssembleTraceFaceMatrix)
+    __swig_destroy__ = _bilininteg.delete_NormalTraceIntegrator
+
+# Register NormalTraceIntegrator in _bilininteg:
+_bilininteg.NormalTraceIntegrator_swigregister(NormalTraceIntegrator)
+class TangentTraceIntegrator(BilinearFormIntegrator):
+    r"""Proxy of C++ mfem::TangentTraceIntegrator class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        r"""__init__(TangentTraceIntegrator self) -> TangentTraceIntegrator"""
+        _bilininteg.TangentTraceIntegrator_swiginit(self, _bilininteg.new_TangentTraceIntegrator())
+
+    def AssembleTraceFaceMatrix(self, elem, trial_face_fe, test_fe, Trans, elmat):
+        r"""AssembleTraceFaceMatrix(TangentTraceIntegrator self, int elem, FiniteElement trial_face_fe, FiniteElement test_fe, FaceElementTransformations Trans, DenseMatrix elmat)"""
+        return _bilininteg.TangentTraceIntegrator_AssembleTraceFaceMatrix(self, elem, trial_face_fe, test_fe, Trans, elmat)
+    AssembleTraceFaceMatrix = _swig_new_instance_method(_bilininteg.TangentTraceIntegrator_AssembleTraceFaceMatrix)
+    __swig_destroy__ = _bilininteg.delete_TangentTraceIntegrator
+
+# Register TangentTraceIntegrator in _bilininteg:
+_bilininteg.TangentTraceIntegrator_swigregister(TangentTraceIntegrator)
 class DiscreteInterpolator(BilinearFormIntegrator):
     r"""Proxy of C++ mfem::DiscreteInterpolator class."""
 
@@ -3017,6 +3076,10 @@ class IdentityInterpolator(DiscreteInterpolator):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
+    def __init__(self):
+        r"""__init__(IdentityInterpolator self) -> IdentityInterpolator"""
+        _bilininteg.IdentityInterpolator_swiginit(self, _bilininteg.new_IdentityInterpolator())
+
     def AssembleElementMatrix2(self, dom_fe, ran_fe, Trans, elmat):
         r"""AssembleElementMatrix2(IdentityInterpolator self, FiniteElement dom_fe, FiniteElement ran_fe, ElementTransformation Trans, DenseMatrix elmat)"""
         return _bilininteg.IdentityInterpolator_AssembleElementMatrix2(self, dom_fe, ran_fe, Trans, elmat)
@@ -3039,10 +3102,6 @@ class IdentityInterpolator(DiscreteInterpolator):
         r"""AddMultTransposePA(IdentityInterpolator self, Vector x, Vector y)"""
         return _bilininteg.IdentityInterpolator_AddMultTransposePA(self, x, y)
     AddMultTransposePA = _swig_new_instance_method(_bilininteg.IdentityInterpolator_AddMultTransposePA)
-
-    def __init__(self):
-        r"""__init__(IdentityInterpolator self) -> IdentityInterpolator"""
-        _bilininteg.IdentityInterpolator_swiginit(self, _bilininteg.new_IdentityInterpolator())
     __swig_destroy__ = _bilininteg.delete_IdentityInterpolator
 
 # Register IdentityInterpolator in _bilininteg:

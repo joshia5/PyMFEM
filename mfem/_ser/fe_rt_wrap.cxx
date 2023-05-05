@@ -3408,73 +3408,74 @@ namespace Swig {
 #define SWIGTYPE_p_double swig_types[3]
 #define SWIGTYPE_p_int swig_types[4]
 #define SWIGTYPE_p_mfem__AbstractSparseMatrix swig_types[5]
-#define SWIGTYPE_p_mfem__Coefficient swig_types[6]
-#define SWIGTYPE_p_mfem__ConstrainedOperator swig_types[7]
-#define SWIGTYPE_p_mfem__DenseMatrix swig_types[8]
-#define SWIGTYPE_p_mfem__DenseMatrixInverse swig_types[9]
-#define SWIGTYPE_p_mfem__ElementTransformation swig_types[10]
-#define SWIGTYPE_p_mfem__FiniteElement swig_types[11]
-#define SWIGTYPE_p_mfem__IdentityOperator swig_types[12]
-#define SWIGTYPE_p_mfem__IntegrationPoint swig_types[13]
-#define SWIGTYPE_p_mfem__IntegrationRule swig_types[14]
-#define SWIGTYPE_p_mfem__Matrix swig_types[15]
-#define SWIGTYPE_p_mfem__MatrixCoefficient swig_types[16]
-#define SWIGTYPE_p_mfem__MatrixInverse swig_types[17]
-#define SWIGTYPE_p_mfem__NodalFiniteElement swig_types[18]
-#define SWIGTYPE_p_mfem__NodalTensorFiniteElement swig_types[19]
-#define SWIGTYPE_p_mfem__Operator swig_types[20]
-#define SWIGTYPE_p_mfem__ProductOperator swig_types[21]
-#define SWIGTYPE_p_mfem__PyOperatorBase swig_types[22]
-#define SWIGTYPE_p_mfem__PyTimeDependentOperatorBase swig_types[23]
-#define SWIGTYPE_p_mfem__RAPOperator swig_types[24]
-#define SWIGTYPE_p_mfem__RT_HexahedronElement swig_types[25]
-#define SWIGTYPE_p_mfem__RT_QuadrilateralElement swig_types[26]
-#define SWIGTYPE_p_mfem__RT_R1D_SegmentElement swig_types[27]
-#define SWIGTYPE_p_mfem__RT_R2D_FiniteElement swig_types[28]
-#define SWIGTYPE_p_mfem__RT_R2D_QuadrilateralElement swig_types[29]
-#define SWIGTYPE_p_mfem__RT_R2D_SegmentElement swig_types[30]
-#define SWIGTYPE_p_mfem__RT_R2D_TriangleElement swig_types[31]
-#define SWIGTYPE_p_mfem__RT_TetrahedronElement swig_types[32]
-#define SWIGTYPE_p_mfem__RT_TriangleElement swig_types[33]
-#define SWIGTYPE_p_mfem__RT_WedgeElement swig_types[34]
-#define SWIGTYPE_p_mfem__RectangularConstrainedOperator swig_types[35]
-#define SWIGTYPE_p_mfem__ScalarFiniteElement swig_types[36]
-#define SWIGTYPE_p_mfem__ScaledOperator swig_types[37]
-#define SWIGTYPE_p_mfem__SecondOrderTimeDependentOperator swig_types[38]
-#define SWIGTYPE_p_mfem__Solver swig_types[39]
-#define SWIGTYPE_p_mfem__TensorBasisElement swig_types[40]
-#define SWIGTYPE_p_mfem__TimeDependentAdjointOperator swig_types[41]
-#define SWIGTYPE_p_mfem__TimeDependentOperator swig_types[42]
-#define SWIGTYPE_p_mfem__TransposeOperator swig_types[43]
-#define SWIGTYPE_p_mfem__TripleProductOperator swig_types[44]
-#define SWIGTYPE_p_mfem__Vector swig_types[45]
-#define SWIGTYPE_p_mfem__VectorCoefficient swig_types[46]
-#define SWIGTYPE_p_mfem__VectorFiniteElement swig_types[47]
-#define SWIGTYPE_p_mfem__VectorTensorFiniteElement swig_types[48]
-#define SWIGTYPE_p_p_mfem__AbstractSparseMatrix swig_types[49]
-#define SWIGTYPE_p_p_mfem__ConstrainedOperator swig_types[50]
-#define SWIGTYPE_p_p_mfem__DenseMatrix swig_types[51]
-#define SWIGTYPE_p_p_mfem__DenseMatrixInverse swig_types[52]
-#define SWIGTYPE_p_p_mfem__IdentityOperator swig_types[53]
-#define SWIGTYPE_p_p_mfem__IntegrationRule swig_types[54]
-#define SWIGTYPE_p_p_mfem__Matrix swig_types[55]
-#define SWIGTYPE_p_p_mfem__MatrixInverse swig_types[56]
-#define SWIGTYPE_p_p_mfem__Operator swig_types[57]
-#define SWIGTYPE_p_p_mfem__ProductOperator swig_types[58]
-#define SWIGTYPE_p_p_mfem__PyOperatorBase swig_types[59]
-#define SWIGTYPE_p_p_mfem__PyTimeDependentOperatorBase swig_types[60]
-#define SWIGTYPE_p_p_mfem__RAPOperator swig_types[61]
-#define SWIGTYPE_p_p_mfem__RectangularConstrainedOperator swig_types[62]
-#define SWIGTYPE_p_p_mfem__ScaledOperator swig_types[63]
-#define SWIGTYPE_p_p_mfem__SecondOrderTimeDependentOperator swig_types[64]
-#define SWIGTYPE_p_p_mfem__Solver swig_types[65]
-#define SWIGTYPE_p_p_mfem__TimeDependentAdjointOperator swig_types[66]
-#define SWIGTYPE_p_p_mfem__TimeDependentOperator swig_types[67]
-#define SWIGTYPE_p_p_mfem__TransposeOperator swig_types[68]
-#define SWIGTYPE_p_p_mfem__TripleProductOperator swig_types[69]
-#define SWIGTYPE_p_p_mfem__Vector swig_types[70]
-static swig_type_info *swig_types[72];
-static swig_module_info swig_module = {swig_types, 71, 0, 0, 0, 0};
+#define SWIGTYPE_p_mfem__ArrayT_int_t swig_types[6]
+#define SWIGTYPE_p_mfem__Coefficient swig_types[7]
+#define SWIGTYPE_p_mfem__ConstrainedOperator swig_types[8]
+#define SWIGTYPE_p_mfem__DenseMatrix swig_types[9]
+#define SWIGTYPE_p_mfem__DenseMatrixInverse swig_types[10]
+#define SWIGTYPE_p_mfem__ElementTransformation swig_types[11]
+#define SWIGTYPE_p_mfem__FiniteElement swig_types[12]
+#define SWIGTYPE_p_mfem__IdentityOperator swig_types[13]
+#define SWIGTYPE_p_mfem__IntegrationPoint swig_types[14]
+#define SWIGTYPE_p_mfem__IntegrationRule swig_types[15]
+#define SWIGTYPE_p_mfem__Matrix swig_types[16]
+#define SWIGTYPE_p_mfem__MatrixCoefficient swig_types[17]
+#define SWIGTYPE_p_mfem__MatrixInverse swig_types[18]
+#define SWIGTYPE_p_mfem__NodalFiniteElement swig_types[19]
+#define SWIGTYPE_p_mfem__NodalTensorFiniteElement swig_types[20]
+#define SWIGTYPE_p_mfem__Operator swig_types[21]
+#define SWIGTYPE_p_mfem__ProductOperator swig_types[22]
+#define SWIGTYPE_p_mfem__PyOperatorBase swig_types[23]
+#define SWIGTYPE_p_mfem__PyTimeDependentOperatorBase swig_types[24]
+#define SWIGTYPE_p_mfem__RAPOperator swig_types[25]
+#define SWIGTYPE_p_mfem__RT_HexahedronElement swig_types[26]
+#define SWIGTYPE_p_mfem__RT_QuadrilateralElement swig_types[27]
+#define SWIGTYPE_p_mfem__RT_R1D_SegmentElement swig_types[28]
+#define SWIGTYPE_p_mfem__RT_R2D_FiniteElement swig_types[29]
+#define SWIGTYPE_p_mfem__RT_R2D_QuadrilateralElement swig_types[30]
+#define SWIGTYPE_p_mfem__RT_R2D_SegmentElement swig_types[31]
+#define SWIGTYPE_p_mfem__RT_R2D_TriangleElement swig_types[32]
+#define SWIGTYPE_p_mfem__RT_TetrahedronElement swig_types[33]
+#define SWIGTYPE_p_mfem__RT_TriangleElement swig_types[34]
+#define SWIGTYPE_p_mfem__RT_WedgeElement swig_types[35]
+#define SWIGTYPE_p_mfem__RectangularConstrainedOperator swig_types[36]
+#define SWIGTYPE_p_mfem__ScalarFiniteElement swig_types[37]
+#define SWIGTYPE_p_mfem__ScaledOperator swig_types[38]
+#define SWIGTYPE_p_mfem__SecondOrderTimeDependentOperator swig_types[39]
+#define SWIGTYPE_p_mfem__Solver swig_types[40]
+#define SWIGTYPE_p_mfem__TensorBasisElement swig_types[41]
+#define SWIGTYPE_p_mfem__TimeDependentAdjointOperator swig_types[42]
+#define SWIGTYPE_p_mfem__TimeDependentOperator swig_types[43]
+#define SWIGTYPE_p_mfem__TransposeOperator swig_types[44]
+#define SWIGTYPE_p_mfem__TripleProductOperator swig_types[45]
+#define SWIGTYPE_p_mfem__Vector swig_types[46]
+#define SWIGTYPE_p_mfem__VectorCoefficient swig_types[47]
+#define SWIGTYPE_p_mfem__VectorFiniteElement swig_types[48]
+#define SWIGTYPE_p_mfem__VectorTensorFiniteElement swig_types[49]
+#define SWIGTYPE_p_p_mfem__AbstractSparseMatrix swig_types[50]
+#define SWIGTYPE_p_p_mfem__ConstrainedOperator swig_types[51]
+#define SWIGTYPE_p_p_mfem__DenseMatrix swig_types[52]
+#define SWIGTYPE_p_p_mfem__DenseMatrixInverse swig_types[53]
+#define SWIGTYPE_p_p_mfem__IdentityOperator swig_types[54]
+#define SWIGTYPE_p_p_mfem__IntegrationRule swig_types[55]
+#define SWIGTYPE_p_p_mfem__Matrix swig_types[56]
+#define SWIGTYPE_p_p_mfem__MatrixInverse swig_types[57]
+#define SWIGTYPE_p_p_mfem__Operator swig_types[58]
+#define SWIGTYPE_p_p_mfem__ProductOperator swig_types[59]
+#define SWIGTYPE_p_p_mfem__PyOperatorBase swig_types[60]
+#define SWIGTYPE_p_p_mfem__PyTimeDependentOperatorBase swig_types[61]
+#define SWIGTYPE_p_p_mfem__RAPOperator swig_types[62]
+#define SWIGTYPE_p_p_mfem__RectangularConstrainedOperator swig_types[63]
+#define SWIGTYPE_p_p_mfem__ScaledOperator swig_types[64]
+#define SWIGTYPE_p_p_mfem__SecondOrderTimeDependentOperator swig_types[65]
+#define SWIGTYPE_p_p_mfem__Solver swig_types[66]
+#define SWIGTYPE_p_p_mfem__TimeDependentAdjointOperator swig_types[67]
+#define SWIGTYPE_p_p_mfem__TimeDependentOperator swig_types[68]
+#define SWIGTYPE_p_p_mfem__TransposeOperator swig_types[69]
+#define SWIGTYPE_p_p_mfem__TripleProductOperator swig_types[70]
+#define SWIGTYPE_p_p_mfem__Vector swig_types[71]
+static swig_type_info *swig_types[73];
+static swig_module_info swig_module = {swig_types, 72, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -4765,6 +4766,68 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_RT_QuadrilateralElement_GetFaceMap(PyObject *self, PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  mfem::RT_QuadrilateralElement *arg1 = (mfem::RT_QuadrilateralElement *) 0 ;
+  int arg2 ;
+  mfem::Array< int > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"face_id",  (char *)"face_map",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:RT_QuadrilateralElement_GetFaceMap", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__RT_QuadrilateralElement, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RT_QuadrilateralElement_GetFaceMap" "', argument " "1"" of type '" "mfem::RT_QuadrilateralElement const *""'"); 
+  }
+  arg1 = reinterpret_cast< mfem::RT_QuadrilateralElement * >(argp1);
+  {
+    if ((PyArray_PyIntAsInt(obj1) == -1) && PyErr_Occurred()) {
+      SWIG_exception_fail(SWIG_TypeError, "Input must be integer");
+    };  
+    arg2 = PyArray_PyIntAsInt(obj1);
+  }
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_mfem__ArrayT_int_t,  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RT_QuadrilateralElement_GetFaceMap" "', argument " "3"" of type '" "mfem::Array< int > &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RT_QuadrilateralElement_GetFaceMap" "', argument " "3"" of type '" "mfem::Array< int > &""'"); 
+  }
+  arg3 = reinterpret_cast< mfem::Array< int > * >(argp3);
+  {
+    try {
+      ((mfem::RT_QuadrilateralElement const *)arg1)->GetFaceMap(arg2,*arg3);
+    }
+#ifdef  MFEM_USE_EXCEPTIONS
+    catch (mfem::ErrorException &_e) {
+      std::string s("PyMFEM error (mfem::ErrorException): "), s2(_e.what());
+      s = s + s2;    
+      SWIG_exception(SWIG_RuntimeError, s.c_str());
+    }
+#endif
+    
+    catch (Swig::DirectorException &e){
+      SWIG_fail;
+    }    
+    catch (...) {
+      SWIG_exception(SWIG_RuntimeError, "unknown exception");
+    }	 
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_delete_RT_QuadrilateralElement(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   mfem::RT_QuadrilateralElement *arg1 = (mfem::RT_QuadrilateralElement *) 0 ;
@@ -5843,6 +5906,68 @@ SWIGINTERN PyObject *_wrap_RT_HexahedronElement_ProjectCurl(PyObject *self, PyOb
   {
     try {
       ((mfem::RT_HexahedronElement const *)arg1)->ProjectCurl((mfem::FiniteElement const &)*arg2,*arg3,*arg4);
+    }
+#ifdef  MFEM_USE_EXCEPTIONS
+    catch (mfem::ErrorException &_e) {
+      std::string s("PyMFEM error (mfem::ErrorException): "), s2(_e.what());
+      s = s + s2;    
+      SWIG_exception(SWIG_RuntimeError, s.c_str());
+    }
+#endif
+    
+    catch (Swig::DirectorException &e){
+      SWIG_fail;
+    }    
+    catch (...) {
+      SWIG_exception(SWIG_RuntimeError, "unknown exception");
+    }	 
+  }
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_RT_HexahedronElement_GetFaceMap(PyObject *self, PyObject *args, PyObject *kwargs) {
+  PyObject *resultobj = 0;
+  mfem::RT_HexahedronElement *arg1 = (mfem::RT_HexahedronElement *) 0 ;
+  int arg2 ;
+  mfem::Array< int > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  PyObject * obj0 = 0 ;
+  PyObject * obj1 = 0 ;
+  PyObject * obj2 = 0 ;
+  char * kwnames[] = {
+    (char *)"self",  (char *)"face_id",  (char *)"face_map",  NULL 
+  };
+  
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:RT_HexahedronElement_GetFaceMap", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_mfem__RT_HexahedronElement, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "RT_HexahedronElement_GetFaceMap" "', argument " "1"" of type '" "mfem::RT_HexahedronElement const *""'"); 
+  }
+  arg1 = reinterpret_cast< mfem::RT_HexahedronElement * >(argp1);
+  {
+    if ((PyArray_PyIntAsInt(obj1) == -1) && PyErr_Occurred()) {
+      SWIG_exception_fail(SWIG_TypeError, "Input must be integer");
+    };  
+    arg2 = PyArray_PyIntAsInt(obj1);
+  }
+  res3 = SWIG_ConvertPtr(obj2, &argp3, SWIGTYPE_p_mfem__ArrayT_int_t,  0 );
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "RT_HexahedronElement_GetFaceMap" "', argument " "3"" of type '" "mfem::Array< int > &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "RT_HexahedronElement_GetFaceMap" "', argument " "3"" of type '" "mfem::Array< int > &""'"); 
+  }
+  arg3 = reinterpret_cast< mfem::Array< int > * >(argp3);
+  {
+    try {
+      ((mfem::RT_HexahedronElement const *)arg1)->GetFaceMap(arg2,*arg3);
     }
 #ifdef  MFEM_USE_EXCEPTIONS
     catch (mfem::ErrorException &_e) {
@@ -11971,6 +12096,7 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { "RT_QuadrilateralElement_ProjectGrad", (PyCFunction)(void(*)(void))_wrap_RT_QuadrilateralElement_ProjectGrad, METH_VARARGS|METH_KEYWORDS, "RT_QuadrilateralElement_ProjectGrad(RT_QuadrilateralElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix grad)"},
 	 { "RT_QuadrilateralElement_ProjectCurl", (PyCFunction)(void(*)(void))_wrap_RT_QuadrilateralElement_ProjectCurl, METH_VARARGS|METH_KEYWORDS, "RT_QuadrilateralElement_ProjectCurl(RT_QuadrilateralElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix curl)"},
+	 { "RT_QuadrilateralElement_GetFaceMap", (PyCFunction)(void(*)(void))_wrap_RT_QuadrilateralElement_GetFaceMap, METH_VARARGS|METH_KEYWORDS, "RT_QuadrilateralElement_GetFaceMap(RT_QuadrilateralElement self, int const face_id, intArray face_map)"},
 	 { "delete_RT_QuadrilateralElement", _wrap_delete_RT_QuadrilateralElement, METH_O, "delete_RT_QuadrilateralElement(RT_QuadrilateralElement self)"},
 	 { "RT_QuadrilateralElement_swigregister", RT_QuadrilateralElement_swigregister, METH_O, NULL},
 	 { "RT_QuadrilateralElement_swiginit", RT_QuadrilateralElement_swiginit, METH_VARARGS, NULL},
@@ -11991,6 +12117,7 @@ static PyMethodDef SwigMethods[] = {
 		"RT_HexahedronElement_Project(RT_HexahedronElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix I)\n"
 		""},
 	 { "RT_HexahedronElement_ProjectCurl", (PyCFunction)(void(*)(void))_wrap_RT_HexahedronElement_ProjectCurl, METH_VARARGS|METH_KEYWORDS, "RT_HexahedronElement_ProjectCurl(RT_HexahedronElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix curl)"},
+	 { "RT_HexahedronElement_GetFaceMap", (PyCFunction)(void(*)(void))_wrap_RT_HexahedronElement_GetFaceMap, METH_VARARGS|METH_KEYWORDS, "RT_HexahedronElement_GetFaceMap(RT_HexahedronElement self, int const face_id, intArray face_map)"},
 	 { "delete_RT_HexahedronElement", _wrap_delete_RT_HexahedronElement, METH_O, "delete_RT_HexahedronElement(RT_HexahedronElement self)"},
 	 { "RT_HexahedronElement_swigregister", RT_HexahedronElement_swigregister, METH_O, NULL},
 	 { "RT_HexahedronElement_swiginit", RT_HexahedronElement_swiginit, METH_VARARGS, NULL},
@@ -12138,6 +12265,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 		""},
 	 { "RT_QuadrilateralElement_ProjectGrad", (PyCFunction)(void(*)(void))_wrap_RT_QuadrilateralElement_ProjectGrad, METH_VARARGS|METH_KEYWORDS, "ProjectGrad(RT_QuadrilateralElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix grad)"},
 	 { "RT_QuadrilateralElement_ProjectCurl", (PyCFunction)(void(*)(void))_wrap_RT_QuadrilateralElement_ProjectCurl, METH_VARARGS|METH_KEYWORDS, "ProjectCurl(RT_QuadrilateralElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix curl)"},
+	 { "RT_QuadrilateralElement_GetFaceMap", (PyCFunction)(void(*)(void))_wrap_RT_QuadrilateralElement_GetFaceMap, METH_VARARGS|METH_KEYWORDS, "GetFaceMap(RT_QuadrilateralElement self, int const face_id, intArray face_map)"},
 	 { "delete_RT_QuadrilateralElement", _wrap_delete_RT_QuadrilateralElement, METH_O, "delete_RT_QuadrilateralElement(RT_QuadrilateralElement self)"},
 	 { "RT_QuadrilateralElement_swigregister", RT_QuadrilateralElement_swigregister, METH_O, NULL},
 	 { "RT_QuadrilateralElement_swiginit", RT_QuadrilateralElement_swiginit, METH_VARARGS, NULL},
@@ -12158,6 +12286,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 		"Project(RT_HexahedronElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix I)\n"
 		""},
 	 { "RT_HexahedronElement_ProjectCurl", (PyCFunction)(void(*)(void))_wrap_RT_HexahedronElement_ProjectCurl, METH_VARARGS|METH_KEYWORDS, "ProjectCurl(RT_HexahedronElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix curl)"},
+	 { "RT_HexahedronElement_GetFaceMap", (PyCFunction)(void(*)(void))_wrap_RT_HexahedronElement_GetFaceMap, METH_VARARGS|METH_KEYWORDS, "GetFaceMap(RT_HexahedronElement self, int const face_id, intArray face_map)"},
 	 { "delete_RT_HexahedronElement", _wrap_delete_RT_HexahedronElement, METH_O, "delete_RT_HexahedronElement(RT_HexahedronElement self)"},
 	 { "RT_HexahedronElement_swigregister", RT_HexahedronElement_swigregister, METH_O, NULL},
 	 { "RT_HexahedronElement_swiginit", RT_HexahedronElement_swiginit, METH_VARARGS, NULL},
@@ -12520,6 +12649,7 @@ static swig_type_info _swigt__p_bool = {"_p_bool", "bool *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_double = {"_p_double", "double *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_int = {"_p_int", "int *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_mfem__ArrayT_int_t = {"_p_mfem__ArrayT_int_t", "mfem::Array< int > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__Coefficient = {"_p_mfem__Coefficient", "mfem::Coefficient *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__DenseMatrix = {"_p_mfem__DenseMatrix", "mfem::DenseMatrix *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_mfem__ElementTransformation = {"_p_mfem__ElementTransformation", "mfem::ElementTransformation *", 0, 0, (void*)0, 0};
@@ -12594,6 +12724,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_double,
   &_swigt__p_int,
   &_swigt__p_mfem__AbstractSparseMatrix,
+  &_swigt__p_mfem__ArrayT_int_t,
   &_swigt__p_mfem__Coefficient,
   &_swigt__p_mfem__ConstrainedOperator,
   &_swigt__p_mfem__DenseMatrix,
@@ -12666,6 +12797,7 @@ static swig_cast_info _swigc__p_bool[] = {  {&_swigt__p_bool, 0, 0, 0},{0, 0, 0,
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_double[] = {  {&_swigt__p_double, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_int[] = {  {&_swigt__p_int, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_mfem__ArrayT_int_t[] = {  {&_swigt__p_mfem__ArrayT_int_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__Coefficient[] = {  {&_swigt__p_mfem__Coefficient, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__DenseMatrix[] = {  {&_swigt__p_mfem__DenseMatrix, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_mfem__ElementTransformation[] = {  {&_swigt__p_mfem__ElementTransformation, 0, 0, 0},{0, 0, 0, 0}};
@@ -12740,6 +12872,7 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_double,
   _swigc__p_int,
   _swigc__p_mfem__AbstractSparseMatrix,
+  _swigc__p_mfem__ArrayT_int_t,
   _swigc__p_mfem__Coefficient,
   _swigc__p_mfem__ConstrainedOperator,
   _swigc__p_mfem__DenseMatrix,

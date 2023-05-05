@@ -259,34 +259,34 @@ class FaceRestriction(mfem._par.operators.Operator):
 
 # Register FaceRestriction in _restriction:
 _restriction.FaceRestriction_swigregister(FaceRestriction)
-class H1FaceRestriction(FaceRestriction):
-    r"""Proxy of C++ mfem::H1FaceRestriction class."""
+class ConformingFaceRestriction(FaceRestriction):
+    r"""Proxy of C++ mfem::ConformingFaceRestriction class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self, fes, ordering, type):
-        r"""__init__(H1FaceRestriction self, FiniteElementSpace fes, mfem::ElementDofOrdering const ordering, mfem::FaceType const type) -> H1FaceRestriction"""
-        _restriction.H1FaceRestriction_swiginit(self, _restriction.new_H1FaceRestriction(fes, ordering, type))
+    def __init__(self, fes, f_ordering, type):
+        r"""__init__(ConformingFaceRestriction self, FiniteElementSpace fes, mfem::ElementDofOrdering const f_ordering, mfem::FaceType const type) -> ConformingFaceRestriction"""
+        _restriction.ConformingFaceRestriction_swiginit(self, _restriction.new_ConformingFaceRestriction(fes, f_ordering, type))
 
     def Mult(self, x, y):
-        r"""Mult(H1FaceRestriction self, Vector x, Vector y)"""
-        return _restriction.H1FaceRestriction_Mult(self, x, y)
-    Mult = _swig_new_instance_method(_restriction.H1FaceRestriction_Mult)
+        r"""Mult(ConformingFaceRestriction self, Vector x, Vector y)"""
+        return _restriction.ConformingFaceRestriction_Mult(self, x, y)
+    Mult = _swig_new_instance_method(_restriction.ConformingFaceRestriction_Mult)
 
     def AddMultTransposeInPlace(self, x, y):
-        r"""AddMultTransposeInPlace(H1FaceRestriction self, Vector x, Vector y)"""
-        return _restriction.H1FaceRestriction_AddMultTransposeInPlace(self, x, y)
-    AddMultTransposeInPlace = _swig_new_instance_method(_restriction.H1FaceRestriction_AddMultTransposeInPlace)
+        r"""AddMultTransposeInPlace(ConformingFaceRestriction self, Vector x, Vector y)"""
+        return _restriction.ConformingFaceRestriction_AddMultTransposeInPlace(self, x, y)
+    AddMultTransposeInPlace = _swig_new_instance_method(_restriction.ConformingFaceRestriction_AddMultTransposeInPlace)
 
     def AddMultTranspose(self, x, y, a=1.0):
-        r"""AddMultTranspose(H1FaceRestriction self, Vector x, Vector y, double const a=1.0)"""
-        return _restriction.H1FaceRestriction_AddMultTranspose(self, x, y, a)
-    AddMultTranspose = _swig_new_instance_method(_restriction.H1FaceRestriction_AddMultTranspose)
-    __swig_destroy__ = _restriction.delete_H1FaceRestriction
+        r"""AddMultTranspose(ConformingFaceRestriction self, Vector x, Vector y, double const a=1.0)"""
+        return _restriction.ConformingFaceRestriction_AddMultTranspose(self, x, y, a)
+    AddMultTranspose = _swig_new_instance_method(_restriction.ConformingFaceRestriction_AddMultTranspose)
+    __swig_destroy__ = _restriction.delete_ConformingFaceRestriction
 
-# Register H1FaceRestriction in _restriction:
-_restriction.H1FaceRestriction_swigregister(H1FaceRestriction)
+# Register ConformingFaceRestriction in _restriction:
+_restriction.ConformingFaceRestriction_swigregister(ConformingFaceRestriction)
 class L2FaceRestriction(FaceRestriction):
     r"""Proxy of C++ mfem::L2FaceRestriction class."""
 
@@ -294,7 +294,7 @@ class L2FaceRestriction(FaceRestriction):
     __repr__ = _swig_repr
 
     def __init__(self, *args):
-        r"""__init__(L2FaceRestriction self, FiniteElementSpace fes, mfem::ElementDofOrdering const ordering, mfem::FaceType const type, mfem::L2FaceValues const m=DoubleValued) -> L2FaceRestriction"""
+        r"""__init__(L2FaceRestriction self, FiniteElementSpace fes, mfem::ElementDofOrdering const f_ordering, mfem::FaceType const type, mfem::L2FaceValues const m=DoubleValued) -> L2FaceRestriction"""
         _restriction.L2FaceRestriction_swiginit(self, _restriction.new_L2FaceRestriction(*args))
 
     def Mult(self, x, y):
@@ -447,7 +447,7 @@ class NCL2FaceRestriction(L2FaceRestriction):
     __repr__ = _swig_repr
 
     def __init__(self, *args):
-        r"""__init__(NCL2FaceRestriction self, FiniteElementSpace fes, mfem::ElementDofOrdering const ordering, mfem::FaceType const type, mfem::L2FaceValues const m=DoubleValued) -> NCL2FaceRestriction"""
+        r"""__init__(NCL2FaceRestriction self, FiniteElementSpace fes, mfem::ElementDofOrdering const f_ordering, mfem::FaceType const type, mfem::L2FaceValues const m=DoubleValued) -> NCL2FaceRestriction"""
         _restriction.NCL2FaceRestriction_swiginit(self, _restriction.new_NCL2FaceRestriction(*args))
 
     def Mult(self, x, y):
@@ -513,11 +513,6 @@ class NCL2FaceRestriction(L2FaceRestriction):
 
 # Register NCL2FaceRestriction in _restriction:
 _restriction.NCL2FaceRestriction_swigregister(NCL2FaceRestriction)
-
-def GetFaceDofs(dim, face_id, dof1d, face_map):
-    r"""GetFaceDofs(int const dim, int const face_id, int const dof1d, intArray face_map)"""
-    return _restriction.GetFaceDofs(dim, face_id, dof1d, face_map)
-GetFaceDofs = _restriction.GetFaceDofs
 
 def ToLexOrdering(dim, face_id, size1d, index):
     r"""ToLexOrdering(int const dim, int const face_id, int const size1d, int const index) -> int"""

@@ -3402,70 +3402,71 @@ namespace Swig {
 
 /* -------- TYPES TABLE (BEGIN) -------- */
 
-#define SWIGTYPE_p_PyMFEM__wFILE swig_types[0]
-#define SWIGTYPE_p_bool swig_types[1]
-#define SWIGTYPE_p_char swig_types[2]
-#define SWIGTYPE_p_double swig_types[3]
-#define SWIGTYPE_p_int swig_types[4]
-#define SWIGTYPE_p_mfem__ArrayT_int_t swig_types[5]
-#define SWIGTYPE_p_mfem__ArrayT_mfem__Operator_p_t swig_types[6]
-#define SWIGTYPE_p_mfem__ArrayT_mfem__Solver_p_t swig_types[7]
-#define SWIGTYPE_p_mfem__ArrayT_mfem__Vector_const_p_t swig_types[8]
-#define SWIGTYPE_p_mfem__ArrayT_mfem__Vector_p_t swig_types[9]
-#define SWIGTYPE_p_mfem__ConstrainedOperator swig_types[10]
-#define SWIGTYPE_p_mfem__IdentityOperator swig_types[11]
-#define SWIGTYPE_p_mfem__MemoryT_mfem__Operator_p_t swig_types[12]
-#define SWIGTYPE_p_mfem__MemoryT_mfem__Solver_p_t swig_types[13]
-#define SWIGTYPE_p_mfem__Operator swig_types[14]
-#define SWIGTYPE_p_mfem__OutStream swig_types[15]
-#define SWIGTYPE_p_mfem__PowerMethod swig_types[16]
-#define SWIGTYPE_p_mfem__ProductOperator swig_types[17]
-#define SWIGTYPE_p_mfem__PyOperatorBase swig_types[18]
-#define SWIGTYPE_p_mfem__PyTimeDependentOperatorBase swig_types[19]
-#define SWIGTYPE_p_mfem__RAPOperator swig_types[20]
-#define SWIGTYPE_p_mfem__RectangularConstrainedOperator swig_types[21]
-#define SWIGTYPE_p_mfem__ScaledOperator swig_types[22]
-#define SWIGTYPE_p_mfem__SecondOrderTimeDependentOperator swig_types[23]
-#define SWIGTYPE_p_mfem__Solver swig_types[24]
-#define SWIGTYPE_p_mfem__TimeDependentAdjointOperator swig_types[25]
-#define SWIGTYPE_p_mfem__TimeDependentOperator swig_types[26]
-#define SWIGTYPE_p_mfem__TransposeOperator swig_types[27]
-#define SWIGTYPE_p_mfem__TripleProductOperator swig_types[28]
-#define SWIGTYPE_p_mfem__Vector swig_types[29]
-#define SWIGTYPE_p_p_mfem__ConstrainedOperator swig_types[30]
-#define SWIGTYPE_p_p_mfem__IdentityOperator swig_types[31]
-#define SWIGTYPE_p_p_mfem__Operator swig_types[32]
-#define SWIGTYPE_p_p_mfem__ProductOperator swig_types[33]
-#define SWIGTYPE_p_p_mfem__PyOperatorBase swig_types[34]
-#define SWIGTYPE_p_p_mfem__PyTimeDependentOperatorBase swig_types[35]
-#define SWIGTYPE_p_p_mfem__RAPOperator swig_types[36]
-#define SWIGTYPE_p_p_mfem__RectangularConstrainedOperator swig_types[37]
-#define SWIGTYPE_p_p_mfem__ScaledOperator swig_types[38]
-#define SWIGTYPE_p_p_mfem__SecondOrderTimeDependentOperator swig_types[39]
-#define SWIGTYPE_p_p_mfem__Solver swig_types[40]
-#define SWIGTYPE_p_p_mfem__TimeDependentAdjointOperator swig_types[41]
-#define SWIGTYPE_p_p_mfem__TimeDependentOperator swig_types[42]
-#define SWIGTYPE_p_p_mfem__TransposeOperator swig_types[43]
-#define SWIGTYPE_p_p_mfem__TripleProductOperator swig_types[44]
-#define SWIGTYPE_p_p_mfem__Vector swig_types[45]
-#define SWIGTYPE_p_p_p_mfem__ConstrainedOperator swig_types[46]
-#define SWIGTYPE_p_p_p_mfem__IdentityOperator swig_types[47]
-#define SWIGTYPE_p_p_p_mfem__Operator swig_types[48]
-#define SWIGTYPE_p_p_p_mfem__ProductOperator swig_types[49]
-#define SWIGTYPE_p_p_p_mfem__PyOperatorBase swig_types[50]
-#define SWIGTYPE_p_p_p_mfem__PyTimeDependentOperatorBase swig_types[51]
-#define SWIGTYPE_p_p_p_mfem__RAPOperator swig_types[52]
-#define SWIGTYPE_p_p_p_mfem__RectangularConstrainedOperator swig_types[53]
-#define SWIGTYPE_p_p_p_mfem__ScaledOperator swig_types[54]
-#define SWIGTYPE_p_p_p_mfem__SecondOrderTimeDependentOperator swig_types[55]
-#define SWIGTYPE_p_p_p_mfem__Solver swig_types[56]
-#define SWIGTYPE_p_p_p_mfem__TimeDependentAdjointOperator swig_types[57]
-#define SWIGTYPE_p_p_p_mfem__TimeDependentOperator swig_types[58]
-#define SWIGTYPE_p_p_p_mfem__TransposeOperator swig_types[59]
-#define SWIGTYPE_p_p_p_mfem__TripleProductOperator swig_types[60]
-#define SWIGTYPE_p_std__ostream swig_types[61]
-static swig_type_info *swig_types[63];
-static swig_module_info swig_module = {swig_types, 62, 0, 0, 0, 0};
+#define SWIGTYPE_p_MPI_Comm swig_types[0]
+#define SWIGTYPE_p_PyMFEM__wFILE swig_types[1]
+#define SWIGTYPE_p_bool swig_types[2]
+#define SWIGTYPE_p_char swig_types[3]
+#define SWIGTYPE_p_double swig_types[4]
+#define SWIGTYPE_p_int swig_types[5]
+#define SWIGTYPE_p_mfem__ArrayT_int_t swig_types[6]
+#define SWIGTYPE_p_mfem__ArrayT_mfem__Operator_p_t swig_types[7]
+#define SWIGTYPE_p_mfem__ArrayT_mfem__Solver_p_t swig_types[8]
+#define SWIGTYPE_p_mfem__ArrayT_mfem__Vector_const_p_t swig_types[9]
+#define SWIGTYPE_p_mfem__ArrayT_mfem__Vector_p_t swig_types[10]
+#define SWIGTYPE_p_mfem__ConstrainedOperator swig_types[11]
+#define SWIGTYPE_p_mfem__IdentityOperator swig_types[12]
+#define SWIGTYPE_p_mfem__MemoryT_mfem__Operator_p_t swig_types[13]
+#define SWIGTYPE_p_mfem__MemoryT_mfem__Solver_p_t swig_types[14]
+#define SWIGTYPE_p_mfem__Operator swig_types[15]
+#define SWIGTYPE_p_mfem__OutStream swig_types[16]
+#define SWIGTYPE_p_mfem__PowerMethod swig_types[17]
+#define SWIGTYPE_p_mfem__ProductOperator swig_types[18]
+#define SWIGTYPE_p_mfem__PyOperatorBase swig_types[19]
+#define SWIGTYPE_p_mfem__PyTimeDependentOperatorBase swig_types[20]
+#define SWIGTYPE_p_mfem__RAPOperator swig_types[21]
+#define SWIGTYPE_p_mfem__RectangularConstrainedOperator swig_types[22]
+#define SWIGTYPE_p_mfem__ScaledOperator swig_types[23]
+#define SWIGTYPE_p_mfem__SecondOrderTimeDependentOperator swig_types[24]
+#define SWIGTYPE_p_mfem__Solver swig_types[25]
+#define SWIGTYPE_p_mfem__TimeDependentAdjointOperator swig_types[26]
+#define SWIGTYPE_p_mfem__TimeDependentOperator swig_types[27]
+#define SWIGTYPE_p_mfem__TransposeOperator swig_types[28]
+#define SWIGTYPE_p_mfem__TripleProductOperator swig_types[29]
+#define SWIGTYPE_p_mfem__Vector swig_types[30]
+#define SWIGTYPE_p_p_mfem__ConstrainedOperator swig_types[31]
+#define SWIGTYPE_p_p_mfem__IdentityOperator swig_types[32]
+#define SWIGTYPE_p_p_mfem__Operator swig_types[33]
+#define SWIGTYPE_p_p_mfem__ProductOperator swig_types[34]
+#define SWIGTYPE_p_p_mfem__PyOperatorBase swig_types[35]
+#define SWIGTYPE_p_p_mfem__PyTimeDependentOperatorBase swig_types[36]
+#define SWIGTYPE_p_p_mfem__RAPOperator swig_types[37]
+#define SWIGTYPE_p_p_mfem__RectangularConstrainedOperator swig_types[38]
+#define SWIGTYPE_p_p_mfem__ScaledOperator swig_types[39]
+#define SWIGTYPE_p_p_mfem__SecondOrderTimeDependentOperator swig_types[40]
+#define SWIGTYPE_p_p_mfem__Solver swig_types[41]
+#define SWIGTYPE_p_p_mfem__TimeDependentAdjointOperator swig_types[42]
+#define SWIGTYPE_p_p_mfem__TimeDependentOperator swig_types[43]
+#define SWIGTYPE_p_p_mfem__TransposeOperator swig_types[44]
+#define SWIGTYPE_p_p_mfem__TripleProductOperator swig_types[45]
+#define SWIGTYPE_p_p_mfem__Vector swig_types[46]
+#define SWIGTYPE_p_p_p_mfem__ConstrainedOperator swig_types[47]
+#define SWIGTYPE_p_p_p_mfem__IdentityOperator swig_types[48]
+#define SWIGTYPE_p_p_p_mfem__Operator swig_types[49]
+#define SWIGTYPE_p_p_p_mfem__ProductOperator swig_types[50]
+#define SWIGTYPE_p_p_p_mfem__PyOperatorBase swig_types[51]
+#define SWIGTYPE_p_p_p_mfem__PyTimeDependentOperatorBase swig_types[52]
+#define SWIGTYPE_p_p_p_mfem__RAPOperator swig_types[53]
+#define SWIGTYPE_p_p_p_mfem__RectangularConstrainedOperator swig_types[54]
+#define SWIGTYPE_p_p_p_mfem__ScaledOperator swig_types[55]
+#define SWIGTYPE_p_p_p_mfem__SecondOrderTimeDependentOperator swig_types[56]
+#define SWIGTYPE_p_p_p_mfem__Solver swig_types[57]
+#define SWIGTYPE_p_p_p_mfem__TimeDependentAdjointOperator swig_types[58]
+#define SWIGTYPE_p_p_p_mfem__TimeDependentOperator swig_types[59]
+#define SWIGTYPE_p_p_p_mfem__TransposeOperator swig_types[60]
+#define SWIGTYPE_p_p_p_mfem__TripleProductOperator swig_types[61]
+#define SWIGTYPE_p_std__ostream swig_types[62]
+static swig_type_info *swig_types[64];
+static swig_module_info swig_module = {swig_types, 63, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -23992,11 +23993,11 @@ SWIGINTERN PyObject *RectangularConstrainedOperator_swiginit(PyObject *SWIGUNUSE
   return SWIG_Python_InitShadowInstance(args);
 }
 
-SWIGINTERN PyObject *_wrap_new_PowerMethod(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_new_PowerMethod__SWIG_0(PyObject *self, Py_ssize_t nobjs, PyObject **SWIGUNUSEDPARM(swig_obj)) {
   PyObject *resultobj = 0;
   mfem::PowerMethod *result = 0 ;
   
-  if (!SWIG_Python_UnpackTuple(args, "new_PowerMethod", 0, 0, 0)) SWIG_fail;
+  if ((nobjs < 0) || (nobjs > 0)) SWIG_fail;
   {
     try {
       result = (mfem::PowerMethod *)new mfem::PowerMethod(); 
@@ -24014,6 +24015,76 @@ SWIGINTERN PyObject *_wrap_new_PowerMethod(PyObject *self, PyObject *args) {
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_PowerMethod__SWIG_1(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  MPI_Comm arg1 ;
+  void *argp1 ;
+  int res1 = 0 ;
+  mfem::PowerMethod *result = 0 ;
+  
+  if ((nobjs < 1) || (nobjs > 1)) SWIG_fail;
+  {
+    res1 = SWIG_ConvertPtr(swig_obj[0], &argp1, SWIGTYPE_p_MPI_Comm,  0  | 0);
+    if (!SWIG_IsOK(res1)) {
+      SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_PowerMethod" "', argument " "1"" of type '" "MPI_Comm""'"); 
+    }  
+    if (!argp1) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_PowerMethod" "', argument " "1"" of type '" "MPI_Comm""'");
+    } else {
+      MPI_Comm * temp = reinterpret_cast< MPI_Comm * >(argp1);
+      arg1 = *temp;
+      if (SWIG_IsNewObj(res1)) delete temp;
+    }
+  }
+  {
+    try {
+      result = (mfem::PowerMethod *)new mfem::PowerMethod(arg1); 
+    }
+    catch (Swig::DirectorException &e) {
+      SWIG_fail; 
+    }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__PowerMethod, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_new_PowerMethod(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[2] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_PowerMethod", 0, 1, argv))) SWIG_fail;
+  --argc;
+  if (argc == 0) {
+    return _wrap_new_PowerMethod__SWIG_0(self, argc, argv);
+  }
+  if (argc == 1) {
+    int _v = 0;
+    int res = SWIG_ConvertPtr(argv[0], 0, SWIGTYPE_p_MPI_Comm, SWIG_POINTER_NO_NULL | 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      return _wrap_new_PowerMethod__SWIG_1(self, argc, argv);
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_PowerMethod'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    mfem::PowerMethod::PowerMethod()\n"
+    "    mfem::PowerMethod::PowerMethod(MPI_Comm)\n");
+  return 0;
 }
 
 
@@ -25237,7 +25308,10 @@ static PyMethodDef SwigMethods[] = {
 	 { "delete_RectangularConstrainedOperator", _wrap_delete_RectangularConstrainedOperator, METH_O, "delete_RectangularConstrainedOperator(RectangularConstrainedOperator self)"},
 	 { "RectangularConstrainedOperator_swigregister", RectangularConstrainedOperator_swigregister, METH_O, NULL},
 	 { "RectangularConstrainedOperator_swiginit", RectangularConstrainedOperator_swiginit, METH_VARARGS, NULL},
-	 { "new_PowerMethod", _wrap_new_PowerMethod, METH_NOARGS, "new_PowerMethod() -> PowerMethod"},
+	 { "new_PowerMethod", _wrap_new_PowerMethod, METH_VARARGS, "\n"
+		"PowerMethod()\n"
+		"new_PowerMethod(MPI_Comm comm_) -> PowerMethod\n"
+		""},
 	 { "PowerMethod_EstimateLargestEigenvalue", (PyCFunction)(void(*)(void))_wrap_PowerMethod_EstimateLargestEigenvalue, METH_VARARGS|METH_KEYWORDS, "PowerMethod_EstimateLargestEigenvalue(PowerMethod self, Operator opr, Vector v0, int numSteps=10, double tolerance=1e-8, int seed=12345) -> double"},
 	 { "delete_PowerMethod", _wrap_delete_PowerMethod, METH_O, "delete_PowerMethod(PowerMethod self)"},
 	 { "PowerMethod_swigregister", PowerMethod_swigregister, METH_O, NULL},
@@ -25584,7 +25658,10 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "delete_RectangularConstrainedOperator", _wrap_delete_RectangularConstrainedOperator, METH_O, "delete_RectangularConstrainedOperator(RectangularConstrainedOperator self)"},
 	 { "RectangularConstrainedOperator_swigregister", RectangularConstrainedOperator_swigregister, METH_O, NULL},
 	 { "RectangularConstrainedOperator_swiginit", RectangularConstrainedOperator_swiginit, METH_VARARGS, NULL},
-	 { "new_PowerMethod", _wrap_new_PowerMethod, METH_NOARGS, "new_PowerMethod() -> PowerMethod"},
+	 { "new_PowerMethod", _wrap_new_PowerMethod, METH_VARARGS, "\n"
+		"PowerMethod()\n"
+		"new_PowerMethod(MPI_Comm comm_) -> PowerMethod\n"
+		""},
 	 { "PowerMethod_EstimateLargestEigenvalue", (PyCFunction)(void(*)(void))_wrap_PowerMethod_EstimateLargestEigenvalue, METH_VARARGS|METH_KEYWORDS, "EstimateLargestEigenvalue(PowerMethod self, Operator opr, Vector v0, int numSteps=10, double tolerance=1e-8, int seed=12345) -> double"},
 	 { "delete_PowerMethod", _wrap_delete_PowerMethod, METH_O, "delete_PowerMethod(PowerMethod self)"},
 	 { "PowerMethod_swigregister", PowerMethod_swigregister, METH_O, NULL},
@@ -25753,6 +25830,7 @@ static void *_p_p_p_mfem__TripleProductOperatorTo_p_p_p_mfem__Operator(void *x, 
 static void *_p_mfem__OutStreamTo_p_std__ostream(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((std::ostream *)  ((mfem::OutStream *) x));
 }
+static swig_type_info _swigt__p_MPI_Comm = {"_p_MPI_Comm", "MPI_Comm *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_PyMFEM__wFILE = {"_p_PyMFEM__wFILE", "PyMFEM::wFILE *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_bool = {"_p_bool", "bool *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
@@ -25817,6 +25895,7 @@ static swig_type_info _swigt__p_std__ostream = {"_p_std__ostream", "std::ostream
 static swig_type_info _swigt__p_mfem__OutStream = {"_p_mfem__OutStream", 0, 0, 0, 0, 0};
 
 static swig_type_info *swig_type_initial[] = {
+  &_swigt__p_MPI_Comm,
   &_swigt__p_PyMFEM__wFILE,
   &_swigt__p_bool,
   &_swigt__p_char,
@@ -25881,6 +25960,7 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_std__ostream,
 };
 
+static swig_cast_info _swigc__p_MPI_Comm[] = {  {&_swigt__p_MPI_Comm, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_PyMFEM__wFILE[] = {  {&_swigt__p_PyMFEM__wFILE, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_bool[] = {  {&_swigt__p_bool, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
@@ -25945,6 +26025,7 @@ static swig_cast_info _swigc__p_mfem__OutStream[] = {{&_swigt__p_mfem__OutStream
 static swig_cast_info _swigc__p_std__ostream[] = {  {&_swigt__p_std__ostream, 0, 0, 0},  {&_swigt__p_mfem__OutStream, _p_mfem__OutStreamTo_p_std__ostream, 0, 0},{0, 0, 0, 0}};
 
 static swig_cast_info *swig_cast_initial[] = {
+  _swigc__p_MPI_Comm,
   _swigc__p_PyMFEM__wFILE,
   _swigc__p_bool,
   _swigc__p_char,

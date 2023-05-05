@@ -254,6 +254,11 @@ class ParGridFunction(mfem._par.gridfunc.GridFunction):
         return _pgridfunc.ParGridFunction_GetVectorValue(self, *args)
     GetVectorValue = _swig_new_instance_method(_pgridfunc.ParGridFunction_GetVectorValue)
 
+    def CountElementsPerVDof(self, elem_per_vdof):
+        r"""CountElementsPerVDof(ParGridFunction self, intArray elem_per_vdof)"""
+        return _pgridfunc.ParGridFunction_CountElementsPerVDof(self, elem_per_vdof)
+    CountElementsPerVDof = _swig_new_instance_method(_pgridfunc.ParGridFunction_CountElementsPerVDof)
+
     def GetDerivative(self, comp, der_comp, der):
         r"""GetDerivative(ParGridFunction self, int comp, int der_comp, ParGridFunction der)"""
         return _pgridfunc.ParGridFunction_GetDerivative(self, comp, der_comp, der)

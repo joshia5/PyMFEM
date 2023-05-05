@@ -230,10 +230,30 @@ class TMOPNewtonSolver(mfem._par.solvers.LBFGSSolver):
         return _tmop_tools.TMOPNewtonSolver_EnableAdaptiveSurfaceFitting(self)
     EnableAdaptiveSurfaceFitting = _swig_new_instance_method(_tmop_tools.TMOPNewtonSolver_EnableAdaptiveSurfaceFitting)
 
+    def SetAdaptiveSurfaceFittingScalingFactor(self, factor):
+        r"""SetAdaptiveSurfaceFittingScalingFactor(TMOPNewtonSolver self, double factor)"""
+        return _tmop_tools.TMOPNewtonSolver_SetAdaptiveSurfaceFittingScalingFactor(self, factor)
+    SetAdaptiveSurfaceFittingScalingFactor = _swig_new_instance_method(_tmop_tools.TMOPNewtonSolver_SetAdaptiveSurfaceFittingScalingFactor)
+
+    def SetAdaptiveSurfaceFittingRelativeChangeThreshold(self, threshold):
+        r"""SetAdaptiveSurfaceFittingRelativeChangeThreshold(TMOPNewtonSolver self, double threshold)"""
+        return _tmop_tools.TMOPNewtonSolver_SetAdaptiveSurfaceFittingRelativeChangeThreshold(self, threshold)
+    SetAdaptiveSurfaceFittingRelativeChangeThreshold = _swig_new_instance_method(_tmop_tools.TMOPNewtonSolver_SetAdaptiveSurfaceFittingRelativeChangeThreshold)
+
+    def SetMaxNumberofIncrementsForAdaptiveFitting(self, count):
+        r"""SetMaxNumberofIncrementsForAdaptiveFitting(TMOPNewtonSolver self, int count)"""
+        return _tmop_tools.TMOPNewtonSolver_SetMaxNumberofIncrementsForAdaptiveFitting(self, count)
+    SetMaxNumberofIncrementsForAdaptiveFitting = _swig_new_instance_method(_tmop_tools.TMOPNewtonSolver_SetMaxNumberofIncrementsForAdaptiveFitting)
+
     def SetTerminationWithMaxSurfaceFittingError(self, max_error):
         r"""SetTerminationWithMaxSurfaceFittingError(TMOPNewtonSolver self, double max_error)"""
         return _tmop_tools.TMOPNewtonSolver_SetTerminationWithMaxSurfaceFittingError(self, max_error)
     SetTerminationWithMaxSurfaceFittingError = _swig_new_instance_method(_tmop_tools.TMOPNewtonSolver_SetTerminationWithMaxSurfaceFittingError)
+
+    def SetMinimumDeterminantThreshold(self, threshold):
+        r"""SetMinimumDeterminantThreshold(TMOPNewtonSolver self, double threshold)"""
+        return _tmop_tools.TMOPNewtonSolver_SetMinimumDeterminantThreshold(self, threshold)
+    SetMinimumDeterminantThreshold = _swig_new_instance_method(_tmop_tools.TMOPNewtonSolver_SetMinimumDeterminantThreshold)
 
     def Mult(self, b, x):
         r"""Mult(TMOPNewtonSolver self, Vector b, Vector x)"""

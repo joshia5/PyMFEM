@@ -438,6 +438,11 @@ class FiniteElement(object):
         r"""GetDofToQuad(FiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"""
         return _fe_base.FiniteElement_GetDofToQuad(self, ir, mode)
     GetDofToQuad = _swig_new_instance_method(_fe_base.FiniteElement_GetDofToQuad)
+
+    def GetFaceMap(self, face_id, face_map):
+        r"""GetFaceMap(FiniteElement self, int const face_id, intArray face_map)"""
+        return _fe_base.FiniteElement_GetFaceMap(self, face_id, face_map)
+    GetFaceMap = _swig_new_instance_method(_fe_base.FiniteElement_GetFaceMap)
     __swig_destroy__ = _fe_base.delete_FiniteElement
 
     @staticmethod
@@ -500,11 +505,6 @@ class ScalarFiniteElement(FiniteElement):
         r"""ScalarLocalL2Restriction(ScalarFiniteElement self, mfem::ElementTransformation & Trans, DenseMatrix R, ScalarFiniteElement coarse_fe)"""
         return _fe_base.ScalarFiniteElement_ScalarLocalL2Restriction(self, Trans, R, coarse_fe)
     ScalarLocalL2Restriction = _swig_new_instance_method(_fe_base.ScalarFiniteElement_ScalarLocalL2Restriction)
-
-    def GetDofToQuad(self, ir, mode):
-        r"""GetDofToQuad(ScalarFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"""
-        return _fe_base.ScalarFiniteElement_GetDofToQuad(self, ir, mode)
-    GetDofToQuad = _swig_new_instance_method(_fe_base.ScalarFiniteElement_GetDofToQuad)
     __swig_destroy__ = _fe_base.delete_ScalarFiniteElement
 
 # Register ScalarFiniteElement in _fe_base:
@@ -729,6 +729,12 @@ class TensorBasisElement(object):
         r"""Pow(int base, int dim) -> int"""
         return _fe_base.TensorBasisElement_Pow(base, dim)
     Pow = _swig_new_static_method(_fe_base.TensorBasisElement_Pow)
+
+    @staticmethod
+    def GetTensorDofToQuad(fe, ir, mode, basis, closed, dof2quad_array):
+        r"""GetTensorDofToQuad(FiniteElement fe, IntegrationRule ir, mfem::DofToQuad::Mode mode, mfem::Poly_1D::Basis const & basis, bool closed, mfem::Array< mfem::DofToQuad * > & dof2quad_array) -> DofToQuad"""
+        return _fe_base.TensorBasisElement_GetTensorDofToQuad(fe, ir, mode, basis, closed, dof2quad_array)
+    GetTensorDofToQuad = _swig_new_static_method(_fe_base.TensorBasisElement_GetTensorDofToQuad)
     __swig_destroy__ = _fe_base.delete_TensorBasisElement
 
 # Register TensorBasisElement in _fe_base:
@@ -758,6 +764,11 @@ class NodalTensorFiniteElement(NodalFiniteElement, TensorBasisElement):
         r"""GetTransferMatrix(NodalTensorFiniteElement self, FiniteElement fe, mfem::ElementTransformation & Trans, DenseMatrix I)"""
         return _fe_base.NodalTensorFiniteElement_GetTransferMatrix(self, fe, Trans, I)
     GetTransferMatrix = _swig_new_instance_method(_fe_base.NodalTensorFiniteElement_GetTransferMatrix)
+
+    def GetFaceMap(self, face_id, face_map):
+        r"""GetFaceMap(NodalTensorFiniteElement self, int const face_id, intArray face_map)"""
+        return _fe_base.NodalTensorFiniteElement_GetFaceMap(self, face_id, face_map)
+    GetFaceMap = _swig_new_instance_method(_fe_base.NodalTensorFiniteElement_GetFaceMap)
     __swig_destroy__ = _fe_base.delete_NodalTensorFiniteElement
 
 # Register NodalTensorFiniteElement in _fe_base:
@@ -784,11 +795,6 @@ class VectorTensorFiniteElement(VectorFiniteElement, TensorBasisElement):
         r"""GetDofToQuadOpen(VectorTensorFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode) -> DofToQuad"""
         return _fe_base.VectorTensorFiniteElement_GetDofToQuadOpen(self, ir, mode)
     GetDofToQuadOpen = _swig_new_instance_method(_fe_base.VectorTensorFiniteElement_GetDofToQuadOpen)
-
-    def GetTensorDofToQuad(self, ir, mode, closed):
-        r"""GetTensorDofToQuad(VectorTensorFiniteElement self, IntegrationRule ir, mfem::DofToQuad::Mode mode, bool const closed) -> DofToQuad"""
-        return _fe_base.VectorTensorFiniteElement_GetTensorDofToQuad(self, ir, mode, closed)
-    GetTensorDofToQuad = _swig_new_instance_method(_fe_base.VectorTensorFiniteElement_GetTensorDofToQuad)
     __swig_destroy__ = _fe_base.delete_VectorTensorFiniteElement
 
 # Register VectorTensorFiniteElement in _fe_base:

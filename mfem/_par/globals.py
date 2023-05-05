@@ -61,6 +61,14 @@ class _SwigNonDynamicMeta(type):
     __setattr__ = _swig_setattr_nondynamic_class_variable(type.__setattr__)
 
 
+MFEM_VERSION = _globals.MFEM_VERSION
+MFEM_VERSION_STRING = _globals.MFEM_VERSION_STRING
+MFEM_VERSION_TYPE = _globals.MFEM_VERSION_TYPE
+MFEM_VERSION_TYPE_RELEASE = _globals.MFEM_VERSION_TYPE_RELEASE
+MFEM_VERSION_TYPE_DEVELOPMENT = _globals.MFEM_VERSION_TYPE_DEVELOPMENT
+MFEM_VERSION_MAJOR = _globals.MFEM_VERSION_MAJOR
+MFEM_VERSION_MINOR = _globals.MFEM_VERSION_MINOR
+MFEM_VERSION_PATCH = _globals.MFEM_VERSION_PATCH
 class OutStream(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -91,6 +99,14 @@ _globals.OutStream_swigregister(OutStream)
 def MakeParFilename(*args, **kwargs):
     return _globals.MakeParFilename(*args, **kwargs)
 MakeParFilename = _globals.MakeParFilename
+
+def GetGlobalMPI_Comm():
+    return _globals.GetGlobalMPI_Comm()
+GetGlobalMPI_Comm = _globals.GetGlobalMPI_Comm
+
+def SetGlobalMPI_Comm(comm):
+    return _globals.SetGlobalMPI_Comm(comm)
+SetGlobalMPI_Comm = _globals.SetGlobalMPI_Comm
 
 cvar = _globals.cvar
 out = cvar.out

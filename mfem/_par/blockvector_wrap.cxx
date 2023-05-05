@@ -3417,13 +3417,70 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_new_BlockVector__SWIG_6(PyObject *self, Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  mfem::Vector *arg1 = 0 ;
+  int arg2 ;
+  mfem::Array< int > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  mfem::BlockVector *result = 0 ;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1, SWIGTYPE_p_mfem__Vector,  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "new_BlockVector" "', argument " "1"" of type '" "mfem::Vector &""'"); 
+  }
+  if (!argp1) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_BlockVector" "', argument " "1"" of type '" "mfem::Vector &""'"); 
+  }
+  arg1 = reinterpret_cast< mfem::Vector * >(argp1);
+  {
+    if ((PyArray_PyIntAsInt(swig_obj[1]) == -1) && PyErr_Occurred()) {
+      SWIG_exception_fail(SWIG_TypeError, "Input must be integer");
+    };  
+    arg2 = PyArray_PyIntAsInt(swig_obj[1]);
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_mfem__ArrayT_int_t,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "new_BlockVector" "', argument " "3"" of type '" "mfem::Array< int > const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_BlockVector" "', argument " "3"" of type '" "mfem::Array< int > const &""'"); 
+  }
+  arg3 = reinterpret_cast< mfem::Array< int > * >(argp3);
+  {
+    try {
+      result = (mfem::BlockVector *)new mfem::BlockVector(*arg1,arg2,(mfem::Array< int > const &)*arg3);
+    }
+#ifdef  MFEM_USE_EXCEPTIONS
+    catch (mfem::ErrorException &_e) {
+      std::string s("PyMFEM error (mfem::ErrorException): "), s2(_e.what());
+      s = s + s2;    
+      SWIG_exception(SWIG_RuntimeError, s.c_str());
+    }
+#endif
+    
+    catch (...) {
+      SWIG_exception(SWIG_RuntimeError, "unknown exception");
+    }	 
+  }
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_mfem__BlockVector, SWIG_POINTER_NEW |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_new_BlockVector(PyObject *self, PyObject *args) {
   Py_ssize_t argc;
-  PyObject *argv[3] = {
+  PyObject *argv[4] = {
     0
   };
   
-  if (!(argc = SWIG_Python_UnpackTuple(args, "new_BlockVector", 0, 2, argv))) SWIG_fail;
+  if (!(argc = SWIG_Python_UnpackTuple(args, "new_BlockVector", 0, 3, argv))) SWIG_fail;
   --argc;
   if (argc == 0) {
     return _wrap_new_BlockVector__SWIG_0(self, argc, argv);
@@ -3499,6 +3556,29 @@ SWIGINTERN PyObject *_wrap_new_BlockVector(PyObject *self, PyObject *args) {
       }
     }
   }
+  if (argc == 3) {
+    int _v = 0;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_mfem__Vector, SWIG_POINTER_NO_NULL);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        if ((PyArray_PyIntAsInt(argv[1]) == -1) && PyErr_Occurred()) {
+          PyErr_Clear();
+          _v = 0;
+        } else {
+          _v = 1;    
+        }
+      }
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_mfem__ArrayT_int_t, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_new_BlockVector__SWIG_6(self, argc, argv);
+        }
+      }
+    }
+  }
   
 fail:
   SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'new_BlockVector'.\n"
@@ -3508,7 +3588,8 @@ fail:
     "    mfem::BlockVector::BlockVector(mfem::Array< int > const &,mfem::MemoryType)\n"
     "    mfem::BlockVector::BlockVector(mfem::BlockVector const &)\n"
     "    mfem::BlockVector::BlockVector(double *,mfem::Array< int > const &)\n"
-    "    mfem::BlockVector::BlockVector(mfem::Vector &,mfem::Array< int > const &)\n");
+    "    mfem::BlockVector::BlockVector(mfem::Vector &,mfem::Array< int > const &)\n"
+    "    mfem::BlockVector::BlockVector(mfem::Vector &,int,mfem::Array< int > const &)\n");
   return 0;
 }
 
@@ -4243,7 +4324,8 @@ static PyMethodDef SwigMethods[] = {
 		"BlockVector(intArray bOffsets, mfem::MemoryType mt)\n"
 		"BlockVector(BlockVector block)\n"
 		"BlockVector(double * data, intArray bOffsets)\n"
-		"new_BlockVector(Vector v, intArray bOffsets) -> BlockVector\n"
+		"BlockVector(Vector v, intArray bOffsets)\n"
+		"new_BlockVector(Vector v, int offset, intArray bOffsets) -> BlockVector\n"
 		""},
 	 { "BlockVector_NumBlocks", _wrap_BlockVector_NumBlocks, METH_O, "BlockVector_NumBlocks(BlockVector self) -> int"},
 	 { "delete_BlockVector", _wrap_delete_BlockVector, METH_O, "delete_BlockVector(BlockVector self)"},
@@ -4275,7 +4357,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 		"BlockVector(intArray bOffsets, mfem::MemoryType mt)\n"
 		"BlockVector(BlockVector block)\n"
 		"BlockVector(double * data, intArray bOffsets)\n"
-		"new_BlockVector(Vector v, intArray bOffsets) -> BlockVector\n"
+		"BlockVector(Vector v, intArray bOffsets)\n"
+		"new_BlockVector(Vector v, int offset, intArray bOffsets) -> BlockVector\n"
 		""},
 	 { "BlockVector_NumBlocks", _wrap_BlockVector_NumBlocks, METH_O, "NumBlocks(BlockVector self) -> int"},
 	 { "delete_BlockVector", _wrap_delete_BlockVector, METH_O, "delete_BlockVector(BlockVector self)"},

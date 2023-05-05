@@ -286,6 +286,8 @@ class DataCollection(object):
     __swig_destroy__ = _datacollection.delete_DataCollection
     NO_ERROR = _datacollection.DataCollection_NO_ERROR
     
+    No_Error = _datacollection.DataCollection_No_Error
+    
     READ_ERROR = _datacollection.DataCollection_READ_ERROR
     
     WRITE_ERROR = _datacollection.DataCollection_WRITE_ERROR
@@ -297,7 +299,7 @@ class DataCollection(object):
     Error = _swig_new_instance_method(_datacollection.DataCollection_Error)
 
     def ResetError(self, *args, **kwargs):
-        r"""ResetError(DataCollection self, int err_state=NO_ERROR)"""
+        r"""ResetError(DataCollection self, int err_state=No_Error)"""
         return _datacollection.DataCollection_ResetError(self, *args, **kwargs)
     ResetError = _swig_new_instance_method(_datacollection.DataCollection_ResetError)
 

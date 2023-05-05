@@ -1248,9 +1248,12 @@ class PowerMethod(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self):
-        r"""__init__(PowerMethod self) -> PowerMethod"""
-        _operators.PowerMethod_swiginit(self, _operators.new_PowerMethod())
+    def __init__(self, *args):
+        r"""
+        __init__(PowerMethod self) -> PowerMethod
+        __init__(PowerMethod self, MPI_Comm comm_) -> PowerMethod
+        """
+        _operators.PowerMethod_swiginit(self, _operators.new_PowerMethod(*args))
 
     def EstimateLargestEigenvalue(self, opr, v0, numSteps=10, tolerance=1e-8, seed=12345):
         r"""EstimateLargestEigenvalue(PowerMethod self, Operator opr, Vector v0, int numSteps=10, double tolerance=1e-8, int seed=12345) -> double"""

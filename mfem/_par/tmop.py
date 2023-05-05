@@ -433,6 +433,26 @@ class TMOP_Combo_QualityMetric(TMOP_QualityMetric):
         return _tmop.TMOP_Combo_QualityMetric_AssembleH(self, Jpt, DS, weight, A)
     AssembleH = _swig_new_instance_method(_tmop.TMOP_Combo_QualityMetric_AssembleH)
 
+    def ComputeAvgMetrics(self, nodes, tc, averages):
+        r"""ComputeAvgMetrics(TMOP_Combo_QualityMetric self, GridFunction nodes, TargetConstructor tc, Vector averages)"""
+        return _tmop.TMOP_Combo_QualityMetric_ComputeAvgMetrics(self, nodes, tc, averages)
+    ComputeAvgMetrics = _swig_new_instance_method(_tmop.TMOP_Combo_QualityMetric_ComputeAvgMetrics)
+
+    def ComputeBalancedWeights(self, nodes, tc, weights):
+        r"""ComputeBalancedWeights(TMOP_Combo_QualityMetric self, GridFunction nodes, TargetConstructor tc, Vector weights)"""
+        return _tmop.TMOP_Combo_QualityMetric_ComputeBalancedWeights(self, nodes, tc, weights)
+    ComputeBalancedWeights = _swig_new_instance_method(_tmop.TMOP_Combo_QualityMetric_ComputeBalancedWeights)
+
+    def GetWeights(self, weights):
+        r"""GetWeights(TMOP_Combo_QualityMetric self, doubleArray weights)"""
+        return _tmop.TMOP_Combo_QualityMetric_GetWeights(self, weights)
+    GetWeights = _swig_new_instance_method(_tmop.TMOP_Combo_QualityMetric_GetWeights)
+
+    def SetWeights(self, weights):
+        r"""SetWeights(TMOP_Combo_QualityMetric self, Vector weights)"""
+        return _tmop.TMOP_Combo_QualityMetric_SetWeights(self, weights)
+    SetWeights = _swig_new_instance_method(_tmop.TMOP_Combo_QualityMetric_SetWeights)
+
     def __init__(self):
         r"""__init__(TMOP_Combo_QualityMetric self) -> TMOP_Combo_QualityMetric"""
         _tmop.TMOP_Combo_QualityMetric_swiginit(self, _tmop.new_TMOP_Combo_QualityMetric())
@@ -844,6 +864,11 @@ class TMOP_Metric_050(TMOP_QualityMetric):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
+    def EvalWMatrixForm(self, Jpt):
+        r"""EvalWMatrixForm(TMOP_Metric_050 self, DenseMatrix Jpt) -> double"""
+        return _tmop.TMOP_Metric_050_EvalWMatrixForm(self, Jpt)
+    EvalWMatrixForm = _swig_new_instance_method(_tmop.TMOP_Metric_050_EvalWMatrixForm)
+
     def EvalW(self, Jpt):
         r"""EvalW(TMOP_Metric_050 self, DenseMatrix Jpt) -> double"""
         return _tmop.TMOP_Metric_050_EvalW(self, Jpt)
@@ -899,6 +924,11 @@ class TMOP_Metric_056(TMOP_QualityMetric):
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
+
+    def EvalWMatrixForm(self, Jpt):
+        r"""EvalWMatrixForm(TMOP_Metric_056 self, DenseMatrix Jpt) -> double"""
+        return _tmop.TMOP_Metric_056_EvalWMatrixForm(self, Jpt)
+    EvalWMatrixForm = _swig_new_instance_method(_tmop.TMOP_Metric_056_EvalWMatrixForm)
 
     def EvalW(self, Jpt):
         r"""EvalW(TMOP_Metric_056 self, DenseMatrix Jpt) -> double"""
@@ -961,9 +991,9 @@ class TMOP_Metric_066(TMOP_Combo_QualityMetric):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self, gamma_):
-        r"""__init__(TMOP_Metric_066 self, double gamma_) -> TMOP_Metric_066"""
-        _tmop.TMOP_Metric_066_swiginit(self, _tmop.new_TMOP_Metric_066(gamma_))
+    def __init__(self, gamma):
+        r"""__init__(TMOP_Metric_066 self, double gamma) -> TMOP_Metric_066"""
+        _tmop.TMOP_Metric_066_swiginit(self, _tmop.new_TMOP_Metric_066(gamma))
 
     def Id(self):
         r"""Id(TMOP_Metric_066 self) -> int"""
@@ -983,6 +1013,11 @@ class TMOP_Metric_077(TMOP_QualityMetric):
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
+
+    def EvalWMatrixForm(self, Jpt):
+        r"""EvalWMatrixForm(TMOP_Metric_077 self, DenseMatrix Jpt) -> double"""
+        return _tmop.TMOP_Metric_077_EvalWMatrixForm(self, Jpt)
+    EvalWMatrixForm = _swig_new_instance_method(_tmop.TMOP_Metric_077_EvalWMatrixForm)
 
     def EvalW(self, Jpt):
         r"""EvalW(TMOP_Metric_077 self, DenseMatrix Jpt) -> double"""
@@ -1017,9 +1052,9 @@ class TMOP_Metric_080(TMOP_Combo_QualityMetric):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self, gamma_):
-        r"""__init__(TMOP_Metric_080 self, double gamma_) -> TMOP_Metric_080"""
-        _tmop.TMOP_Metric_080_swiginit(self, _tmop.new_TMOP_Metric_080(gamma_))
+    def __init__(self, gamma):
+        r"""__init__(TMOP_Metric_080 self, double gamma) -> TMOP_Metric_080"""
+        _tmop.TMOP_Metric_080_swiginit(self, _tmop.new_TMOP_Metric_080(gamma))
 
     def Id(self):
         r"""Id(TMOP_Metric_080 self) -> int"""
@@ -1062,6 +1097,42 @@ class TMOP_Metric_085(TMOP_QualityMetric):
 
 # Register TMOP_Metric_085 in _tmop:
 _tmop.TMOP_Metric_085_swigregister(TMOP_Metric_085)
+class TMOP_Metric_090(TMOP_Combo_QualityMetric):
+    r"""Proxy of C++ mfem::TMOP_Metric_090 class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        r"""__init__(TMOP_Metric_090 self) -> TMOP_Metric_090"""
+        _tmop.TMOP_Metric_090_swiginit(self, _tmop.new_TMOP_Metric_090())
+
+    def Id(self):
+        r"""Id(TMOP_Metric_090 self) -> int"""
+        return _tmop.TMOP_Metric_090_Id(self)
+    Id = _swig_new_instance_method(_tmop.TMOP_Metric_090_Id)
+    __swig_destroy__ = _tmop.delete_TMOP_Metric_090
+
+# Register TMOP_Metric_090 in _tmop:
+_tmop.TMOP_Metric_090_swigregister(TMOP_Metric_090)
+class TMOP_Metric_094(TMOP_Combo_QualityMetric):
+    r"""Proxy of C++ mfem::TMOP_Metric_094 class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        r"""__init__(TMOP_Metric_094 self) -> TMOP_Metric_094"""
+        _tmop.TMOP_Metric_094_swiginit(self, _tmop.new_TMOP_Metric_094())
+
+    def Id(self):
+        r"""Id(TMOP_Metric_094 self) -> int"""
+        return _tmop.TMOP_Metric_094_Id(self)
+    Id = _swig_new_instance_method(_tmop.TMOP_Metric_094_Id)
+    __swig_destroy__ = _tmop.delete_TMOP_Metric_094
+
+# Register TMOP_Metric_094 in _tmop:
+_tmop.TMOP_Metric_094_swigregister(TMOP_Metric_094)
 class TMOP_Metric_098(TMOP_QualityMetric):
     r"""Proxy of C++ mfem::TMOP_Metric_098 class."""
 
@@ -1420,6 +1491,44 @@ class TMOP_Metric_316(TMOP_QualityMetric):
 
 # Register TMOP_Metric_316 in _tmop:
 _tmop.TMOP_Metric_316_swigregister(TMOP_Metric_316)
+class TMOP_Metric_318(TMOP_QualityMetric):
+    r"""Proxy of C++ mfem::TMOP_Metric_318 class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def EvalWMatrixForm(self, Jpt):
+        r"""EvalWMatrixForm(TMOP_Metric_318 self, DenseMatrix Jpt) -> double"""
+        return _tmop.TMOP_Metric_318_EvalWMatrixForm(self, Jpt)
+    EvalWMatrixForm = _swig_new_instance_method(_tmop.TMOP_Metric_318_EvalWMatrixForm)
+
+    def EvalW(self, Jpt):
+        r"""EvalW(TMOP_Metric_318 self, DenseMatrix Jpt) -> double"""
+        return _tmop.TMOP_Metric_318_EvalW(self, Jpt)
+    EvalW = _swig_new_instance_method(_tmop.TMOP_Metric_318_EvalW)
+
+    def EvalP(self, Jpt, P):
+        r"""EvalP(TMOP_Metric_318 self, DenseMatrix Jpt, DenseMatrix P)"""
+        return _tmop.TMOP_Metric_318_EvalP(self, Jpt, P)
+    EvalP = _swig_new_instance_method(_tmop.TMOP_Metric_318_EvalP)
+
+    def AssembleH(self, Jpt, DS, weight, A):
+        r"""AssembleH(TMOP_Metric_318 self, DenseMatrix Jpt, DenseMatrix DS, double const weight, DenseMatrix A)"""
+        return _tmop.TMOP_Metric_318_AssembleH(self, Jpt, DS, weight, A)
+    AssembleH = _swig_new_instance_method(_tmop.TMOP_Metric_318_AssembleH)
+
+    def Id(self):
+        r"""Id(TMOP_Metric_318 self) -> int"""
+        return _tmop.TMOP_Metric_318_Id(self)
+    Id = _swig_new_instance_method(_tmop.TMOP_Metric_318_Id)
+
+    def __init__(self):
+        r"""__init__(TMOP_Metric_318 self) -> TMOP_Metric_318"""
+        _tmop.TMOP_Metric_318_swiginit(self, _tmop.new_TMOP_Metric_318())
+    __swig_destroy__ = _tmop.delete_TMOP_Metric_318
+
+# Register TMOP_Metric_318 in _tmop:
+_tmop.TMOP_Metric_318_swigregister(TMOP_Metric_318)
 class TMOP_Metric_321(TMOP_QualityMetric):
     r"""Proxy of C++ mfem::TMOP_Metric_321 class."""
 
@@ -1540,9 +1649,14 @@ class TMOP_Metric_328(TMOP_Combo_QualityMetric):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self, gamma_):
-        r"""__init__(TMOP_Metric_328 self, double gamma_) -> TMOP_Metric_328"""
-        _tmop.TMOP_Metric_328_swiginit(self, _tmop.new_TMOP_Metric_328(gamma_))
+    def __init__(self):
+        r"""__init__(TMOP_Metric_328 self) -> TMOP_Metric_328"""
+        _tmop.TMOP_Metric_328_swiginit(self, _tmop.new_TMOP_Metric_328())
+
+    def Id(self):
+        r"""Id(TMOP_Metric_328 self) -> int"""
+        return _tmop.TMOP_Metric_328_Id(self)
+    Id = _swig_new_instance_method(_tmop.TMOP_Metric_328_Id)
     __swig_destroy__ = _tmop.delete_TMOP_Metric_328
 
 # Register TMOP_Metric_328 in _tmop:
@@ -1553,9 +1667,9 @@ class TMOP_Metric_332(TMOP_Combo_QualityMetric):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self, gamma_):
-        r"""__init__(TMOP_Metric_332 self, double gamma_) -> TMOP_Metric_332"""
-        _tmop.TMOP_Metric_332_swiginit(self, _tmop.new_TMOP_Metric_332(gamma_))
+    def __init__(self, gamma):
+        r"""__init__(TMOP_Metric_332 self, double gamma) -> TMOP_Metric_332"""
+        _tmop.TMOP_Metric_332_swiginit(self, _tmop.new_TMOP_Metric_332(gamma))
 
     def Id(self):
         r"""Id(TMOP_Metric_332 self) -> int"""
@@ -1576,9 +1690,9 @@ class TMOP_Metric_333(TMOP_Combo_QualityMetric):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self, gamma_):
-        r"""__init__(TMOP_Metric_333 self, double gamma_) -> TMOP_Metric_333"""
-        _tmop.TMOP_Metric_333_swiginit(self, _tmop.new_TMOP_Metric_333(gamma_))
+    def __init__(self, gamma):
+        r"""__init__(TMOP_Metric_333 self, double gamma) -> TMOP_Metric_333"""
+        _tmop.TMOP_Metric_333_swiginit(self, _tmop.new_TMOP_Metric_333(gamma))
     __swig_destroy__ = _tmop.delete_TMOP_Metric_333
 
 # Register TMOP_Metric_333 in _tmop:
@@ -1589,9 +1703,9 @@ class TMOP_Metric_334(TMOP_Combo_QualityMetric):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self, gamma_):
-        r"""__init__(TMOP_Metric_334 self, double gamma_) -> TMOP_Metric_334"""
-        _tmop.TMOP_Metric_334_swiginit(self, _tmop.new_TMOP_Metric_334(gamma_))
+    def __init__(self, gamma):
+        r"""__init__(TMOP_Metric_334 self, double gamma) -> TMOP_Metric_334"""
+        _tmop.TMOP_Metric_334_swiginit(self, _tmop.new_TMOP_Metric_334(gamma))
 
     def Id(self):
         r"""Id(TMOP_Metric_334 self) -> int"""
@@ -1606,15 +1720,33 @@ class TMOP_Metric_334(TMOP_Combo_QualityMetric):
 
 # Register TMOP_Metric_334 in _tmop:
 _tmop.TMOP_Metric_334_swigregister(TMOP_Metric_334)
+class TMOP_Metric_338(TMOP_Combo_QualityMetric):
+    r"""Proxy of C++ mfem::TMOP_Metric_338 class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+
+    def __init__(self):
+        r"""__init__(TMOP_Metric_338 self) -> TMOP_Metric_338"""
+        _tmop.TMOP_Metric_338_swiginit(self, _tmop.new_TMOP_Metric_338())
+
+    def Id(self):
+        r"""Id(TMOP_Metric_338 self) -> int"""
+        return _tmop.TMOP_Metric_338_Id(self)
+    Id = _swig_new_instance_method(_tmop.TMOP_Metric_338_Id)
+    __swig_destroy__ = _tmop.delete_TMOP_Metric_338
+
+# Register TMOP_Metric_338 in _tmop:
+_tmop.TMOP_Metric_338_swigregister(TMOP_Metric_338)
 class TMOP_Metric_347(TMOP_Combo_QualityMetric):
     r"""Proxy of C++ mfem::TMOP_Metric_347 class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self, gamma_):
-        r"""__init__(TMOP_Metric_347 self, double gamma_) -> TMOP_Metric_347"""
-        _tmop.TMOP_Metric_347_swiginit(self, _tmop.new_TMOP_Metric_347(gamma_))
+    def __init__(self, gamma):
+        r"""__init__(TMOP_Metric_347 self, double gamma) -> TMOP_Metric_347"""
+        _tmop.TMOP_Metric_347_swiginit(self, _tmop.new_TMOP_Metric_347(gamma))
 
     def Id(self):
         r"""Id(TMOP_Metric_347 self) -> int"""
@@ -1813,9 +1945,9 @@ class TMOP_AMetric_126(TMOP_Combo_QualityMetric):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self, gamma_):
-        r"""__init__(TMOP_AMetric_126 self, double gamma_) -> TMOP_AMetric_126"""
-        _tmop.TMOP_AMetric_126_swiginit(self, _tmop.new_TMOP_AMetric_126(gamma_))
+    def __init__(self, gamma):
+        r"""__init__(TMOP_AMetric_126 self, double gamma) -> TMOP_AMetric_126"""
+        _tmop.TMOP_AMetric_126_swiginit(self, _tmop.new_TMOP_AMetric_126(gamma))
     __swig_destroy__ = _tmop.delete_TMOP_AMetric_126
 
 # Register TMOP_AMetric_126 in _tmop:
@@ -2205,6 +2337,11 @@ class DiscreteAdaptTC(TargetConstructor):
         return val
 
 
+    def GetAdaptivityEvaluator(self):
+        r"""GetAdaptivityEvaluator(DiscreteAdaptTC self) -> AdaptivityEvaluator"""
+        return _tmop.DiscreteAdaptTC_GetAdaptivityEvaluator(self)
+    GetAdaptivityEvaluator = _swig_new_instance_method(_tmop.DiscreteAdaptTC_GetAdaptivityEvaluator)
+
     def GetTspecPert1H(self):
         r"""GetTspecPert1H(DiscreteAdaptTC self) -> Vector"""
         return _tmop.DiscreteAdaptTC_GetTspecPert1H(self)
@@ -2319,6 +2456,11 @@ class TMOP_Integrator(mfem._par.nonlininteg.NonlinearFormIntegrator):
         """
         return _tmop.TMOP_Integrator_EnableSurfaceFitting(self, *args)
     EnableSurfaceFitting = _swig_new_instance_method(_tmop.TMOP_Integrator_EnableSurfaceFitting)
+
+    def EnableSurfaceFittingFromSource(self, s_bg, s0, smarker, coeff, ae, s_bg_grad, s0_grad, age, s_bg_hess, s0_hess, ahe):
+        r"""EnableSurfaceFittingFromSource(TMOP_Integrator self, mfem::ParGridFunction const & s_bg, mfem::ParGridFunction & s0, boolArray smarker, Coefficient coeff, AdaptivityEvaluator ae, mfem::ParGridFunction const & s_bg_grad, mfem::ParGridFunction & s0_grad, AdaptivityEvaluator age, mfem::ParGridFunction const & s_bg_hess, mfem::ParGridFunction & s0_hess, AdaptivityEvaluator ahe)"""
+        return _tmop.TMOP_Integrator_EnableSurfaceFittingFromSource(self, s_bg, s0, smarker, coeff, ae, s_bg_grad, s0_grad, age, s_bg_hess, s0_hess, ahe)
+    EnableSurfaceFittingFromSource = _swig_new_instance_method(_tmop.TMOP_Integrator_EnableSurfaceFittingFromSource)
 
     def GetSurfaceFittingErrors(self, err_avg, err_max):
         r"""GetSurfaceFittingErrors(TMOP_Integrator self, double & err_avg, double & err_max)"""

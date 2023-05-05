@@ -79,6 +79,7 @@ class BlockVector(mfem._ser.vector.Vector):
         __init__(BlockVector self, BlockVector block) -> BlockVector
         __init__(BlockVector self, double * data, intArray bOffsets) -> BlockVector
         __init__(BlockVector self, Vector v, intArray bOffsets) -> BlockVector
+        __init__(BlockVector self, Vector v, int offset, intArray bOffsets) -> BlockVector
         """
         _blockvector.BlockVector_swiginit(self, _blockvector.new_BlockVector(*args))
 

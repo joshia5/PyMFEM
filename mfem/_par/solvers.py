@@ -152,10 +152,20 @@ class IterativeSolver(mfem._par.operators.Solver):
         return _solvers.IterativeSolver_GetConverged(self)
     GetConverged = _swig_new_instance_method(_solvers.IterativeSolver_GetConverged)
 
+    def GetInitialNorm(self):
+        r"""GetInitialNorm(IterativeSolver self) -> double"""
+        return _solvers.IterativeSolver_GetInitialNorm(self)
+    GetInitialNorm = _swig_new_instance_method(_solvers.IterativeSolver_GetInitialNorm)
+
     def GetFinalNorm(self):
         r"""GetFinalNorm(IterativeSolver self) -> double"""
         return _solvers.IterativeSolver_GetFinalNorm(self)
     GetFinalNorm = _swig_new_instance_method(_solvers.IterativeSolver_GetFinalNorm)
+
+    def GetFinalRelNorm(self):
+        r"""GetFinalRelNorm(IterativeSolver self) -> double"""
+        return _solvers.IterativeSolver_GetFinalRelNorm(self)
+    GetFinalRelNorm = _swig_new_instance_method(_solvers.IterativeSolver_GetFinalRelNorm)
 
     def SetPreconditioner(self, pr):
         r"""SetPreconditioner(IterativeSolver self, Solver pr)"""

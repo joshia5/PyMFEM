@@ -5335,6 +5335,41 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_IterativeSolver_GetInitialNorm(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  mfem::IterativeSolver *arg1 = (mfem::IterativeSolver *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__IterativeSolver, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IterativeSolver_GetInitialNorm" "', argument " "1"" of type '" "mfem::IterativeSolver const *""'"); 
+  }
+  arg1 = reinterpret_cast< mfem::IterativeSolver * >(argp1);
+  {
+    try {
+      result = (double)((mfem::IterativeSolver const *)arg1)->GetInitialNorm(); 
+    }
+    catch (Swig::DirectorException &e) {
+      SWIG_fail; 
+    }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_IterativeSolver_GetFinalNorm(PyObject *self, PyObject *args) {
   PyObject *resultobj = 0;
   mfem::IterativeSolver *arg1 = (mfem::IterativeSolver *) 0 ;
@@ -5353,6 +5388,41 @@ SWIGINTERN PyObject *_wrap_IterativeSolver_GetFinalNorm(PyObject *self, PyObject
   {
     try {
       result = (double)((mfem::IterativeSolver const *)arg1)->GetFinalNorm(); 
+    }
+    catch (Swig::DirectorException &e) {
+      SWIG_fail; 
+    }    
+    //catch (...){
+    //  SWIG_fail;
+    //}
+    //    catch (Swig::DirectorMethodException &e) { SWIG_fail; }
+    //    catch (std::exception &e) { SWIG_fail; }    
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_IterativeSolver_GetFinalRelNorm(PyObject *self, PyObject *args) {
+  PyObject *resultobj = 0;
+  mfem::IterativeSolver *arg1 = (mfem::IterativeSolver *) 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_mfem__IterativeSolver, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "IterativeSolver_GetFinalRelNorm" "', argument " "1"" of type '" "mfem::IterativeSolver const *""'"); 
+  }
+  arg1 = reinterpret_cast< mfem::IterativeSolver * >(argp1);
+  {
+    try {
+      result = (double)((mfem::IterativeSolver const *)arg1)->GetFinalRelNorm(); 
     }
     catch (Swig::DirectorException &e) {
       SWIG_fail; 
@@ -14482,7 +14552,9 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { "IterativeSolver_GetNumIterations", _wrap_IterativeSolver_GetNumIterations, METH_O, "IterativeSolver_GetNumIterations(IterativeSolver self) -> int"},
 	 { "IterativeSolver_GetConverged", _wrap_IterativeSolver_GetConverged, METH_O, "IterativeSolver_GetConverged(IterativeSolver self) -> bool"},
+	 { "IterativeSolver_GetInitialNorm", _wrap_IterativeSolver_GetInitialNorm, METH_O, "IterativeSolver_GetInitialNorm(IterativeSolver self) -> double"},
 	 { "IterativeSolver_GetFinalNorm", _wrap_IterativeSolver_GetFinalNorm, METH_O, "IterativeSolver_GetFinalNorm(IterativeSolver self) -> double"},
+	 { "IterativeSolver_GetFinalRelNorm", _wrap_IterativeSolver_GetFinalRelNorm, METH_O, "IterativeSolver_GetFinalRelNorm(IterativeSolver self) -> double"},
 	 { "IterativeSolver_SetPreconditioner", (PyCFunction)(void(*)(void))_wrap_IterativeSolver_SetPreconditioner, METH_VARARGS|METH_KEYWORDS, "IterativeSolver_SetPreconditioner(IterativeSolver self, Solver pr)"},
 	 { "IterativeSolver_SetOperator", (PyCFunction)(void(*)(void))_wrap_IterativeSolver_SetOperator, METH_VARARGS|METH_KEYWORDS, "IterativeSolver_SetOperator(IterativeSolver self, Operator op)"},
 	 { "IterativeSolver_SetMonitor", (PyCFunction)(void(*)(void))_wrap_IterativeSolver_SetMonitor, METH_VARARGS|METH_KEYWORDS, "IterativeSolver_SetMonitor(IterativeSolver self, IterativeSolverMonitor m)"},
@@ -14729,7 +14801,9 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 		""},
 	 { "IterativeSolver_GetNumIterations", _wrap_IterativeSolver_GetNumIterations, METH_O, "GetNumIterations(IterativeSolver self) -> int"},
 	 { "IterativeSolver_GetConverged", _wrap_IterativeSolver_GetConverged, METH_O, "GetConverged(IterativeSolver self) -> bool"},
+	 { "IterativeSolver_GetInitialNorm", _wrap_IterativeSolver_GetInitialNorm, METH_O, "GetInitialNorm(IterativeSolver self) -> double"},
 	 { "IterativeSolver_GetFinalNorm", _wrap_IterativeSolver_GetFinalNorm, METH_O, "GetFinalNorm(IterativeSolver self) -> double"},
+	 { "IterativeSolver_GetFinalRelNorm", _wrap_IterativeSolver_GetFinalRelNorm, METH_O, "GetFinalRelNorm(IterativeSolver self) -> double"},
 	 { "IterativeSolver_SetPreconditioner", (PyCFunction)(void(*)(void))_wrap_IterativeSolver_SetPreconditioner, METH_VARARGS|METH_KEYWORDS, "SetPreconditioner(IterativeSolver self, Solver pr)"},
 	 { "IterativeSolver_SetOperator", (PyCFunction)(void(*)(void))_wrap_IterativeSolver_SetOperator, METH_VARARGS|METH_KEYWORDS, "SetOperator(IterativeSolver self, Operator op)"},
 	 { "IterativeSolver_SetMonitor", (PyCFunction)(void(*)(void))_wrap_IterativeSolver_SetMonitor, METH_VARARGS|METH_KEYWORDS, "SetMonitor(IterativeSolver self, IterativeSolverMonitor m)"},
@@ -16309,14 +16383,14 @@ SWIG_init(void) {
   
   import_array();
   
-  SWIG_Python_SetConstant(d, "MFEM_VERSION",SWIG_From_int(static_cast< int >(40501)));
-  SWIG_Python_SetConstant(d, "MFEM_VERSION_STRING",SWIG_FromCharPtr("4.5.1"));
-  SWIG_Python_SetConstant(d, "MFEM_VERSION_TYPE",SWIG_From_int(static_cast< int >(((40501)%2))));
+  SWIG_Python_SetConstant(d, "MFEM_VERSION",SWIG_From_int(static_cast< int >(40503)));
+  SWIG_Python_SetConstant(d, "MFEM_VERSION_STRING",SWIG_FromCharPtr("4.5.3"));
+  SWIG_Python_SetConstant(d, "MFEM_VERSION_TYPE",SWIG_From_int(static_cast< int >(((40503)%2))));
   SWIG_Python_SetConstant(d, "MFEM_VERSION_TYPE_RELEASE",SWIG_From_int(static_cast< int >(0)));
   SWIG_Python_SetConstant(d, "MFEM_VERSION_TYPE_DEVELOPMENT",SWIG_From_int(static_cast< int >(1)));
-  SWIG_Python_SetConstant(d, "MFEM_VERSION_MAJOR",SWIG_From_int(static_cast< int >(((40501)/10000))));
-  SWIG_Python_SetConstant(d, "MFEM_VERSION_MINOR",SWIG_From_int(static_cast< int >((((40501)/100)%100))));
-  SWIG_Python_SetConstant(d, "MFEM_VERSION_PATCH",SWIG_From_int(static_cast< int >(((40501)%100))));
+  SWIG_Python_SetConstant(d, "MFEM_VERSION_MAJOR",SWIG_From_int(static_cast< int >(((40503)/10000))));
+  SWIG_Python_SetConstant(d, "MFEM_VERSION_MINOR",SWIG_From_int(static_cast< int >((((40503)/100)%100))));
+  SWIG_Python_SetConstant(d, "MFEM_VERSION_PATCH",SWIG_From_int(static_cast< int >(((40503)%100))));
   
   if (import_mpi4py() < 0)
 #if PY_MAJOR_VERSION >= 3

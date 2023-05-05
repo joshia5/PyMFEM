@@ -175,9 +175,12 @@ class ParFiniteElementSpaceHierarchy(FiniteElementSpaceHierarchy):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
-    def __init__(self, mesh, fespace, ownM, ownFES):
-        r"""__init__(ParFiniteElementSpaceHierarchy self, mfem::ParMesh * mesh, mfem::ParFiniteElementSpace * fespace, bool ownM, bool ownFES) -> ParFiniteElementSpaceHierarchy"""
-        _fespacehierarchy.ParFiniteElementSpaceHierarchy_swiginit(self, _fespacehierarchy.new_ParFiniteElementSpaceHierarchy(mesh, fespace, ownM, ownFES))
+    def __init__(self, *args):
+        r"""
+        __init__(ParFiniteElementSpaceHierarchy self) -> ParFiniteElementSpaceHierarchy
+        __init__(ParFiniteElementSpaceHierarchy self, mfem::ParMesh * mesh, mfem::ParFiniteElementSpace * fespace, bool ownM, bool ownFES) -> ParFiniteElementSpaceHierarchy
+        """
+        _fespacehierarchy.ParFiniteElementSpaceHierarchy_swiginit(self, _fespacehierarchy.new_ParFiniteElementSpaceHierarchy(*args))
 
     def AddUniformlyRefinedLevel(self, *args, **kwargs):
         r"""AddUniformlyRefinedLevel(ParFiniteElementSpaceHierarchy self, int dim=1, int ordering=byVDIM)"""
