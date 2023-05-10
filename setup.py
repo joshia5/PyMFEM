@@ -111,6 +111,8 @@ cuda_prefix = ''
 cuda_arch = ''
 enable_pumi = False
 pumi_prefix = ''
+enable_Omega_h = False
+Omega_h_prefix = ''
 enable_strumpack = False
 strumpack_prefix = ''
 enable_libceed = False
@@ -774,6 +776,12 @@ def cmake_make_mfem(serial=True):
             libpath = os.path.dirname(
                 find_libpath_from_prefix("pumi", strumpack_prefix))
             add_rpath(libpath)
+        if enable_Omega_h:
+            cmake_opts['DMFEM_USE_OMEGAH'] = '1'
+            cmake_opts['DOMEGAH_DIR'] = Omega_h_prefix
+            libpath = os.path.dirname(
+                find_libpath_from_prefix("Omega_h", Omega_h_prefix))
+            add_rpath(libpath)
         enable_metis = True
 
     if enable_metis:
@@ -909,6 +917,7 @@ def write_setup_local():
               'mfemstpl': mfems_tpl,
               'mfemptpl': mfemp_tpl,
               'add_pumi': '',
+              'add_Omega_h': '',
               'add_strumpack': '',
               'add_cuda': '',
               'add_libceed': '',
@@ -944,6 +953,8 @@ def write_setup_local():
 
     if enable_pumi:
         add_extra('pumi')
+    if enable_Omega_h:
+        add_extra('Omega_h')
     if enable_strumpack:
         add_extra('strumpack')
     if enable_cuda:
@@ -1075,6 +1086,8 @@ def generate_wrapper():
 
     if enable_pumi:
         parflag.append('-I' + os.path.join(pumi_prefix, 'include'))
+    if enable_Omega_h:
+        parflag.append('-I' + os.path.join(Omega_h_prefix, 'include'))
     if enable_strumpack:
         parflag.append('-I' + os.path.join(strumpack_prefix, 'include'))
     if enable_suitesparse:
@@ -1243,6 +1256,7 @@ def configure_install(self):
     global metis_64
     global enable_cuda, cuda_prefix, enable_cuda_hypre, cuda_arch
     global enable_pumi, pumi_prefix
+    global enable_Omega_h, Omega_h_prefix
     global enable_strumpack, strumpack_prefix
     global enable_libceed, libceed_prefix, libceed_only
     global enable_gslib, gslibs_prefix, gslibp_prefix, gslib_only
@@ -1266,6 +1280,7 @@ def configure_install(self):
 
     metis_64 = bool(self.with_metis64)
     enable_pumi = bool(self.with_pumi)
+    enable_Omega_h = bool(self.with_Omega_h)
     enable_strumpack = bool(self.with_strumpack)
     enable_cuda = bool(self.with_cuda)
     enable_cuda_hypre = bool(self.with_cuda_hypre)
@@ -1372,6 +1387,11 @@ def configure_install(self):
     else:
         pumi_prefix = mfem_prefix
 
+    if self.Omega_h_prefix != '':
+        Omega_h_prefix = abspath(self.Omega_h_prefix)
+    else:
+        Omega_h_prefix = mfem_prefix
+
     if self.strumpack_prefix != '':
         strumpack_prefix = abspath(self.strumpack_prefix)
     else:
@@ -1458,6 +1478,7 @@ def configure_bdist(self):
 
     global cc_command, cxx_command, mpicc_command, mpicxx_command
     global enable_pumi, pumi_prefix
+    global enable_Omega_h, Omega_h_prefix
     global enable_strumpack, strumpack_prefix
     global do_bdist_wheel
     dry_run = bool(self.dry_run) if dry_run == -1 else dry_run
@@ -1534,6 +1555,8 @@ class Install(_install):
         ('with-metis64', None, 'use 64bit int in metis'),
         ('with-pumi', None, 'enable pumi (parallel only)'),
         ('pumi-prefix=', None, 'Specify locaiton of pumi'),
+        ('with-Omega_h', None, 'enable Omega_h (parallel only)'),
+        ('Omega_h-prefix=', None, 'Specify locaiton of Omega_h'),
         ('with-suitesparse', None,
          'build MFEM with suitesparse (MFEM_USE_SUITESPARSE=YES) (parallel only)'),
         ('suitesparse-prefix=', None,
@@ -1577,6 +1600,9 @@ class Install(_install):
 
         self.with_pumi = False
         self.pumi_prefix = ''
+
+        self.with_Omega_h = False
+        self.Omega_h_prefix = ''
 
         self.with_strumpack = False
         self.strumpack_prefix = ''
