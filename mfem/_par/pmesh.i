@@ -17,6 +17,7 @@
 #include "config/config.hpp"
 #include "mesh/pmesh.hpp"
 #include "mesh/pumi.hpp"
+#include "mesh/Omega_h.hpp"
 #include "fem/linearform.hpp"
 #include "general/communication.hpp"  
 #include "numpy/arrayobject.h"
@@ -102,6 +103,16 @@ ParMesh(MPI_Comm comm, apf::Mesh2* pumi_mesh){
     return NULL;
     }
     mesh = new mfem::ParPumiMesh(comm, pumi_mesh, 0, true);
+    return mesh;
+    }
+ParMesh(MPI_Comm comm, Omega_h::Mesh* o_mesh){
+    mfem::ParMesh *mesh;
+    if (!o_mesh)
+    {
+    std::cerr << "\nPointer to Omega_h_mesh is not set\n" << std::endl;
+    return NULL;
+    }
+    mesh = new mfem::ParOmegaMesh(comm, o_mesh, 0, true);
     return mesh;
     }
 
