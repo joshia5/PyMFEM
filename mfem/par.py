@@ -135,3 +135,9 @@ try:
    from mfem._par.pumi import *
 except ImportError:
    pass
+
+try:
+   import mfem._par.Omega_h as Omega_h
+   from mfem._par.Omega_h import *
+except ImportError:
+   pass
