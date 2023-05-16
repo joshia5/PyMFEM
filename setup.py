@@ -1280,7 +1280,7 @@ def configure_install(self):
 
     metis_64 = bool(self.with_metis64)
     enable_pumi = bool(self.with_pumi)
-    enable_Omega_h = bool(self.with_Omega_h)
+    enable_Omega_h = bool(self.with_Omegah)
     enable_strumpack = bool(self.with_strumpack)
     enable_cuda = bool(self.with_cuda)
     enable_cuda_hypre = bool(self.with_cuda_hypre)
@@ -1555,8 +1555,8 @@ class Install(_install):
         ('with-metis64', None, 'use 64bit int in metis'),
         ('with-pumi', None, 'enable pumi (parallel only)'),
         ('pumi-prefix=', None, 'Specify locaiton of pumi'),
-        ('with-Omega_h', None, 'enable Omega_h (parallel only)'),
-        ('Omega_h-prefix=', None, 'Specify locaiton of Omega_h'),
+        ('with-Omegah', None, 'enable Omegah (parallel only)'),
+        ('Omegah-prefix=', None, 'Specify locaiton of Omegah'),
         ('with-suitesparse', None,
          'build MFEM with suitesparse (MFEM_USE_SUITESPARSE=YES) (parallel only)'),
         ('suitesparse-prefix=', None,
@@ -1601,7 +1601,7 @@ class Install(_install):
         self.with_pumi = False
         self.pumi_prefix = ''
 
-        self.with_Omega_h = False
+        self.with_Omegah = False
         self.Omega_h_prefix = ''
 
         self.with_strumpack = False
