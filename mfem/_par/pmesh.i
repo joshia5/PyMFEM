@@ -111,6 +111,13 @@ void ParPrintToFile(const char *mesh_file, const int precision) const
     mesh_ofs.precision(precision);
     self->ParPrint(mesh_ofs);	
     }
+void ParPrintSerToFile(const char *mesh_file, const int precision) const
+    {
+    std::ofstream mesh_ofs(mesh_file);
+    mesh_ofs.precision(precision);
+    self->PrintAsSerial(mesh_ofs);
+    }
+
 };   
 }
 
